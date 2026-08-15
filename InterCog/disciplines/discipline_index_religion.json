@@ -1,0 +1,271 @@
+{
+  "Philosophy of Religion": {
+    "triggers": ["宗教哲学", "信仰本体", "宗教意义"],
+    "typical_questions": ["宗教信仰的本体是什么？", "宗教为何具有意义？"],
+    "common_errors": ["把宗教视为纯情绪", "忽略文化与历史结构"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Religious Epistemology", "Religious Metaphysics"]
+  },
+
+  "Theology": {
+    "triggers": ["神学", "神的概念", "教义结构"],
+    "typical_questions": ["神的概念如何被定义？"],
+    "common_errors": ["忽略教义内部逻辑", "把神学视为单一传统"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Religion", "Religious Epistemology"]
+  },
+
+  "Religious Epistemology": {
+    "triggers": ["宗教认识论", "宗教知识", "信仰验证"],
+    "typical_questions": ["宗教知识如何形成？"],
+    "common_errors": ["忽略传统差异", "把宗教知识视为不可讨论"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Religion", "Theology"]
+  },
+
+  "Religious Ethics": {
+    "triggers": ["宗教伦理学", "宗教道德", "价值体系"],
+    "typical_questions": ["宗教如何塑造道德？"],
+    "common_errors": ["忽略社会背景", "把宗教伦理视为固定"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Religion", "Religious Sociology"]
+  },
+
+  "Religious Metaphysics": {
+    "triggers": ["宗教形而上学", "灵魂", "超越", "神圣"],
+    "typical_questions": ["灵魂的本体结构是什么？"],
+    "common_errors": ["忽略文化差异", "把形而上学视为神秘主义"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Religion", "Theology"]
+  },
+
+  "Philosophy of Religious Language": {
+    "triggers": ["宗教语言哲学", "不可言说", "隐喻"],
+    "typical_questions": ["宗教语言如何表达抽象概念？"],
+    "common_errors": ["忽略语言结构", "把宗教语言视为字面表达"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Religious Epistemology", "Religious Linguistics"]
+  },
+
+  "Psychology of Religion": {
+    "triggers": ["宗教心理学", "宗教体验", "祈祷", "仪式"],
+    "typical_questions": ["宗教体验如何影响情绪？"],
+    "common_errors": ["忽略个体差异", "把宗教体验视为幻觉"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Religious Motivation Studies", "Religious Emotion Studies"]
+  },
+
+  "Religious Motivation Studies": {
+    "triggers": ["宗教动机", "皈依", "拒绝宗教"],
+    "typical_questions": ["人为什么会信仰宗教？"],
+    "common_errors": ["忽略社会因素", "把动机视为单一原因"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Religion", "Religious Identity Studies"]
+  },
+
+  "Religious Development Psychology": {
+    "triggers": ["宗教发展心理学", "信仰发展", "年龄差异"],
+    "typical_questions": ["信仰如何随年龄变化？"],
+    "common_errors": ["忽略认知发展", "把信仰视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Religion", "Religious Motivation Studies"]
+  },
+
+  "Religious Identity Studies": {
+    "triggers": ["宗教身份", "群体身份", "宗教认同"],
+    "typical_questions": ["宗教如何成为身份的一部分？"],
+    "common_errors": ["忽略社会结构", "把身份视为个人选择"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Religious Sociology", "Religious Motivation Studies"]
+  },
+
+  "Religious Experience Studies": {
+    "triggers": ["宗教体验研究", "神秘体验", "启示体验"],
+    "typical_questions": ["神秘体验的心理结构是什么？"],
+    "common_errors": ["忽略文化解释", "把体验视为异常"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Religion", "Religious Emotion Studies"]
+  },
+
+  "Religious Emotion Studies": {
+    "triggers": ["宗教情绪", "敬畏", "虔诚", "罪感"],
+    "typical_questions": ["宗教情绪如何形成？"],
+    "common_errors": ["忽略社会因素", "把宗教情绪视为单一来源"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Religion", "Religious Experience Studies"]
+  },
+
+  "Religious Sociology": {
+    "triggers": ["宗教社会学", "社会结构", "权力", "文化"],
+    "typical_questions": ["宗教如何影响社会结构？"],
+    "common_errors": ["忽略历史因素", "把宗教视为静态"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Religious Institution Studies", "Religion and Politics"]
+  },
+
+  "Religious Institution Studies": {
+    "triggers": ["宗教制度", "宗教组织", "制度演化"],
+    "typical_questions": ["宗教组织如何形成？"],
+    "common_errors": ["忽略内部动力", "把制度视为固定"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Religious Sociology", "Religion and Economics"]
+  },
+
+  "Religious Communication Studies": {
+    "triggers": ["宗教传播学", "文本传播", "仪式传播"],
+    "typical_questions": ["宗教如何通过媒介传播？"],
+    "common_errors": ["忽略媒介差异", "把传播视为中性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Religious Institution Studies", "Religious Anthropology"]
+  },
+
+  "Religious Conflict Studies": {
+    "triggers": ["宗教冲突", "群体对立", "社会冲突"],
+    "typical_questions": ["宗教为何引发冲突？"],
+    "common_errors": ["忽略经济因素", "把冲突视为纯信仰差异"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Religion and Politics", "Religious Sociology"]
+  },
+
+  "Religion and Politics": {
+    "triggers": ["宗教与政治", "政治制度", "公共决策"],
+    "typical_questions": ["宗教如何影响政治？"],
+    "common_errors": ["忽略历史背景", "把宗教政治视为单向影响"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Religious Sociology", "Religious Conflict Studies"]
+  },
+
+  "Religion and Economics": {
+    "triggers": ["宗教与经济", "经济行为", "资源分配"],
+    "typical_questions": ["宗教如何影响经济行为？"],
+    "common_errors": ["忽略文化因素", "把经济行为视为纯理性"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Religious Institution Studies", "Religious Sociology"]
+  },
+
+  "Religious Anthropology": {
+    "triggers": ["宗教人类学", "文化实践", "宗教传承"],
+    "typical_questions": ["宗教如何在文化中形成？"],
+    "common_errors": ["忽略文化差异", "把宗教视为普遍结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Ritual Studies", "Mythology"]
+  },
+
+  "Ritual Studies": {
+    "triggers": ["仪式研究", "仪式结构", "群体情绪"],
+    "typical_questions": ["仪式如何构建群体？"],
+    "common_errors": ["忽略象征意义", "把仪式视为形式"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Religious Anthropology", "Symbolic Anthropology"]
+  },
+
+  "Mythology": {
+    "triggers": ["神话学", "文化结构", "神话象征"],
+    "typical_questions": ["神话如何表达文化结构？"],
+    "common_errors": ["忽略历史语境", "把神话视为虚构故事"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Symbolic Anthropology", "Religious Comparative Studies"]
+  },
+
+  "Symbolic Anthropology": {
+    "triggers": ["象征人类学", "宗教符号", "世界观"],
+    "typical_questions": ["宗教符号如何构建世界观？"],
+    "common_errors": ["忽略文化差异", "把符号视为固定含义"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Mythology", "Ritual Studies"]
+  },
+
+  "Religious Comparative Studies": {
+    "triggers": ["宗教比较研究", "宗教差异", "宗教结构"],
+    "typical_questions": ["不同宗教有哪些共同结构？"],
+    "common_errors": ["忽略文化背景", "把宗教视为同质"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Religious Anthropology", "Mythology"]
+  },
+
+  "Religious Cultural Studies": {
+    "triggers": ["宗教文化研究", "宗教与文化", "宗教与艺术"],
+    "typical_questions": ["宗教如何塑造文化？"],
+    "common_errors": ["忽略社会结构", "把文化视为静态"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Religious Anthropology", "Art History"]
+  },
+
+  "Religious History": {
+    "triggers": ["宗教史", "宗教演化", "宗教分裂"],
+    "typical_questions": ["宗教如何在历史中演化？"],
+    "common_errors": ["忽略政治因素", "把宗教视为单一传统"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Religious Textual Studies", "Religious Tradition Studies"]
+  },
+
+  "Religious Textual Studies": {
+    "triggers": ["宗教文本学", "经典形成", "文本编辑"],
+    "typical_questions": ["宗教经典如何形成？"],
+    "common_errors": ["忽略文本演化", "把经典视为固定文本"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Religious Hermeneutics", "Religious Linguistics"]
+  },
+
+  "Religious Hermeneutics": {
+    "triggers": ["宗教诠释学", "文本解读", "多重意义"],
+    "typical_questions": ["宗教文本为何能被多重解读？"],
+    "common_errors": ["忽略语境", "把解读视为主观"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Religious Textual Studies", "Religious Tradition Studies"]
+  },
+
+  "Religious Linguistics": {
+    "triggers": ["宗教语言学", "隐喻", "象征"],
+    "typical_questions": ["宗教语言如何构建意义？"],
+    "common_errors": ["忽略文化语言差异", "把宗教语言视为字面"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Religious Language", "Religious Textual Studies"]
+  },
+
+  "Religious Tradition Studies": {
+    "triggers": ["宗教传统研究", "传统形成", "传统传承"],
+    "typical_questions": ["宗教传统如何形成？"],
+    "common_errors": ["忽略社会因素", "把传统视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Religious History", "Religious Hermeneutics"]
+  },
+
+  "Religious Reform Studies": {
+    "triggers": ["宗教改革研究", "宗教变革", "社会压力"],
+    "typical_questions": ["宗教为何会发生改革？"],
+    "common_errors": ["忽略社会结构", "把改革视为单一事件"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Religious History", "Religion and Politics"]
+  }
+}

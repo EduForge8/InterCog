@@ -1,0 +1,992 @@
+{
+  "Political Philosophy": {
+    "triggers": ["政治哲学", "权力", "统治", "合法性"],
+    "typical_questions": ["权力为何形成？", "统治的合法性来自哪里？"],
+    "common_errors": ["把权力理解为纯个人意志", "忽略制度性权力结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Ethics", "Political Economy", "Critical Theory"]
+  },
+
+  "Ethics": {
+    "triggers": ["伦理学", "道德", "价值冲突", "对错"],
+    "typical_questions": ["什么是正确的行为？", "价值冲突如何解决？"],
+    "common_errors": ["把伦理问题简化为个人喜好", "忽略情境因素"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Political Philosophy", "Axiology", "Social Psychology"]
+  },
+
+  "Epistemology": {
+    "triggers": ["认识论", "知识形成", "真相", "信念"],
+    "typical_questions": ["知识从何而来？", "为何不同群体相信不同真相？"],
+    "common_errors": ["把知识等同于信息", "忽略群体认知差异"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Sociology of Knowledge", "Communication Studies"]
+  },
+
+  "Metaphysics": {
+    "triggers": ["形而上学", "本体", "存在", "抽象概念"],
+    "typical_questions": ["自由是否真实存在？", "社会结构的本体是什么？"],
+    "common_errors": ["把抽象概念当作经验事实", "忽略本体论差异"],
+    "priority": 0.82,
+    "conflicts": [],
+    "related_disciplines": ["Structuralism", "Axiology"]
+  },
+
+  "Axiology": {
+    "triggers": ["价值论", "意义", "重要性", "价值体系"],
+    "typical_questions": ["价值如何形成？", "意义如何被社会建构？"],
+    "common_errors": ["把价值当作个人偏好", "忽略文化差异"],
+    "priority": 0.83,
+    "conflicts": [],
+    "related_disciplines": ["Ethics", "Social Psychology", "Cross-Cultural Studies"]
+  },
+
+  "Philosophy of Language": {
+    "triggers": ["语言哲学", "语言与思想", "误解"],
+    "typical_questions": ["语言如何影响认知？", "讨论为何会陷入误解？"],
+    "common_errors": ["忽略语境", "把语言当作中性工具"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Semantics", "Pragmatics", "Discourse Analysis"]
+  },
+
+  "Philosophy of Mind": {
+    "triggers": ["心灵哲学", "意识", "动机", "意图"],
+    "typical_questions": ["意识是什么？", "动机为何与行为不一致？"],
+    "common_errors": ["把意识等同于情绪", "忽略无意识因素"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Historical Psychology"]
+  },
+
+  "Philosophy of Science": {
+    "triggers": ["科学哲学", "科学模型", "证据", "理论边界"],
+    "typical_questions": ["科学模型的边界是什么？", "证据如何被解释？"],
+    "common_errors": ["把科学视为绝对真理", "忽略模型假设"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Sociology of Knowledge", "Ideology Studies"]
+  },
+
+  "Philosophy of Technology": {
+    "triggers": ["技术哲学", "技术风险", "技术与社会"],
+    "typical_questions": ["技术如何改变社会？", "技术风险如何形成？"],
+    "common_errors": ["把技术视为中性工具", "忽略技术的权力效应"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Political Economy", "Media Culture Studies"]
+  },
+
+  "Philosophy of History": {
+    "triggers": ["历史哲学", "历史因果", "多重解释"],
+    "typical_questions": ["历史因果为何复杂？", "为何同一事件有多种解释？"],
+    "common_errors": ["把历史因果线性化", "忽略叙事结构"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Historiography", "Narrative Theory"]
+  },
+
+  "Political Economy": {
+    "triggers": ["政治经济学", "制度激励", "资源分配"],
+    "typical_questions": ["制度如何影响经济行为？", "权力结构如何塑造社会结果？"],
+    "common_errors": ["忽略制度激励", "把经济行为视为纯个人选择"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Institutional Sociology", "Public Administration"]
+  },
+
+  "Institutional Sociology": {
+    "triggers": ["制度社会学", "制度变形", "利益集团"],
+    "typical_questions": ["制度为何失灵？", "制度如何被利益集团俘获？"],
+    "common_errors": ["把制度视为静态结构", "忽略非正式规则"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Political Economy", "Public Administration"]
+  },
+
+  "Organizational Behavior": {
+    "triggers": ["组织行为学", "派系", "内部权力"],
+    "typical_questions": ["组织内部权力如何形成？", "派系为何出现？"],
+    "common_errors": ["把组织行为视为个人性格问题"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Discourse Analysis"]
+  },
+
+  "Social Psychology": {
+    "triggers": ["社会心理学", "群体行为", "偏见", "从众"],
+    "typical_questions": ["群体行为如何形成？", "偏见为何产生？"],
+    "common_errors": ["忽略群体动力", "把偏见视为个人道德问题"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Anthropology", "Popular Culture Studies"]
+  },
+
+  "Cultural Anthropology": {
+    "triggers": ["文化人类学", "隐性文化规则", "地方性知识"],
+    "typical_questions": ["文化规则如何影响行为？", "地方性知识如何形成？"],
+    "common_errors": ["忽略文化差异", "把文化视为统一整体"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Cross-Cultural Studies", "Cultural Semiotics"]
+  },
+
+  "Sociology of Law": {
+    "triggers": ["法律社会学", "法律执行差异"],
+    "typical_questions": ["法律为何对不同群体效果不同？"],
+    "common_errors": ["把法律视为中性工具"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Political Economy", "Public Administration"]
+  },
+
+  "Criminology": {
+    "triggers": ["犯罪学", "违法行为", "风险因素"],
+    "typical_questions": ["犯罪为何发生？", "社会结构如何影响犯罪？"],
+    "common_errors": ["把犯罪视为纯个人选择"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Sociology of Law"]
+  },
+
+  "Sociology of Education": {
+    "triggers": ["教育社会学", "教育不平等", "学习差异"],
+    "typical_questions": ["教育为何产生不平等？"],
+    "common_errors": ["忽略制度因素"],
+    "priority": 0.83,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Cross-Cultural Studies"]
+  },
+
+  "Communication Studies": {
+    "triggers": ["传播学", "信息扩散", "谣言"],
+    "typical_questions": ["信息如何扩散？", "谣言为何更快传播？"],
+    "common_errors": ["忽略群体传播机制"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Epistemology", "Media Culture Studies"]
+  },
+
+  "Public Administration": {
+    "triggers": ["公共行政学", "政策执行", "基层偏差"],
+    "typical_questions": ["政策执行为何偏差？"],
+    "common_errors": ["把政策执行视为线性过程"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Political Economy", "Institutional Sociology"]
+  },
+
+  "Historiography": {
+    "triggers": ["史料学", "史料真假", "证据偏差"],
+    "typical_questions": ["史料如何鉴别？", "证据权重如何判断？"],
+    "common_errors": ["把史料视为绝对真实"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of History", "Narrative Theory"]
+  },
+
+  "Historical Sociology": {
+    "triggers": ["历史社会学", "社会结构形成"],
+    "typical_questions": ["社会结构如何形成？", "为何长期持续？"],
+    "common_errors": ["忽略历史路径依赖"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Political Economy", "Comparative History"]
+  },
+
+  "Historical Psychology": {
+    "triggers": ["历史心理学", "群体心理", "文化性格"],
+    "typical_questions": ["群体心理如何形成？"],
+    "common_errors": ["把群体心理视为当代现象"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Philosophy of Mind"]
+  },
+
+  "Narrative History": {
+    "triggers": ["历史叙事学", "叙事结构"],
+    "typical_questions": ["叙事如何影响历史理解？"],
+    "common_errors": ["忽略叙事偏差"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Narrative Theory", "Historiography"]
+  },
+
+  "Comparative History": {
+    "triggers": ["历史比较研究", "文明差异"],
+    "typical_questions": ["文明为何走向不同路径？"],
+    "common_errors": ["忽略文化与制度差异"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Historical Sociology", "Cross-Cultural Studies"]
+  },
+
+  "Semantics": {
+    "triggers": ["语义学", "意义变化", "误解"],
+    "typical_questions": ["意义如何变化？"],
+    "common_errors": ["忽略语境"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Language", "Pragmatics"]
+  },
+
+  "Pragmatics": {
+    "triggers": ["语用学", "隐含意义", "语境"],
+    "typical_questions": ["语境如何改变意义？"],
+    "common_errors": ["忽略隐含意义"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Language", "Discourse Analysis"]
+  },
+
+  "Sociolinguistics": {
+    "triggers": ["社会语言学", "群体语言差异"],
+    "typical_questions": ["群体语言差异如何形成？"],
+    "common_errors": ["忽略社会因素"],
+    "priority": 0.83,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Cross-Cultural Studies"]
+  },
+
+  "Discourse Analysis": {
+    "triggers": ["话语分析", "权力话语"],
+    "typical_questions": ["语言如何维持权力？"],
+    "common_errors": ["忽略话语背后的权力结构"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Critical Theory", "Communication Studies"]
+  },
+
+
+  "Cultural Criticism": {
+    "triggers": ["文化批评理论", "文化与权力"],
+    "typical_questions": ["文化如何反映权力？"],
+    "common_errors": ["忽略意识形态因素"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Critical Theory", "Ideology Studies"]
+  },
+
+  "Media Culture Studies": {
+    "triggers": ["媒介文化研究", "媒介影响", "公众情绪"],
+    "typical_questions": ["媒介如何塑造公众情绪？"],
+    "common_errors": ["忽略媒介结构"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Communication Studies", "Popular Culture Studies"]
+  },
+
+  "Popular Culture Studies": {
+    "triggers": ["流行文化研究", "流行现象"],
+    "typical_questions": ["流行现象为何出现？"],
+    "common_errors": ["忽略社会心理因素"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Media Culture Studies"]
+  },
+
+  "Cross-Cultural Studies": {
+    "triggers": ["跨文化研究", "文化差异", "文化冲突"],
+    "typical_questions": ["文化差异如何导致误解？"],
+    "common_errors": ["忽略文化背景"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Anthropology", "Comparative History"]
+  },
+
+  "Sociology of Knowledge": {
+    "triggers": ["知识社会学", "知识与权力", "知识生产"],
+    "typical_questions": [
+      "知识为何在不同群体中呈现不同形态？",
+      "权力如何影响知识的生产与传播？"
+    ],
+    "common_errors": [
+      "把知识视为纯客观事实",
+      "忽略制度与群体对知识的塑造作用"
+    ],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Epistemology", "Ideology Studies", "Archaeology of Knowledge"]
+  },
+
+  "Hermeneutics": {
+    "triggers": ["解释学", "文本解读", "多重解释"],
+    "typical_questions": [
+      "为何同一文本会有不同解释？",
+      "解释行为的结构性条件是什么？"
+    ],
+    "common_errors": [
+      "把解释当作主观随意",
+      "忽略历史与语境对解释的限制"
+    ],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Narrative Theory", "Post-Structuralism", "Narrative History"]
+  },
+
+  "Semiotics": {
+    "triggers": ["符号学", "符号系统", "意义构建"],
+    "typical_questions": [
+      "符号如何构建意义？",
+      "文化结构如何通过符号维持？"
+    ],
+    "common_errors": [
+      "把符号视为单一指代关系",
+      "忽略符号系统中的权力与文化差异"
+    ],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Semiotics", "Structuralism", "Discourse Analysis"]
+  },
+
+  "Critical Theory": {
+    "triggers": ["批判理论", "制度批判", "文化批判", "压迫结构"],
+    "typical_questions": [
+      "权力如何隐藏在制度与文化中？",
+      "社会结构中的压迫如何形成与维持？"
+    ],
+    "common_errors": [
+      "把批判当作情绪宣泄",
+      "忽略结构性因素与历史条件"
+    ],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Criticism", "Ideology Studies", "Social Critical Philosophy"]
+  },
+
+  "Post-Structuralism": {
+    "triggers": ["后结构主义", "解构", "意义不稳定"],
+    "typical_questions": [
+      "意义为何不稳定？",
+      "结构如何被解构与重写？"
+    ],
+    "common_errors": [
+      "把解构当作否定一切",
+      "忽略具体历史与语境中的结构约束"
+    ],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Hermeneutics", "Narrative Theory", "Social Constructionism"]
+  },
+
+  "Structuralism": {
+    "triggers": ["结构主义", "深层结构", "模式"],
+    "typical_questions": [
+      "文化行为的深层结构是什么？",
+      "结构如何影响意义与实践？"
+    ],
+    "common_errors": [
+      "把结构视为静态不变",
+      "忽略个体与历史变迁对结构的影响"
+    ],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Semiotics", "Social Constructionism", "Metaphysics"]
+  },
+
+  "Social Constructionism": {
+    "triggers": ["社会建构论", "现实建构", "共同体"],
+    "typical_questions": [
+      "现实如何被社会共同体建构？",
+      "群体如何共同塑造意义与规范？"
+    ],
+    "common_errors": [
+      "把建构误认为虚构",
+      "忽略物质条件与权力结构在建构中的作用"
+    ],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Axiology", "Post-Structuralism", "Cross-Cultural Studies"]
+  },
+
+  "Ideology Studies": {
+    "triggers": ["意识形态研究", "意识形态", "认知与制度"],
+    "typical_questions": [
+      "意识形态如何影响认知与行为？",
+      "制度为何被意识形态塑造与正当化？"
+    ],
+    "common_errors": [
+      "把意识形态视为纯宣传",
+      "忽略日常生活中的意识形态渗透"
+    ],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Criticism", "Sociology of Knowledge", "Critical Theory"]
+  },
+
+  "Cultural Semiotics": {
+    "triggers": ["文化符号学", "文化符号", "群体身份"],
+    "typical_questions": [
+      "文化符号如何形成群体身份？",
+      "符号为何导致文化冲突与分裂？"
+    ],
+    "common_errors": [
+      "把符号当作单一文化标签",
+      "忽略符号背后的历史与权力关系"
+    ],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Anthropology", "Semiotics", "Cross-Cultural Studies"]
+  },
+
+  "Narrative Theory": {
+    "triggers": ["叙事理论", "叙事结构", "世界观"],
+    "typical_questions": [
+      "叙事如何塑造个人与群体的世界观？",
+      "为何叙事能影响集体行动与身份认同？"
+    ],
+    "common_errors": [
+      "把叙事视为单纯故事讲述",
+      "忽略叙事中的权力与选择性记忆"
+    ],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Narrative History", "Hermeneutics", "Post-Structuralism"]
+  },
+
+  "Social Critical Philosophy": {
+    "triggers": ["社会批判哲学", "系统性不公", "结构性不平等"],
+    "typical_questions": [
+      "系统性不公如何形成？",
+      "社会结构为何固化不平等？"
+    ],
+    "common_errors": [
+      "把不公视为个别事件",
+      "忽略结构性与历史性因素"
+    ],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Critical Theory", "Political Philosophy", "Institutional Sociology"]
+  },
+
+  "Archaeology of Knowledge": {
+    "triggers": ["知识考古学", "知识体系", "知识断裂"],
+    "typical_questions": [
+      "知识体系如何在历史中形成与变形？",
+      "知识为何在特定时期发生断裂与重组？"
+    ],
+    "common_errors": [
+      "把知识发展视为线性进步",
+      "忽略权力与制度在知识形成中的作用"
+    ],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Sociology of Knowledge", "Philosophy of History", "Ideology Studies"]
+  },
+
+  "Philosophy of Economics": {
+    "triggers": ["经济哲学", "经济本体", "经济意义"],
+    "typical_questions": ["经济行为的本体是什么？", "经济模型的现实意义是什么？"],
+    "common_errors": ["把经济学视为纯技术工具", "忽略价值与伦理结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Economic Epistemology", "Economic Methodology"]
+  },
+
+  "Economic Epistemology": {
+    "triggers": ["经济认识论", "经济知识", "经济理论验证"],
+    "typical_questions": ["经济知识如何形成与验证？"],
+    "common_errors": ["把经济理论视为不可检验", "忽略历史语境"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Economics", "Economic Methodology"]
+  },
+
+  "Economic Methodology": {
+    "triggers": ["经济方法论", "模型方法", "实证方法"],
+    "typical_questions": ["经济学采用哪些方法？"],
+    "common_errors": ["混淆规范分析与实证分析", "忽略方法的局限性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Economic Epistemology", "Economic Modeling Theory"]
+  },
+
+  "Economic Ethics": {
+    "triggers": ["经济伦理", "分配正义", "公平"],
+    "typical_questions": ["经济制度如何体现公平？"],
+    "common_errors": ["把效率与公平视为对立", "忽略制度背景"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Economics", "Public Economics"]
+  },
+
+  "Economic History": {
+    "triggers": ["经济史", "经济制度演化", "经济思想史"],
+    "typical_questions": ["经济制度如何在历史中演化？"],
+    "common_errors": ["忽略政治与文化因素", "把经济史视为线性发展"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Development Economics", "Institutional Economics"]
+  },
+
+  "Economic Modeling Theory": {
+    "triggers": ["经济模型", "形式化", "抽象结构"],
+    "typical_questions": ["经济模型如何简化现实？"],
+    "common_errors": ["过度依赖模型", "忽略模型假设"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Microeconomics", "Macroeconomics"]
+  },
+
+  "Microeconomics": {
+    "triggers": ["微观经济学", "供需", "市场均衡"],
+    "typical_questions": ["市场如何达到均衡？"],
+    "common_errors": ["忽略信息不完全", "把个体视为完全理性"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Game Theory", "Behavioral Economics"]
+  },
+
+  "Game Theory": {
+    "triggers": ["博弈论", "策略互动", "均衡"],
+    "typical_questions": ["个体如何在互动中决策？"],
+    "common_errors": ["忽略重复博弈与声誉", "把博弈视为一次性"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Microeconomics", "Mechanism Design"]
+  },
+
+  "Behavioral Economics": {
+    "triggers": ["行为经济学", "认知偏差", "有限理性"],
+    "typical_questions": ["人为什么会做非理性决策？"],
+    "common_errors": ["把偏差视为随机噪音", "忽略心理结构"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Experimental Economics", "Economic Psychology"]
+  },
+
+  "Experimental Economics": {
+    "triggers": ["实验经济学", "实验验证", "行为数据"],
+    "typical_questions": ["如何通过实验验证经济理论？"],
+    "common_errors": ["忽略实验环境的限制", "过度外推实验结果"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Behavioral Economics", "Game Theory"]
+  },
+
+  "Information Economics": {
+    "triggers": ["信息经济学", "信息不对称", "逆向选择", "道德风险"],
+    "typical_questions": ["信息不对称如何影响市场？"],
+    "common_errors": ["忽略激励结构", "把信息视为免费资源"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Microeconomics", "Mechanism Design"]
+  },
+
+  "Mechanism Design": {
+    "triggers": ["机制设计", "激励相容", "社会选择"],
+    "typical_questions": ["如何设计激励机制？"],
+    "common_errors": ["忽略参与约束", "忽略信息结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Game Theory", "Information Economics"]
+  },
+
+  "Macroeconomics": {
+    "triggers": ["宏观经济学", "GDP", "失业", "通胀"],
+    "typical_questions": ["经济周期如何形成？"],
+    "common_errors": ["忽略微观基础", "把宏观变量视为独立"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Monetary Economics", "Fiscal Economics"]
+  },
+
+  "Monetary Economics": {
+    "triggers": ["货币经济学", "利率", "货币供给"],
+    "typical_questions": ["货币政策如何影响经济？"],
+    "common_errors": ["忽略预期", "把货币视为中性"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Macroeconomics", "Financial Economics"]
+  },
+
+  "Fiscal Economics": {
+    "triggers": ["财政经济学", "政府支出", "税收"],
+    "typical_questions": ["财政政策如何稳定经济？"],
+    "common_errors": ["忽略长期债务风险", "忽略政治约束"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Macroeconomics", "Public Economics"]
+  },
+
+  "Development Economics": {
+    "triggers": ["发展经济学", "贫困", "发展模式"],
+    "typical_questions": ["发展中国家如何实现增长？"],
+    "common_errors": ["忽略制度与文化因素", "把发展视为单一路径"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Economic History", "Institutional Economics"]
+  },
+
+  "International Trade": {
+    "triggers": ["国际贸易", "比较优势", "贸易政策"],
+    "typical_questions": ["自由贸易的收益是什么？"],
+    "common_errors": ["忽略分配效应", "忽略非关税壁垒"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["International Finance", "Development Economics"]
+  },
+
+  "International Finance": {
+    "triggers": ["国际金融", "汇率", "资本流动"],
+    "typical_questions": ["汇率如何影响经济？"],
+    "common_errors": ["忽略资本管制", "忽略金融危机风险"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["International Trade", "Financial Economics"]
+  },
+
+  "Industrial Organization": {
+    "triggers": ["产业组织", "市场结构", "垄断", "竞争"],
+    "typical_questions": ["市场结构如何影响价格与创新？"],
+    "common_errors": ["忽略监管与制度", "把垄断视为单一形态"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Microeconomics", "Competition Policy"]
+  },
+
+  "Labor Economics": {
+    "triggers": ["劳动经济学", "工资", "就业", "人力资本"],
+    "typical_questions": ["工资如何形成？"],
+    "common_errors": ["忽略制度与谈判", "把劳动视为同质"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Public Economics", "Development Economics"]
+  },
+
+  "Public Economics": {
+    "triggers": ["公共经济学", "公共品", "税收制度"],
+    "typical_questions": ["如何提供公共品？"],
+    "common_errors": ["忽略搭便车问题", "忽略政治过程"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Fiscal Economics", "Economic Ethics"]
+  },
+
+  "Environmental Economics": {
+    "triggers": ["环境经济学", "外部性", "碳排放"],
+    "typical_questions": ["如何通过经济手段减少污染？"],
+    "common_errors": ["忽略长期生态风险", "把环境视为可替代资源"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Climate–Economy Feedback Systems", "Public Economics"]
+  },
+
+  "Institutional Economics": {
+    "triggers": ["制度经济学", "制度演化", "产权"],
+    "typical_questions": ["制度如何影响经济行为？"],
+    "common_errors": ["忽略非正式制度", "把制度视为静态"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Economic History", "Law and Economics"]
+  },
+
+  "Health Economics": {
+    "triggers": ["健康经济学", "医疗资源", "健康政策"],
+    "typical_questions": ["如何分配有限医疗资源？"],
+    "common_errors": ["忽略不确定性与风险", "忽略伦理问题"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Public Economics", "Economic Ethics"]
+  },
+
+  "Education Economics": {
+    "triggers": ["教育经济学", "人力资本", "教育投资"],
+    "typical_questions": ["教育如何影响收入与社会流动？"],
+    "common_errors": ["忽略教育质量差异", "把教育视为单一投入"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Labor Economics", "Development Economics"]
+  },
+
+  "Urban Economics": {
+    "triggers": ["城市经济学", "城市结构", "空间分布"],
+    "typical_questions": ["城市如何形成与扩张？"],
+    "common_errors": ["忽略交通与环境因素", "忽略制度约束"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Environmental Economics", "Public Economics"]
+  },
+
+  "Financial Economics": {
+    "triggers": ["金融经济学", "资产定价", "风险管理"],
+    "typical_questions": ["资产价格如何形成？"],
+    "common_errors": ["忽略系统性风险", "过度依赖理性预期"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Monetary Economics", "International Finance"]
+  },
+
+  "Economic Sociology": {
+    "triggers": ["经济社会学", "社会结构", "嵌入性"],
+    "typical_questions": ["经济行为如何嵌入社会结构？"],
+    "common_errors": ["忽略社会网络", "把经济视为独立系统"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Institutional Economics"]
+  },
+
+  "Economic Psychology": {
+    "triggers": ["经济心理学", "决策心理", "风险感知"],
+    "typical_questions": ["心理结构如何影响经济决策？"],
+    "common_errors": ["忽略情绪与身份", "把决策视为纯理性"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Behavioral Economics", "Emotion Psychology"]
+  },
+
+  "Legal Philosophy": {
+    "triggers": ["法哲学", "法律本体", "法律意义"],
+    "typical_questions": ["法律的本体是什么？", "法律为何具有约束力？"],
+    "common_errors": ["把法律视为纯规则", "忽略价值结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Legal Epistemology", "Legal Ethics"]
+  },
+
+  "Legal Epistemology": {
+    "triggers": ["法律认识论", "法律知识", "法律解释"],
+    "typical_questions": ["法律知识如何形成？"],
+    "common_errors": ["忽略法律解释的多样性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Legal Philosophy", "Legal Methodology"]
+  },
+
+  "Legal Methodology": {
+    "triggers": ["法律方法论", "法律推理", "法律解释方法"],
+    "typical_questions": ["法律推理如何进行？"],
+    "common_errors": ["混淆规范分析与事实分析"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Legal Epistemology", "Legal Hermeneutics"]
+  },
+
+  "Legal Ethics": {
+    "triggers": ["法律伦理", "职业伦理", "正义"],
+    "typical_questions": ["法律职业伦理的边界是什么？"],
+    "common_errors": ["忽略制度背景"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Legal Philosophy", "Public Law"]
+  },
+
+  "Legal History": {
+    "triggers": ["法律史", "法律制度演化"],
+    "typical_questions": ["法律制度如何在历史中演化？"],
+    "common_errors": ["忽略政治与文化因素"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Comparative Law", "Legal Anthropology"]
+  },
+
+  "Legal Hermeneutics": {
+    "triggers": ["法律诠释学", "文本解释", "多重意义"],
+    "typical_questions": ["法律文本为何能被多重解读？"],
+    "common_errors": ["把解释视为主观"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Legal Methodology", "Legal Epistemology"]
+  },
+
+  "Constitutional Law": {
+    "triggers": ["宪法学", "国家结构", "基本权利"],
+    "typical_questions": ["宪法如何限制权力？"],
+    "common_errors": ["忽略权力制衡"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Administrative Law", "Political Science"]
+  },
+
+  "Administrative Law": {
+    "triggers": ["行政法", "行政权力", "行政程序"],
+    "typical_questions": ["行政权力如何被限制？"],
+    "common_errors": ["忽略程序正义"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Constitutional Law", "Public Law"]
+  },
+
+  "Criminal Law": {
+    "triggers": ["刑法", "犯罪", "刑罚"],
+    "typical_questions": ["刑罚的正当性是什么？"],
+    "common_errors": ["忽略犯罪的社会结构"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Criminology", "Legal Psychology"]
+  },
+
+  "Civil Law": {
+    "triggers": ["民法", "合同", "侵权", "财产"],
+    "typical_questions": ["合同如何构成？"],
+    "common_errors": ["忽略意思自治的限制"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Commercial Law", "Property Law"]
+  },
+
+  "Commercial Law": {
+    "triggers": ["商法", "公司法", "商业交易"],
+    "typical_questions": ["公司制度如何运作？"],
+    "common_errors": ["忽略公司治理结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Financial Law"]
+  },
+
+  "Property Law": {
+    "triggers": ["物权法", "产权", "所有权"],
+    "typical_questions": ["产权如何被界定？"],
+    "common_errors": ["忽略制度差异"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Institutional Economics"]
+  },
+
+  "Contract Law": {
+    "triggers": ["合同法", "契约", "合同效力"],
+    "typical_questions": ["合同效力如何确定？"],
+    "common_errors": ["忽略合同的社会背景"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Commercial Law"]
+  },
+
+  "Tort Law": {
+    "triggers": ["侵权法", "损害", "责任"],
+    "typical_questions": ["侵权责任如何认定？"],
+    "common_errors": ["忽略风险分配"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Public Law"]
+  },
+
+  "Family Law": {
+    "triggers": ["家庭法", "婚姻", "监护"],
+    "typical_questions": ["家庭关系如何被法律规范？"],
+    "common_errors": ["忽略文化差异"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Legal Anthropology"]
+  },
+
+  "Labor Law": {
+    "triggers": ["劳动法", "劳动关系", "劳动保护"],
+    "typical_questions": ["劳动权利如何被保护？"],
+    "common_errors": ["忽略制度约束"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Labor Economics", "Public Law"]
+  },
+
+  "Environmental Law": {
+    "triggers": ["环境法", "污染", "生态保护"],
+    "typical_questions": ["如何通过法律保护环境？"],
+    "common_errors": ["忽略长期生态风险"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Environmental Economics", "Public Law"]
+  },
+
+  "Tax Law": {
+    "triggers": ["税法", "税收制度", "财政"],
+    "typical_questions": ["税收制度如何设计？"],
+    "common_errors": ["忽略分配效应"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Fiscal Economics", "Public Law"]
+  },
+
+  "Financial Law": {
+    "triggers": ["金融法", "金融监管", "资本市场"],
+    "typical_questions": ["金融监管如何运作？"],
+    "common_errors": ["忽略系统性风险"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Commercial Law", "Financial Economics"]
+  },
+
+  "International Law": {
+    "triggers": ["国际法", "国家关系", "条约"],
+    "typical_questions": ["国际法如何约束国家行为？"],
+    "common_errors": ["忽略主权限制"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["International Relations", "Comparative Law"]
+  },
+
+  "Comparative Law": {
+    "triggers": ["比较法", "法律差异", "法律体系"],
+    "typical_questions": ["不同法律体系有何差异？"],
+    "common_errors": ["忽略文化背景"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Legal History", "International Law"]
+  },
+
+  "Public Law": {
+    "triggers": ["公法", "国家权力", "公共利益"],
+    "typical_questions": ["公法如何规范国家行为？"],
+    "common_errors": ["忽略权力制衡"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Constitutional Law", "Administrative Law"]
+  },
+
+  "Private Law": {
+    "triggers": ["私法", "私人关系", "契约"],
+    "typical_questions": ["私法如何规范私人行为？"],
+    "common_errors": ["忽略社会结构"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Civil Law", "Commercial Law"]
+  },
+
+  "Legal Psychology": {
+    "triggers": ["法律心理学", "证人心理", "犯罪心理"],
+    "typical_questions": ["心理结构如何影响法律行为？"],
+    "common_errors": ["忽略认知偏差"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Criminology", "Psychology"]
+  },
+
+  "Legal Anthropology": {
+    "triggers": ["法律人类学", "法律文化", "法律象征"],
+    "typical_questions": ["法律如何在文化中形成？"],
+    "common_errors": ["忽略文化差异"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Legal History", "Religious Anthropology"]
+  },
+
+  "Law and Economics": {
+    "triggers": ["法经济学", "制度设计", "激励"],
+    "typical_questions": ["法律制度如何影响经济行为？"],
+    "common_errors": ["忽略执行成本"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Institutional Economics", "Legal Philosophy"]
+  },
+
+  "Legal Sociology": {
+    "triggers": ["法律社会学", "社会结构", "法律实践"],
+    "typical_questions": ["法律如何嵌入社会结构？"],
+    "common_errors": ["忽略社会网络"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Economic Sociology", "Legal Anthropology"]
+  },
+
+  "Legal Technology": {
+    "triggers": ["法律科技", "AI法律", "法律自动化"],
+    "typical_questions": ["技术如何改变法律实践？"],
+    "common_errors": ["忽略伦理风险"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Technology Psychology", "Legal Methodology"]
+  }
+}

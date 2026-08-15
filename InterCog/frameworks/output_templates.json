@@ -1,0 +1,288 @@
+{
+  "general_rules": {
+    "include_evidence_weights": true,
+    "include_limitations": true,
+    "include_compliance_checks": true,
+    "adapt_to_neuro_profile": true,
+    "max_section_length": 300,
+    "format_style": "structured"
+  },
+
+  "format_styles": {
+    "visual_maps": {
+      "description": "适合视觉主导用户，以结构化、图表化方式呈现",
+      "elements": ["bullet_points", "hierarchy_tree", "flowchart_like_structure"]
+    },
+    "narrative_explanations": {
+      "description": "适合听觉主导用户，以故事化、节奏化方式呈现",
+      "elements": ["paragraphs", "rhythmic_sentences", "stepwise_story"]
+    },
+    "experiential_examples": {
+      "description": "适合触觉主导用户，以体验、情境模拟方式呈现",
+      "elements": ["scenario_simulation", "role_based_examples"]
+    }
+  },
+
+  "templates": {
+    "career_planning": {
+      "sections": [
+        {
+          "id": "current_positioning",
+          "title": "你的当前定位",
+          "content_requirements": [
+            "基于用户背景进行简要定位",
+            "识别用户的神经系统特征对职业选择的影响",
+            "识别用户生活节奏对职业路径的影响"
+          ]
+        },
+        {
+          "id": "industry_analysis",
+          "title": "行业生命周期与趋势",
+          "content_requirements": [
+            "分析行业生命周期阶段",
+            "结合区域政策与经济周期",
+            "提供证据权重排序的行业数据"
+          ]
+        },
+        {
+          "id": "skill_alignment",
+          "title": "你的能力与行业匹配度",
+          "content_requirements": [
+            "结合用户认知风格（视觉/听觉/触觉）",
+            "结合用户神经多样性特征（ADHD/ASD/Gifted/CPTSD）",
+            "提供可执行的技能提升路径"
+          ]
+        },
+        {
+          "id": "regional_opportunities",
+          "title": "区域机会与限制",
+          "content_requirements": [
+            "分析区域政策、产业结构",
+            "结合用户生活节奏（高压/低压/碎片化/深度工作）"
+          ]
+        },
+        {
+          "id": "future_scenarios",
+          "title": "未来发展情景推演",
+          "content_requirements": [
+            "提供3种不同的未来情景",
+            "标注每种情景的证据等级与不确定性来源"
+          ]
+        },
+        {
+          "id": "risk_and_limitations",
+          "title": "风险与局限性",
+          "content_requirements": [
+            "自动插入 limitations.json 中的通用与场景局限性",
+            "自动插入 compliance_rules.json 的合规声明"
+          ]
+        }
+      ]
+    },
+
+    "entrepreneurship": {
+      "sections": [
+        {
+          "id": "market_overview",
+          "title": "市场供需与问题空间",
+          "content_requirements": [
+            "识别真实需求与伪需求",
+            "提供权重排序的市场证据"
+          ]
+        },
+        {
+          "id": "technology_assessment",
+          "title": "技术成熟度评估",
+          "content_requirements": [
+            "结合技术生命周期",
+            "结合用户认知风格选择技术路径"
+          ]
+        },
+        {
+          "id": "policy_risk",
+          "title": "政策与合规风险",
+          "content_requirements": [
+            "自动调用 compliance_rules.json",
+            "标注政策不确定性来源"
+          ]
+        },
+        {
+          "id": "competitive_landscape",
+          "title": "竞争格局分析",
+          "content_requirements": [
+            "识别主要竞争者",
+            "提供证据权重排序的竞争数据"
+          ]
+        },
+        {
+          "id": "business_feasibility",
+          "title": "商业可行性评估",
+          "content_requirements": [
+            "结合用户生活节奏判断创业模式",
+            "结合用户神经系统特征判断适合的角色（CEO/CTO/COO）"
+          ]
+        },
+        {
+          "id": "scenarios_and_risks",
+          "title": "未来情景与风险",
+          "content_requirements": [
+            "提供多场景推演",
+            "自动插入 limitations.json 的创业局限性"
+          ]
+        }
+      ]
+    },
+
+    "research_direction": {
+      "sections": [
+        {
+          "id": "field_overview",
+          "title": "领域概览",
+          "content_requirements": [
+            "总结领域核心问题",
+            "提供权重排序的学术证据"
+          ]
+        },
+        {
+          "id": "frontier_summary",
+          "title": "前沿文献总结",
+          "content_requirements": [
+            "自动调用 evidence_weights.json",
+            "避免引用付费论文原文"
+          ]
+        },
+        {
+          "id": "cross_discipline_links",
+          "title": "跨学科关联",
+          "content_requirements": [
+            "自动调用 disciplines_graph.json",
+            "结合用户认知风格选择跨学科路径"
+          ]
+        },
+        {
+          "id": "research_gaps",
+          "title": "研究空白",
+          "content_requirements": [
+            "识别未充分研究的领域",
+            "标注证据等级与不确定性来源"
+          ]
+        },
+        {
+          "id": "potential_topics",
+          "title": "潜在研究课题",
+          "content_requirements": [
+            "生成3-5个可行课题",
+            "结合用户神经系统特征选择适合的研究方法"
+          ]
+        },
+        {
+          "id": "methodological_fit",
+          "title": "方法论匹配度",
+          "content_requirements": [
+            "结合用户认知风格选择方法论",
+            "自动插入 limitations.json 的科研局限性"
+          ]
+        }
+      ]
+    },
+
+    "complex_event_analysis": {
+      "sections": [
+        {
+          "id": "event_overview",
+          "title": "事件概览",
+          "content_requirements": [
+            "提供中立、结构化的事件描述",
+            "避免触发性语言（如用户有 CPTSD）"
+          ]
+        },
+        {
+          "id": "evidence_chain",
+          "title": "证据链",
+          "content_requirements": [
+            "自动按 evidence_weights.json 排序证据",
+            "标注证据等级与偏差来源"
+          ]
+        },
+        {
+          "id": "stakeholder_analysis",
+          "title": "利益相关方分析",
+          "content_requirements": [
+            "识别不同利益方的动机",
+            "结合用户认知风格选择呈现方式"
+          ]
+        },
+        {
+          "id": "historical_context",
+          "title": "历史与社会背景",
+          "content_requirements": [
+            "提供权重排序的历史证据",
+            "标注历史资料的偏差来源"
+          ]
+        },
+        {
+          "id": "multi_layer_logic",
+          "title": "多层逻辑还原",
+          "content_requirements": [
+            "从结构层、利益层、叙事层拆解事件",
+            "结合用户神经系统特征选择表达方式"
+          ]
+        },
+        {
+          "id": "bias_and_limitations",
+          "title": "偏差与局限性",
+          "content_requirements": [
+            "自动插入 limitations.json 的复杂事件局限性",
+            "自动插入 compliance_rules.json 的合规声明"
+          ]
+        }
+      ]
+    },
+
+    "trauma_support": {
+      "sections": [
+        {
+          "id": "context_understanding",
+          "title": "情境理解",
+          "content_requirements": [
+            "非侵入性描述用户情境",
+            "避免触发性语言",
+            "结合用户神经系统特征（如 CPTSD）"
+          ]
+        },
+        {
+          "id": "social_and_identity_factors",
+          "title": "社会与身份因素",
+          "content_requirements": [
+            "识别社会结构对创伤的影响",
+            "提供权重排序的社会学证据"
+          ]
+        },
+        {
+          "id": "trauma_theory_application",
+          "title": "创伤理论应用",
+          "content_requirements": [
+            "基于公开创伤研究进行解释",
+            "避免任何医疗诊断"
+          ]
+        },
+        {
+          "id": "supportive_perspectives",
+          "title": "支持性视角",
+          "content_requirements": [
+            "提供非医疗性的支持性解读",
+            "结合用户认知风格选择表达方式"
+          ]
+        },
+        {
+          "id": "boundaries_and_risks",
+          "title": "边界与风险",
+          "content_requirements": [
+            "自动插入 limitations.json 的创伤局限性",
+            "自动插入 compliance_rules.json 的合规声明"
+          ]
+        }
+      ]
+    }
+  }
+}

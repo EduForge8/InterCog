@@ -1,0 +1,271 @@
+{
+  "Engineering Mechanics": {
+    "triggers": ["工程力学", "结构受力", "变形", "破坏"],
+    "typical_questions": ["结构如何承受力？", "为什么材料会发生破坏？"],
+    "common_errors": ["忽略载荷路径", "把应力等同于力"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Materials Science", "Dynamics and Control"]
+  },
+
+  "Materials Science": {
+    "triggers": ["材料科学", "材料强度", "韧性", "疲劳"],
+    "typical_questions": ["材料强度由什么决定？", "疲劳为何发生？"],
+    "common_errors": ["忽略微观结构", "把材料性能视为常数"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Engineering Mechanics", "Materials Engineering"]
+  },
+
+  "Thermodynamics": {
+    "triggers": ["热力学", "能量转换", "效率", "热系统"],
+    "typical_questions": ["能量如何转换？", "热系统的限制是什么？"],
+    "common_errors": ["忽略不可逆性", "把效率视为固定值"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Energy Engineering", "Process Engineering"]
+  },
+
+  "Fluid Mechanics": {
+    "triggers": ["流体力学", "流动", "阻力", "空气动力学"],
+    "typical_questions": ["流体如何流动？", "阻力为何产生？"],
+    "common_errors": ["忽略边界层", "把流体视为无粘性"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Mechanical Design", "Energy Engineering"]
+  },
+
+  "Dynamics and Control": {
+    "triggers": ["动力学与控制", "稳定性", "振荡", "系统响应"],
+    "typical_questions": ["系统如何保持稳定？", "振荡为何出现？"],
+    "common_errors": ["忽略反馈延迟", "把控制视为单一变量"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Engineering Mechanics", "Mechatronics"]
+  },
+
+  "Systems Engineering": {
+    "triggers": ["系统工程", "系统集成", "复杂系统", "工程管理"],
+    "typical_questions": ["复杂系统如何设计？", "系统集成为何困难？"],
+    "common_errors": ["忽略系统边界", "把系统视为组件之和"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Industrial Engineering", "Software Architecture"]
+  },
+
+  "Mechanical Design": {
+    "triggers": ["机械设计", "结构优化", "可靠性", "重量优化"],
+    "typical_questions": ["机械结构如何优化？", "如何提高可靠性？"],
+    "common_errors": ["忽略载荷变化", "把安全系数当万能解"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Engineering Mechanics", "Manufacturing Engineering"]
+  },
+
+  "Manufacturing Engineering": {
+    "triggers": ["制造工程", "加工", "制造流程", "成品"],
+    "typical_questions": ["产品如何从原材料变成成品？"],
+    "common_errors": ["忽略加工误差", "把制造视为线性流程"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Mechanical Design", "Industrial Engineering"]
+  },
+
+  "Automation and Robotics": {
+    "triggers": ["自动化", "机器人学", "感知", "执行"],
+    "typical_questions": ["机器人如何决策？", "自动化系统如何稳定运行？"],
+    "common_errors": ["忽略传感器噪声", "把机器人视为确定性系统"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Mechatronics", "Dynamics and Control"]
+  },
+
+  "Mechatronics": {
+    "triggers": ["机电一体化", "机械系统", "电子系统", "控制系统"],
+    "typical_questions": ["机械与电子如何协同？"],
+    "common_errors": ["忽略跨域耦合", "把控制视为附加模块"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Automation and Robotics", "Dynamics and Control"]
+  },
+
+  "Industrial Engineering": {
+    "triggers": ["工业工程", "流程优化", "效率", "成本"],
+    "typical_questions": ["生产流程如何优化？"],
+    "common_errors": ["忽略瓶颈理论", "把效率视为单变量"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Systems Engineering", "Manufacturing Engineering"]
+  },
+
+  "Reliability Engineering": {
+    "triggers": ["可靠性工程", "故障", "寿命", "风险"],
+    "typical_questions": ["系统如何避免故障？", "如何延长寿命？"],
+    "common_errors": ["忽略随机性", "把故障视为单一原因"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Mechanical Design", "Industrial Engineering"]
+  },
+
+  "Circuit Theory": {
+    "triggers": ["电路理论", "电流", "电压", "电路行为"],
+    "typical_questions": ["电路如何工作？", "电流为何变化？"],
+    "common_errors": ["忽略阻抗", "把电压视为能量"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Electronics Engineering", "Power Systems"]
+  },
+
+  "Electronics Engineering": {
+    "triggers": ["电子工程", "放大", "开关", "信号处理"],
+    "typical_questions": ["电子器件如何处理信号？"],
+    "common_errors": ["忽略噪声", "把器件特性视为理想"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Circuit Theory", "Signal Processing"]
+  },
+
+  "Communication Engineering": {
+    "triggers": ["通信工程", "编码", "传输", "解码"],
+    "typical_questions": ["信息如何可靠传输？"],
+    "common_errors": ["忽略信道噪声", "把带宽视为无限"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Signal Processing", "Network Engineering"]
+  },
+
+  "Signal Processing": {
+    "triggers": ["信号处理", "滤波", "噪声", "特征提取"],
+    "typical_questions": ["如何从噪声中提取信息？"],
+    "common_errors": ["忽略采样定理", "把噪声视为可完全消除"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Electronics Engineering", "Communication Engineering"]
+  },
+
+  "Power Systems": {
+    "triggers": ["电力系统", "电网", "负载", "稳定性"],
+    "typical_questions": ["电网如何保持稳定？"],
+    "common_errors": ["忽略负载波动", "把电网视为静态系统"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Circuit Theory", "Energy Engineering"]
+  },
+
+  "Embedded Systems": {
+    "triggers": ["嵌入式系统", "硬件", "软件", "协同运行"],
+    "typical_questions": ["嵌入式系统如何协同工作？"],
+    "common_errors": ["忽略实时性", "把嵌入式系统视为普通软件"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Electronics Engineering", "Software Engineering"]
+  },
+
+  "Software Engineering": {
+    "triggers": ["软件工程", "设计", "开发", "测试"],
+    "typical_questions": ["软件为何复杂？", "如何提高可维护性？"],
+    "common_errors": ["忽略需求变化", "把测试视为附加步骤"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Software Architecture", "Distributed Systems"]
+  },
+
+  "Distributed Systems": {
+    "triggers": ["分布式系统", "通信", "同步", "容错"],
+    "typical_questions": ["分布式系统如何保持一致？"],
+    "common_errors": ["忽略网络延迟", "把一致性视为免费"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Network Engineering", "Software Architecture"]
+  },
+
+  "Computer Architecture": {
+    "triggers": ["计算机体系结构", "指令执行", "性能优化"],
+    "typical_questions": ["硬件如何执行指令？"],
+    "common_errors": ["忽略缓存层级", "把性能视为单变量"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Operating Systems", "Embedded Systems"]
+  },
+
+  "Operating Systems": {
+    "triggers": ["操作系统", "调度", "隔离", "资源管理"],
+    "typical_questions": ["资源如何被调度？"],
+    "common_errors": ["忽略并发问题", "把进程视为独立"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Computer Architecture", "Software Engineering"]
+  },
+
+  "Network Engineering": {
+    "triggers": ["网络工程", "数据传输", "协议", "路由"],
+    "typical_questions": ["数据如何可靠传输？"],
+    "common_errors": ["忽略拥塞控制", "把网络视为稳定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Communication Engineering", "Distributed Systems"]
+  },
+
+  "Software Architecture": {
+    "triggers": ["软件架构", "分层", "解耦", "扩展性"],
+    "typical_questions": ["大型系统如何设计？"],
+    "common_errors": ["忽略模块边界", "把架构视为代码结构"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Software Engineering", "Systems Engineering"]
+  },
+
+  "Chemical Engineering": {
+    "triggers": ["化学工程", "反应工程", "工业放大"],
+    "typical_questions": ["化学反应如何放大到工业规模？"],
+    "common_errors": ["忽略传质限制", "把实验结果直接放大"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Process Engineering", "Materials Engineering"]
+  },
+
+  "Process Engineering": {
+    "triggers": ["过程工程", "工业流程", "稳定性", "安全"],
+    "typical_questions": ["工业流程如何保持稳定？"],
+    "common_errors": ["忽略耦合效应", "把流程视为线性"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Chemical Engineering", "Energy Engineering"]
+  },
+
+  "Materials Engineering": {
+    "triggers": ["材料工程", "材料设计", "性能优化"],
+    "typical_questions": ["材料如何被设计以满足性能？"],
+    "common_errors": ["忽略微观结构", "把材料性能视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Materials Science", "Nanotechnology"]
+  },
+
+  "Nanotechnology": {
+    "triggers": ["纳米技术", "纳米结构", "材料性质"],
+    "typical_questions": ["纳米结构如何改变材料性质？"],
+    "common_errors": ["忽略量子效应", "把纳米材料视为宏观材料"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Materials Engineering", "Materials Science"]
+  },
+
+  "Corrosion Engineering": {
+    "triggers": ["腐蚀工程", "防护工程", "极端环境"],
+    "typical_questions": ["材料如何在极端环境中保持稳定？"],
+    "common_errors": ["忽略环境因素", "把腐蚀视为单一机制"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Materials Engineering", "Chemical Engineering"]
+  },
+
+  "Energy Engineering": {
+    "triggers": ["能源工程", "能源转换", "储能"],
+    "typical_questions": ["能源如何被生产与转换？"],
+    "common_errors": ["忽略效率限制", "把能源系统视为静态"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Thermodynamics", "Power Systems"]
+  }
+}

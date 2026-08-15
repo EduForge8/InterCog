@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    "Molecular Biology",
+    "Cell Biology",
+    "Biochemistry",
+    "Structural Biology",
+    "Signal Transduction",
+    "Cell Cycle and Apoptosis",
+
+    "Genetics",
+    "Gene Regulation",
+    "Population Genetics",
+    "Evolutionary Biology",
+    "Comparative Genomics",
+    "Epigenetics",
+
+    "Neurobiology",
+    "Systems Neuroscience",
+    "Behavioral Neuroscience",
+    "Sensory Biology",
+    "Neurodevelopment",
+    "Neuroplasticity",
+
+    "Physiology",
+    "Endocrinology",
+    "Immunology",
+    "Cardiovascular Biology",
+    "Respiratory Biology",
+    "Metabolic Biology",
+
+    "Ecology",
+    "Community Ecology",
+    "Population Ecology",
+    "Behavioral Ecology",
+    "Evolutionary Ecology",
+    "Environmental Biology"
+  ],
+  "edges": [
+    ["Molecular Biology", "Biochemistry"],
+    ["Molecular Biology", "Structural Biology"],
+    ["Molecular Biology", "Cell Biology"],
+
+    ["Cell Biology", "Molecular Biology"],
+    ["Cell Biology", "Signal Transduction"],
+    ["Cell Biology", "Cell Cycle and Apoptosis"],
+    ["Cell Biology", "Immunology"],
+
+    ["Biochemistry", "Molecular Biology"],
+    ["Biochemistry", "Metabolic Biology"],
+
+    ["Structural Biology", "Molecular Biology"],
+    ["Structural Biology", "Biochemistry"],
+
+    ["Signal Transduction", "Cell Biology"],
+    ["Signal Transduction", "Endocrinology"],
+
+    ["Cell Cycle and Apoptosis", "Cell Biology"],
+    ["Cell Cycle and Apoptosis", "Molecular Biology"],
+
+    ["Genetics", "Gene Regulation"],
+    ["Genetics", "Population Genetics"],
+    ["Genetics", "Comparative Genomics"],
+    ["Genetics", "Epigenetics"],
+
+    ["Gene Regulation", "Genetics"],
+    ["Gene Regulation", "Epigenetics"],
+
+    ["Population Genetics", "Genetics"],
+    ["Population Genetics", "Evolutionary Biology"],
+
+    ["Evolutionary Biology", "Population Genetics"],
+    ["Evolutionary Biology", "Evolutionary Ecology"],
+    ["Evolutionary Biology", "Comparative Genomics"],
+
+    ["Comparative Genomics", "Genetics"],
+    ["Comparative Genomics", "Evolutionary Biology"],
+
+    ["Epigenetics", "Gene Regulation"],
+    ["Epigenetics", "Genetics"],
+
+    ["Neurobiology", "Systems Neuroscience"],
+    ["Neurobiology", "Neuroplasticity"],
+    ["Neurobiology", "Sensory Biology"],
+    ["Neurobiology", "Neurodevelopment"],
+
+    ["Systems Neuroscience", "Neurobiology"],
+    ["Systems Neuroscience", "Behavioral Neuroscience"],
+    ["Systems Neuroscience", "Neuroplasticity"],
+
+    ["Behavioral Neuroscience", "Systems Neuroscience"],
+    ["Behavioral Neuroscience", "Behavioral Ecology"],
+
+    ["Sensory Biology", "Neurobiology"],
+    ["Sensory Biology", "Systems Neuroscience"],
+
+    ["Neurodevelopment", "Neurobiology"],
+    ["Neurodevelopment", "Neuroplasticity"],
+
+    ["Neuroplasticity", "Neurobiology"],
+    ["Neuroplasticity", "Systems Neuroscience"],
+    ["Neuroplasticity", "Neurodevelopment"],
+
+    ["Physiology", "Endocrinology"],
+    ["Physiology", "Metabolic Biology"],
+    ["Physiology", "Immunology"],
+    ["Physiology", "Cardiovascular Biology"],
+    ["Physiology", "Respiratory Biology"],
+
+    ["Endocrinology", "Physiology"],
+    ["Endocrinology", "Signal Transduction"],
+
+    ["Immunology", "Physiology"],
+    ["Immunology", "Cell Biology"],
+
+    ["Cardiovascular Biology", "Physiology"],
+    ["Cardiovascular Biology", "Respiratory Biology"],
+
+    ["Respiratory Biology", "Physiology"],
+    ["Respiratory Biology", "Cardiovascular Biology"],
+
+    ["Metabolic Biology", "Biochemistry"],
+    ["Metabolic Biology", "Physiology"],
+
+    ["Ecology", "Community Ecology"],
+    ["Ecology", "Population Ecology"],
+    ["Ecology", "Environmental Biology"],
+
+    ["Community Ecology", "Ecology"],
+    ["Community Ecology", "Evolutionary Ecology"],
+
+    ["Population Ecology", "Ecology"],
+    ["Population Ecology", "Community Ecology"],
+
+    ["Behavioral Ecology", "Evolutionary Biology"],
+    ["Behavioral Ecology", "Behavioral Neuroscience"],
+
+    ["Evolutionary Ecology", "Evolutionary Biology"],
+    ["Evolutionary Ecology", "Community Ecology"],
+    ["Evolutionary Ecology", "Environmental Biology"],
+
+    ["Environmental Biology", "Ecology"],
+    ["Environmental Biology", "Evolutionary Ecology"]
+  ]
+}

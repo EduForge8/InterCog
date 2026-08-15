@@ -1,0 +1,139 @@
+{
+  "nodes": [
+    "Cosmology",
+    "Large Scale Structure",
+    "Dark Matter Physics",
+    "Dark Energy Studies",
+    "Cosmic Microwave Background Studies",
+    "Cosmic Topology",
+
+    "Stellar Physics",
+    "Galactic Dynamics",
+    "High Energy Astrophysics",
+    "Black Hole Physics",
+    "Neutron Star Studies",
+    "Supernova Physics",
+
+    "Planet Formation Theory",
+    "Planetary Geology",
+    "Planetary Atmospheric Science",
+    "Exoplanet Studies",
+    "Planetary Magnetic Field Studies",
+    "Planetary Interior Studies",
+
+    "Solar Physics",
+    "Space Plasma Physics",
+    "Solar Wind Studies",
+    "Magnetospheric Physics",
+    "Cosmic Ray Studies",
+    "Space Weather Studies",
+
+    "Early Universe Physics",
+    "Quantum Cosmology",
+    "Gravitational Theory",
+    "Gravitational Wave Astronomy",
+    "Multiverse Theory",
+    "Fundamental Constants Studies"
+  ],
+  "edges": [
+    ["Cosmology", "Large Scale Structure"],
+    ["Cosmology", "Dark Energy Studies"],
+    ["Cosmology", "Cosmic Microwave Background Studies"],
+    ["Cosmology", "Cosmic Topology"],
+    ["Cosmology", "Multiverse Theory"],
+    ["Cosmology", "Fundamental Constants Studies"],
+
+    ["Large Scale Structure", "Cosmology"],
+    ["Large Scale Structure", "Dark Matter Physics"],
+
+    ["Dark Matter Physics", "Large Scale Structure"],
+    ["Dark Matter Physics", "Cosmology"],
+    ["Dark Matter Physics", "Galactic Dynamics"],
+
+    ["Dark Energy Studies", "Cosmology"],
+    ["Dark Energy Studies", "Cosmic Topology"],
+
+    ["Cosmic Microwave Background Studies", "Cosmology"],
+    ["Cosmic Microwave Background Studies", "Early Universe Physics"],
+
+    ["Cosmic Topology", "Cosmology"],
+    ["Cosmic Topology", "Dark Energy Studies"],
+
+    ["Stellar Physics", "Supernova Physics"],
+    ["Stellar Physics", "Neutron Star Studies"],
+
+    ["Galactic Dynamics", "Dark Matter Physics"],
+    ["Galactic Dynamics", "High Energy Astrophysics"],
+
+    ["High Energy Astrophysics", "Black Hole Physics"],
+    ["High Energy Astrophysics", "Neutron Star Studies"],
+    ["High Energy Astrophysics", "Cosmic Ray Studies"],
+
+    ["Black Hole Physics", "High Energy Astrophysics"],
+    ["Black Hole Physics", "Gravitational Wave Astronomy"],
+    ["Black Hole Physics", "Gravitational Theory"],
+
+    ["Neutron Star Studies", "Stellar Physics"],
+    ["Neutron Star Studies", "High Energy Astrophysics"],
+    ["Neutron Star Studies", "Supernova Physics"],
+
+    ["Supernova Physics", "Stellar Physics"],
+    ["Supernova Physics", "Neutron Star Studies"],
+
+    ["Planet Formation Theory", "Planetary Geology"],
+    ["Planet Formation Theory", "Exoplanet Studies"],
+
+    ["Planetary Geology", "Planet Formation Theory"],
+    ["Planetary Geology", "Planetary Interior Studies"],
+
+    ["Planetary Atmospheric Science", "Exoplanet Studies"],
+    ["Planetary Atmospheric Science", "Planetary Magnetic Field Studies"],
+
+    ["Exoplanet Studies", "Planet Formation Theory"],
+    ["Exoplanet Studies", "Planetary Atmospheric Science"],
+
+    ["Planetary Magnetic Field Studies", "Planetary Interior Studies"],
+    ["Planetary Magnetic Field Studies", "Planetary Atmospheric Science"],
+
+    ["Planetary Interior Studies", "Planetary Geology"],
+    ["Planetary Interior Studies", "Planetary Magnetic Field Studies"],
+
+    ["Solar Physics", "Space Plasma Physics"],
+    ["Solar Physics", "Solar Wind Studies"],
+    ["Solar Physics", "Space Weather Studies"],
+
+    ["Space Plasma Physics", "Solar Physics"],
+    ["Space Plasma Physics", "Magnetospheric Physics"],
+
+    ["Solar Wind Studies", "Solar Physics"],
+    ["Solar Wind Studies", "Magnetospheric Physics"],
+
+    ["Magnetospheric Physics", "Solar Wind Studies"],
+    ["Magnetospheric Physics", "Space Weather Studies"],
+
+    ["Cosmic Ray Studies", "High Energy Astrophysics"],
+    ["Cosmic Ray Studies", "Space Plasma Physics"],
+
+    ["Space Weather Studies", "Solar Physics"],
+    ["Space Weather Studies", "Magnetospheric Physics"],
+
+    ["Early Universe Physics", "Cosmic Microwave Background Studies"],
+    ["Early Universe Physics", "Quantum Cosmology"],
+
+    ["Quantum Cosmology", "Early Universe Physics"],
+    ["Quantum Cosmology", "Multiverse Theory"],
+
+    ["Gravitational Theory", "Gravitational Wave Astronomy"],
+    ["Gravitational Theory", "Black Hole Physics"],
+    ["Gravitational Theory", "Fundamental Constants Studies"],
+
+    ["Gravitational Wave Astronomy", "Gravitational Theory"],
+    ["Gravitational Wave Astronomy", "Black Hole Physics"],
+
+    ["Multiverse Theory", "Quantum Cosmology"],
+    ["Multiverse Theory", "Cosmology"],
+
+    ["Fundamental Constants Studies", "Gravitational Theory"],
+    ["Fundamental Constants Studies", "Cosmology"]
+  ]
+}

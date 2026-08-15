@@ -1,0 +1,271 @@
+{
+  "Cosmology": {
+    "triggers": ["宇宙学", "宇宙起源", "宇宙演化", "宇宙命运"],
+    "typical_questions": ["宇宙如何起源？", "宇宙的最终命运是什么？"],
+    "common_errors": ["把宇宙膨胀视为物体在空间中移动", "忽略暗能量的影响"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Large Scale Structure", "Dark Energy Studies"]
+  },
+
+  "Large Scale Structure": {
+    "triggers": ["大尺度结构", "宇宙网", "丝状结构", "星系团"],
+    "typical_questions": ["宇宙网如何形成？", "星系团为何聚集？"],
+    "common_errors": ["忽略暗物质的引力作用", "把结构视为静态"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Cosmology", "Dark Matter Physics"]
+  },
+
+  "Dark Matter Physics": {
+    "triggers": ["暗物质", "不可见物质", "引力效应"],
+    "typical_questions": ["暗物质如何影响宇宙结构？"],
+    "common_errors": ["把暗物质视为普通物质", "忽略弱相互作用"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Large Scale Structure", "Cosmology"]
+  },
+
+  "Dark Energy Studies": {
+    "triggers": ["暗能量", "宇宙加速膨胀"],
+    "typical_questions": ["宇宙为何加速膨胀？"],
+    "common_errors": ["把暗能量视为能量储存", "忽略时空结构的影响"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Cosmology", "Cosmic Topology"]
+  },
+
+  "Cosmic Microwave Background Studies": {
+    "triggers": ["宇宙微波背景", "CMB", "早期宇宙"],
+    "typical_questions": ["CMB 如何揭示早期宇宙？"],
+    "common_errors": ["忽略密度波动", "把 CMB 视为均匀辐射"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Cosmology", "Early Universe Physics"]
+  },
+
+  "Cosmic Topology": {
+    "triggers": ["宇宙拓扑", "宇宙形状", "多重连通性"],
+    "typical_questions": ["宇宙整体形状是什么？"],
+    "common_errors": ["把宇宙视为简单三维空间", "忽略拓扑对观测的影响"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Cosmology", "Dark Energy Studies"]
+  },
+
+  "Stellar Physics": {
+    "triggers": ["恒星物理学", "恒星形成", "恒星演化"],
+    "typical_questions": ["恒星如何形成与死亡？"],
+    "common_errors": ["忽略质量对演化的影响", "把恒星视为静态燃烧体"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Supernova Physics", "Neutron Star Studies"]
+  },
+
+  "Galactic Dynamics": {
+    "triggers": ["星系动力学", "星系结构", "星系演化"],
+    "typical_questions": ["星系内部如何运动？"],
+    "common_errors": ["忽略暗物质晕", "把星系视为刚体"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Dark Matter Physics", "High Energy Astrophysics"]
+  },
+
+  "High Energy Astrophysics": {
+    "triggers": ["高能天体物理学", "伽马暴", "极端天体"],
+    "typical_questions": ["极端天体如何释放巨大能量？"],
+    "common_errors": ["忽略相对论效应", "把高能辐射视为恒定"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Black Hole Physics", "Neutron Star Studies"]
+  },
+
+  "Black Hole Physics": {
+    "triggers": ["黑洞物理学", "吸积盘", "事件视界"],
+    "typical_questions": ["黑洞如何形成？", "信息悖论是什么？"],
+    "common_errors": ["把黑洞视为吸尘器", "忽略时空弯曲"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["High Energy Astrophysics", "Gravitational Wave Astronomy"]
+  },
+
+  "Neutron Star Studies": {
+    "triggers": ["中子星", "极端密度", "磁场结构"],
+    "typical_questions": ["中子星内部是什么？"],
+    "common_errors": ["忽略量子简并压力", "把磁场视为普通磁场"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Stellar Physics", "High Energy Astrophysics"]
+  },
+
+  "Supernova Physics": {
+    "triggers": ["超新星", "恒星爆炸", "重元素形成"],
+    "typical_questions": ["恒星为何爆炸？"],
+    "common_errors": ["忽略铁核坍缩机制", "把爆炸视为瞬时事件"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Stellar Physics", "Neutron Star Studies"]
+  },
+
+  "Planet Formation Theory": {
+    "triggers": ["行星形成", "原行星盘", "吸积"],
+    "typical_questions": ["行星如何从尘埃形成？"],
+    "common_errors": ["忽略盘不稳定性", "把吸积视为均匀过程"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Planetary Geology", "Exoplanet Studies"]
+  },
+
+  "Planetary Geology": {
+    "triggers": ["行星地质学", "行星表面", "地质演化"],
+    "typical_questions": ["行星表面如何演化？"],
+    "common_errors": ["忽略撞击历史", "把行星视为静态"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Planet Formation Theory", "Planetary Interior Studies"]
+  },
+
+  "Planetary Atmospheric Science": {
+    "triggers": ["行星大气", "行星气候", "大气循环"],
+    "typical_questions": ["行星大气如何形成与演化？"],
+    "common_errors": ["忽略温室效应差异", "把大气视为地球类"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Exoplanet Studies", "Planetary Magnetic Field Studies"]
+  },
+
+  "Exoplanet Studies": {
+    "triggers": ["系外行星", "宜居性", "行星发现"],
+    "typical_questions": ["哪些行星可能宜居？"],
+    "common_errors": ["忽略恒星类型影响", "把宜居性视为单一指标"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Planet Formation Theory", "Planetary Atmospheric Science"]
+  },
+
+  "Planetary Magnetic Field Studies": {
+    "triggers": ["行星磁场", "磁场保护", "大气逃逸"],
+    "typical_questions": ["磁场如何保护行星？"],
+    "common_errors": ["忽略内部发电机机制", "把磁场视为恒定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Planetary Interior Studies", "Planetary Atmospheric Science"]
+  },
+
+  "Planetary Interior Studies": {
+    "triggers": ["行星内部结构", "热流", "分层"],
+    "typical_questions": ["行星内部如何运作？"],
+    "common_errors": ["忽略放射性加热", "把内部结构视为均质"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Planetary Geology", "Planetary Magnetic Field Studies"]
+  },
+
+  "Solar Physics": {
+    "triggers": ["太阳物理学", "太阳活动", "耀斑", "太阳风"],
+    "typical_questions": ["太阳为何产生耀斑？"],
+    "common_errors": ["忽略磁场重联", "把太阳视为稳定恒星"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Space Plasma Physics", "Solar Wind Studies"]
+  },
+
+  "Space Plasma Physics": {
+    "triggers": ["空间等离子体", "磁场作用", "等离子体动力学"],
+    "typical_questions": ["等离子体如何在宇宙中运动？"],
+    "common_errors": ["忽略磁场约束", "把等离子体视为中性气体"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Solar Physics", "Magnetospheric Physics"]
+  },
+
+  "Solar Wind Studies": {
+    "triggers": ["太阳风", "太阳风传播", "太阳风影响"],
+    "typical_questions": ["太阳风如何影响地球？"],
+    "common_errors": ["忽略磁场交互", "把太阳风视为均匀流"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Solar Physics", "Magnetospheric Physics"]
+  },
+
+  "Magnetospheric Physics": {
+    "triggers": ["磁层物理学", "地球磁场", "太阳风交互"],
+    "typical_questions": ["磁层如何保护地球？"],
+    "common_errors": ["忽略磁暴机制", "把磁层视为静态"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Solar Wind Studies", "Space Weather Studies"]
+  },
+
+  "Cosmic Ray Studies": {
+    "triggers": ["宇宙射线", "高能粒子", "宇宙传播"],
+    "typical_questions": ["宇宙射线如何传播？"],
+    "common_errors": ["忽略磁场偏转", "把射线视为直线传播"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["High Energy Astrophysics", "Space Physics"]
+  },
+
+  "Space Weather Studies": {
+    "triggers": ["空间天气", "太阳活动影响", "卫星风险"],
+    "typical_questions": ["太阳活动如何影响技术系统？"],
+    "common_errors": ["忽略磁暴", "把空间天气视为局地现象"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Solar Physics", "Magnetospheric Physics"]
+  },
+
+  "Early Universe Physics": {
+    "triggers": ["早期宇宙", "暴胀", "初始条件"],
+    "typical_questions": ["宇宙最初几秒发生了什么？"],
+    "common_errors": ["忽略量子涨落", "把暴胀视为均匀过程"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Cosmic Microwave Background Studies", "Quantum Cosmology"]
+  },
+
+  "Quantum Cosmology": {
+    "triggers": ["量子宇宙学", "量子涨落", "宇宙起源"],
+    "typical_questions": ["量子力学如何影响宇宙起源？"],
+    "common_errors": ["忽略量子引力", "把量子涨落视为噪声"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Early Universe Physics", "Multiverse Theory"]
+  },
+
+  "Gravitational Theory": {
+    "triggers": ["引力理论", "广义相对论", "量子引力"],
+    "typical_questions": ["引力的本质是什么？"],
+    "common_errors": ["忽略时空弯曲", "把引力视为力而非几何"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Gravitational Wave Astronomy", "Black Hole Physics"]
+  },
+
+  "Gravitational Wave Astronomy": {
+    "triggers": ["引力波", "引力波探测", "极端天体事件"],
+    "typical_questions": ["引力波如何揭示宇宙事件？"],
+    "common_errors": ["忽略波形分析", "把引力波视为电磁波"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Gravitational Theory", "Black Hole Physics"]
+  },
+
+  "Multiverse Theory": {
+    "triggers": ["多重宇宙", "宇宙可能不是唯一", "宇宙集合"],
+    "typical_questions": ["宇宙是否唯一？"],
+    "common_errors": ["把多重宇宙视为科幻", "忽略量子涨落模型"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Quantum Cosmology", "Cosmology"]
+  },
+
+  "Fundamental Constants Studies": {
+    "triggers": ["基本常数", "物理常数", "宇宙可居性"],
+    "typical_questions": ["物理常数为何具有特定数值？"],
+    "common_errors": ["忽略常数之间的耦合", "把常数视为任意"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Gravitational Theory", "Cosmology"]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "Aesthetics": {
+    "triggers": ["美学", "审美体验", "审美判断"],
+    "typical_questions": ["美的本质是什么？", "审美体验如何形成？"],
+    "common_errors": ["把美视为纯主观", "忽略文化与认知因素"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Art", "Aesthetic Psychology"]
+  },
+
+  "Philosophy of Art": {
+    "triggers": ["艺术哲学", "艺术本体", "艺术意义"],
+    "typical_questions": ["艺术为何有意义？", "艺术的本体是什么？"],
+    "common_errors": ["把艺术视为纯表达", "忽略社会功能"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Aesthetics", "Art Epistemology"]
+  },
+
+  "Symbolic Aesthetics": {
+    "triggers": ["符号美学", "艺术符号", "意义构建"],
+    "typical_questions": ["艺术符号如何构建意义？"],
+    "common_errors": ["忽略符号语境", "把符号视为固定含义"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Art Semiotics", "Visual Linguistics"]
+  },
+
+  "Art Epistemology": {
+    "triggers": ["艺术认识论", "艺术知识", "理解世界"],
+    "typical_questions": ["艺术如何传递知识？"],
+    "common_errors": ["忽略解释结构", "把艺术知识视为模糊"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Art", "Aesthetics"]
+  },
+
+  "Art Ethics": {
+    "triggers": ["艺术伦理学", "伦理边界", "艺术传播"],
+    "typical_questions": ["艺术创作的伦理边界是什么？"],
+    "common_errors": ["忽略文化差异", "把伦理视为固定规则"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Art", "Art Criticism Theory"]
+  },
+
+  "Art Criticism Theory": {
+    "triggers": ["艺术批评", "艺术评价", "艺术解读"],
+    "typical_questions": ["艺术如何被评价？"],
+    "common_errors": ["忽略历史语境", "把评价视为主观喜好"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Aesthetics", "Art History"]
+  },
+
+  "Psychology of Art": {
+    "triggers": ["艺术心理学", "情绪影响", "注意与记忆"],
+    "typical_questions": ["艺术如何影响情绪？"],
+    "common_errors": ["忽略个体差异", "把情绪反应视为统一"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Aesthetic Psychology", "Creativity Studies"]
+  },
+
+  "Creativity Studies": {
+    "triggers": ["创造力研究", "创造机制", "认知结构"],
+    "typical_questions": ["创造力如何产生？"],
+    "common_errors": ["忽略环境因素", "把创造力视为天赋"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Art", "Art Creation Theory"]
+  },
+
+  "Art Expression Psychology": {
+    "triggers": ["艺术表达心理学", "情绪表达", "情绪调节"],
+    "typical_questions": ["艺术如何帮助表达情绪？"],
+    "common_errors": ["忽略文化表达差异", "把艺术表达视为直接情绪"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Art", "Aesthetic Psychology"]
+  },
+
+  "Aesthetic Psychology": {
+    "triggers": ["审美心理学", "审美偏好", "审美变化"],
+    "typical_questions": ["审美偏好如何形成？"],
+    "common_errors": ["忽略发展因素", "把审美视为固定"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Aesthetics", "Psychology of Art"]
+  },
+
+  "Art Motivation Studies": {
+    "triggers": ["艺术动机", "创作动机", "欣赏动机"],
+    "typical_questions": ["人为什么创作艺术？"],
+    "common_errors": ["忽略社会动机", "把动机视为单一因素"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Psychology of Art", "Art Expression Psychology"]
+  },
+
+  "Art Development Psychology": {
+    "triggers": ["艺术发展心理学", "艺术能力发展"],
+    "typical_questions": ["艺术能力如何随年龄发展？"],
+    "common_errors": ["忽略环境影响", "把发展视为线性"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Aesthetic Psychology", "Creativity Studies"]
+  },
+
+  "Art Semiotics": {
+    "triggers": ["艺术符号学", "符号系统", "意义构建"],
+    "typical_questions": ["艺术符号如何构建意义？"],
+    "common_errors": ["忽略符号语境", "把符号视为固定含义"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Visual Linguistics", "Narrative Theory"]
+  },
+
+  "Visual Linguistics": {
+    "triggers": ["视觉语言学", "视觉元素", "视觉叙事"],
+    "typical_questions": ["视觉如何形成语言？"],
+    "common_errors": ["忽略文化差异", "把视觉符号视为普遍"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Art Semiotics", "Composition Theory"]
+  },
+
+  "Stylistics": {
+    "triggers": ["风格学", "艺术风格", "风格识别"],
+    "typical_questions": ["艺术风格如何形成？"],
+    "common_errors": ["忽略历史演化", "把风格视为固定"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Art History", "Visual Linguistics"]
+  },
+
+  "Composition Theory": {
+    "triggers": ["构图理论", "视觉结构", "注意引导"],
+    "typical_questions": ["构图如何影响情绪？"],
+    "common_errors": ["忽略文化构图差异", "把构图视为固定规则"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Visual Linguistics", "Color Theory"]
+  },
+
+  "Color Theory": {
+    "triggers": ["色彩理论", "颜色情绪", "颜色象征"],
+    "typical_questions": ["颜色如何影响情绪？"],
+    "common_errors": ["忽略文化象征差异", "把颜色意义视为普遍"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Composition Theory", "Art Semiotics"]
+  },
+
+  "Narrative Theory": {
+    "triggers": ["艺术叙事学", "叙事结构", "故事表达"],
+    "typical_questions": ["艺术如何讲述故事？"],
+    "common_errors": ["忽略隐性叙事", "把叙事视为线性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Art Semiotics", "Stylistics"]
+  },
+
+  "Art History": {
+    "triggers": ["艺术史", "艺术运动", "风格演化"],
+    "typical_questions": ["艺术风格如何演化？"],
+    "common_errors": ["忽略社会背景", "把风格视为孤立"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Stylistics", "Visual Culture Studies"]
+  },
+
+  "Visual Culture Studies": {
+    "triggers": ["视觉文化研究", "视觉符号", "文化认知"],
+    "typical_questions": ["视觉符号如何塑造文化？"],
+    "common_errors": ["忽略权力结构", "把视觉文化视为中性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Art Sociology", "Art History"]
+  },
+
+  "Art Sociology": {
+    "triggers": ["艺术社会学", "艺术生产", "艺术消费"],
+    "typical_questions": ["艺术如何在社会中被生产与消费？"],
+    "common_errors": ["忽略阶级结构", "把艺术视为纯个人行为"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Visual Culture Studies", "Art Anthropology"]
+  },
+
+  "Art Anthropology": {
+    "triggers": ["艺术人类学", "文化艺术", "跨文化理解"],
+    "typical_questions": ["不同文化如何理解艺术？"],
+    "common_errors": ["忽略文化差异", "把艺术视为普遍形式"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Art Sociology", "Visual Culture Studies"]
+  },
+
+  "Art Communication Studies": {
+    "triggers": ["艺术传播学", "媒介传播", "艺术变形"],
+    "typical_questions": ["艺术如何在媒介中传播？"],
+    "common_errors": ["忽略媒介影响", "把传播视为中性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Art Sociology", "Media Art Theory"]
+  },
+
+  "Art Politics": {
+    "triggers": ["艺术政治学", "权力结构", "意识形态"],
+    "typical_questions": ["艺术如何反映权力结构？"],
+    "common_errors": ["忽略历史语境", "把艺术政治视为单一方向"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Visual Culture Studies", "Art Sociology"]
+  },
+
+  "Art Creation Theory": {
+    "triggers": ["艺术创作理论", "创作过程", "创作结构"],
+    "typical_questions": ["艺术创作过程如何运作？"],
+    "common_errors": ["忽略认知阶段", "把创作视为灵感瞬间"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Creativity Studies", "Art Design"]
+  },
+
+  "Art Design": {
+    "triggers": ["艺术设计学", "设计美学", "用户体验"],
+    "typical_questions": ["设计如何平衡功能与美学？"],
+    "common_errors": ["忽略用户认知", "把设计视为装饰"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Art Creation Theory", "Digital Art Studies"]
+  },
+
+  "Digital Art Studies": {
+    "triggers": ["数字艺术", "数字技术", "数字创作"],
+    "typical_questions": ["数字技术如何改变艺术？"],
+    "common_errors": ["忽略媒介差异", "把数字艺术视为传统艺术复制"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Media Art Theory", "Art Engineering"]
+  },
+
+  "Media Art Theory": {
+    "triggers": ["媒体艺术理论", "新媒介", "艺术演化"],
+    "typical_questions": ["艺术如何在新媒介中演化？"],
+    "common_errors": ["忽略媒介特性", "把媒介视为中性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Digital Art Studies", "Art Communication Studies"]
+  },
+
+  "Art Engineering": {
+    "triggers": ["艺术工程学", "装置艺术", "交互艺术"],
+    "typical_questions": ["艺术如何与工程技术结合？"],
+    "common_errors": ["忽略技术限制", "把工程视为附属"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Digital Art Studies", "Art Design"]
+  },
+
+  "Art Innovation Studies": {
+    "triggers": ["艺术创新研究", "新风格", "新形式"],
+    "typical_questions": ["艺术如何产生创新？"],
+    "common_errors": ["忽略历史积累", "把创新视为突然出现"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Art Creation Theory", "Stylistics"]
+  }
+}

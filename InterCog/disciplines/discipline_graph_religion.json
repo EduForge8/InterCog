@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    "Philosophy of Religion",
+    "Theology",
+    "Religious Epistemology",
+    "Religious Ethics",
+    "Religious Metaphysics",
+    "Philosophy of Religious Language",
+
+    "Psychology of Religion",
+    "Religious Motivation Studies",
+    "Religious Development Psychology",
+    "Religious Identity Studies",
+    "Religious Experience Studies",
+    "Religious Emotion Studies",
+
+    "Religious Sociology",
+    "Religious Institution Studies",
+    "Religious Communication Studies",
+    "Religious Conflict Studies",
+    "Religion and Politics",
+    "Religion and Economics",
+
+    "Religious Anthropology",
+    "Ritual Studies",
+    "Mythology",
+    "Symbolic Anthropology",
+    "Religious Comparative Studies",
+    "Religious Cultural Studies",
+
+    "Religious History",
+    "Religious Textual Studies",
+    "Religious Hermeneutics",
+    "Religious Linguistics",
+    "Religious Tradition Studies",
+    "Religious Reform Studies"
+  ],
+  "edges": [
+    ["Philosophy of Religion", "Religious Epistemology"],
+    ["Philosophy of Religion", "Religious Metaphysics"],
+    ["Philosophy of Religion", "Theology"],
+    ["Philosophy of Religion", "Religious Ethics"],
+
+    ["Theology", "Philosophy of Religion"],
+    ["Theology", "Religious Epistemology"],
+    ["Theology", "Religious Metaphysics"],
+
+    ["Religious Epistemology", "Philosophy of Religion"],
+    ["Religious Epistemology", "Theology"],
+    ["Religious Epistemology", "Philosophy of Religious Language"],
+
+    ["Religious Ethics", "Philosophy of Religion"],
+    ["Religious Ethics", "Religious Sociology"],
+
+    ["Religious Metaphysics", "Philosophy of Religion"],
+    ["Religious Metaphysics", "Theology"],
+
+    ["Philosophy of Religious Language", "Religious Epistemology"],
+    ["Philosophy of Religious Language", "Religious Linguistics"],
+
+    ["Psychology of Religion", "Religious Motivation Studies"],
+    ["Psychology of Religion", "Religious Emotion Studies"],
+    ["Psychology of Religion", "Religious Experience Studies"],
+
+    ["Religious Motivation Studies", "Psychology of Religion"],
+    ["Religious Motivation Studies", "Religious Identity Studies"],
+    ["Religious Motivation Studies", "Religious Development Psychology"],
+
+    ["Religious Development Psychology", "Psychology of Religion"],
+    ["Religious Development Psychology", "Religious Motivation Studies"],
+
+    ["Religious Identity Studies", "Religious Sociology"],
+    ["Religious Identity Studies", "Religious Motivation Studies"],
+
+    ["Religious Experience Studies", "Psychology of Religion"],
+    ["Religious Experience Studies", "Religious Emotion Studies"],
+
+    ["Religious Emotion Studies", "Psychology of Religion"],
+    ["Religious Emotion Studies", "Religious Experience Studies"],
+
+    ["Religious Sociology", "Religious Institution Studies"],
+    ["Religious Sociology", "Religion and Politics"],
+    ["Religious Sociology", "Religious Conflict Studies"],
+    ["Religious Sociology", "Religion and Economics"],
+    ["Religious Sociology", "Religious Identity Studies"],
+
+    ["Religious Institution Studies", "Religious Sociology"],
+    ["Religious Institution Studies", "Religion and Economics"],
+    ["Religious Institution Studies", "Religious Communication Studies"],
+
+    ["Religious Communication Studies", "Religious Institution Studies"],
+    ["Religious Communication Studies", "Religious Anthropology"],
+
+    ["Religious Conflict Studies", "Religion and Politics"],
+    ["Religious Conflict Studies", "Religious Sociology"],
+
+    ["Religion and Politics", "Religious Sociology"],
+    ["Religion and Politics", "Religious Conflict Studies"],
+    ["Religion and Politics", "Religious Reform Studies"],
+
+    ["Religion and Economics", "Religious Institution Studies"],
+    ["Religion and Economics", "Religious Sociology"],
+
+    ["Religious Anthropology", "Ritual Studies"],
+    ["Religious Anthropology", "Mythology"],
+    ["Religious Anthropology", "Religious Comparative Studies"],
+    ["Religious Anthropology", "Religious Cultural Studies"],
+
+    ["Ritual Studies", "Religious Anthropology"],
+    ["Ritual Studies", "Symbolic Anthropology"],
+
+    ["Mythology", "Symbolic Anthropology"],
+    ["Mythology", "Religious Comparative Studies"],
+    ["Mythology", "Religious Anthropology"],
+
+    ["Symbolic Anthropology", "Mythology"],
+    ["Symbolic Anthropology", "Ritual Studies"],
+
+    ["Religious Comparative Studies", "Religious Anthropology"],
+    ["Religious Comparative Studies", "Mythology"],
+
+    ["Religious Cultural Studies", "Religious Anthropology"],
+    ["Religious Cultural Studies", "Art History"],
+
+    ["Religious History", "Religious Textual Studies"],
+    ["Religious History", "Religious Tradition Studies"],
+    ["Religious History", "Religious Reform Studies"],
+
+    ["Religious Textual Studies", "Religious Hermeneutics"],
+    ["Religious Textual Studies", "Religious Linguistics"],
+    ["Religious Textual Studies", "Religious History"],
+
+    ["Religious Hermeneutics", "Religious Textual Studies"],
+    ["Religious Hermeneutics", "Religious Tradition Studies"],
+
+    ["Religious Linguistics", "Philosophy of Religious Language"],
+    ["Religious Linguistics", "Religious Textual Studies"],
+
+    ["Religious Tradition Studies", "Religious History"],
+    ["Religious Tradition Studies", "Religious Hermeneutics"],
+
+    ["Religious Reform Studies", "Religious History"],
+    ["Religious Reform Studies", "Religion and Politics"]
+  ]
+}

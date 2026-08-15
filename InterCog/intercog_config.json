@@ -1,0 +1,114 @@
+{
+  "version": "1.0.0",
+  "description": "InterCog — 跨学科推理引擎主配置文件",
+
+  "modules": {
+    "disciplines_index": "/disciplines/disciplines_index.json",
+    "disciplines_graph": "/disciplines/disciplines_graph.json",
+    "scenarios": "/frameworks/scenarios.json",
+    "evidence_weights": "/frameworks/evidence_weights.json",
+    "limitations": "/frameworks/limitations.json",
+    "compliance_rules": "/frameworks/compliance_rules.json",
+    "neuro_profile": "/frameworks/neuro_profile.json",
+    "output_templates": "/frameworks/output_templates.json"
+  },
+
+  "load_order": [
+    "compliance_rules",
+    "neuro_profile",
+    "scenarios",
+    "disciplines_index",
+    "disciplines_graph",
+    "evidence_weights",
+    "limitations",
+    "output_templates"
+  ],
+
+  "routing": {
+    "scenario_detection": {
+      "method": "hybrid",
+      "components": [
+        "keyword_matching",
+        "semantic_embedding",
+        "contextual_inference"
+      ],
+      "minimum_match_score": 0.45,
+      "fallback_scenario": "complex_event_analysis"
+    },
+    "discipline_selection": {
+      "method": "graph_expansion",
+      "max_depth": 2,
+      "min_priority": 0.75,
+      "conflict_resolution": "remove_lower_priority"
+    },
+    "neuro_adaptation": {
+      "enabled": true,
+      "priority": "user_profile_over_scenario",
+      "fallback": "general_support"
+    }
+  },
+
+  "analysis_engine": {
+  "steps": [
+    "compliance_check",
+    "scenario_detection",
+    "discipline_selection",
+    "evidence_collection",
+    "evidence_weighting",
+    "direct_multi_discipline_reasoning",
+    "structural_analogy_reasoning",
+    "synthesize_and_actability",
+    "neuro_adapted_rendering",
+    "limitations_append",
+    "final_output"
+  ]},
+
+
+    "reasoning_modes": {
+      "default": "multi-disciplinary",
+      "fallback": "epistemic_minimalism",
+      "trauma_safe_mode": {
+        "enabled": true,
+        "avoid_triggering_language": true,
+        "non_intrusive_tone": true
+      }
+    },
+
+  "output_engine": {
+    "style_selection": {
+      "visual_dominant": "visual_maps",
+      "auditory_dominant": "narrative_explanations",
+      "kinesthetic_dominant": "experiential_examples",
+      "default": "structured"
+    },
+    "sections": {
+      "include_evidence_weights": true,
+      "include_limitations": true,
+      "include_compliance": true,
+      "max_section_length": 300
+    }
+  },
+
+  "safety": {
+    "copyright": {
+      "max_quote_length": 2,
+      "replace_paid_content_with_summary": true
+    },
+    "legal": {
+      "redirect_to_general_guidance": true
+    },
+    "privacy": {
+      "refuse_on_sensitive_data": true
+    },
+    "extreme_risk": {
+      "add_uncertainty_statement": true
+    }
+  },
+
+  "system_flags": {
+    "enable_debug_mode": false,
+    "log_scenario_routing": false,
+    "log_discipline_selection": false,
+    "log_neuro_adaptation": false
+  }
+}

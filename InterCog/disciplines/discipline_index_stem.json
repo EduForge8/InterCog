@@ -1,0 +1,716 @@
+{
+  "Cognitive Psychology": {
+    "triggers": ["注意力", "记忆", "认知负荷", "信息加工"],
+    "typical_questions": ["为什么我记不住？", "为什么我注意力不集中？"],
+    "common_errors": ["把注意力问题误认为智力问题", "把记忆问题误认为懒惰"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Neuroscience", "Learning Science"]
+  },
+  "Cognitive Neuroscience": {
+    "triggers": ["脑区", "神经网络", "符号处理"],
+    "typical_questions": ["大脑如何处理数学符号？"],
+    "common_errors": ["把脑区功能误认为固定不变"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Learning Science": {
+    "triggers": ["知识结构", "学习机制"],
+    "typical_questions": ["为什么有些人学得更快？"],
+    "common_errors": ["把学习速度误认为天赋"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Educational Psychology"]
+  },
+  "Developmental Psychology": {
+    "triggers": ["发展阶段", "认知成熟"],
+    "typical_questions": ["不同年龄的抽象能力有什么差异？"],
+    "common_errors": ["把发展差异误认为能力问题"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Learning Science"]
+  },
+  "Educational Psychology": {
+    "triggers": ["学习动机", "学习策略"],
+    "typical_questions": ["为什么我学不进去？"],
+    "common_errors": ["把学习困难误认为智力问题"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Learning Science"]
+  },
+  "Information Processing Theory": {
+    "triggers": ["信息加工", "符号处理"],
+    "typical_questions": ["为什么我处理符号很慢？"],
+    "common_errors": ["忽略信息通道瓶颈"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Metacognition Research": {
+    "triggers": ["自我监控", "学习调节"],
+    "typical_questions": ["为什么我不知道自己哪里不会？"],
+    "common_errors": ["把学习失败归因于努力不足"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Educational Psychology"]
+  },
+  "Cognitive Style Theory": {
+    "triggers": ["学习风格", "视觉型", "语言型"],
+    "typical_questions": ["为什么我更喜欢图像而不是文字？"],
+    "common_errors": ["把学习风格误认为能力差异"],
+    "priority": 0.82,
+    "conflicts": [],
+    "related_disciplines": ["Learning Science"]
+  },
+  "Error Theory": {
+    "triggers": ["错误模式", "误解"],
+    "typical_questions": ["为什么我总是犯同样的错误？"],
+    "common_errors": ["把系统性错误误认为粗心"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Concept Formation Theory": {
+    "triggers": ["概念形成", "抽象化"],
+    "typical_questions": ["抽象概念是如何形成的？"],
+    "common_errors": ["忽略具体体验的重要性"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Learning Science"]
+  },
+  "Knowledge Graph Theory": {
+    "triggers": ["知识结构", "节点连接"],
+    "typical_questions": ["为什么知识结构影响理解速度？"],
+    "common_errors": ["把知识碎片误认为知识体系"],
+    "priority": 0.83,
+    "conflicts": [],
+    "related_disciplines": ["Information Processing Theory"]
+  },
+  "Cognitive Load Theory": {
+    "triggers": ["认知负荷", "任务难度"],
+    "typical_questions": ["为什么这部分内容让我大脑很累？"],
+    "common_errors": ["把负荷过高误认为能力不足"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Dual Coding Theory": {
+    "triggers": ["图像化", "双通道"],
+    "typical_questions": ["为什么图像化学习更轻松？"],
+    "common_errors": ["忽略语言与图像的协同"],
+    "priority": 0.82,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Working Memory Theory": {
+    "triggers": ["工作记忆", "短时记忆"],
+    "typical_questions": ["为什么我做数学题容易忘步骤？"],
+    "common_errors": ["把工作记忆瓶颈误认为智力问题"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Load Theory"]
+  },
+  "Attention Control Theory": {
+    "triggers": ["注意控制", "任务切换"],
+    "typical_questions": ["为什么我容易分心？"],
+    "common_errors": ["把注意漂移误认为懒惰"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Neuroplasticity Research": {
+    "triggers": ["神经可塑性", "学习能力", "脑连接变化"],
+    "typical_questions": ["为什么有些人学得快？", "大脑如何通过练习改变？"],
+    "common_errors": ["把学习能力误认为固定天赋"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Neuroscience", "Developmental Psychology"]
+  },
+  "Executive Function Research": {
+    "triggers": ["执行功能", "规划", "抑制控制", "更新能力"],
+    "typical_questions": ["为什么我做数学题容易卡住？", "为什么我规划任务很困难？"],
+    "common_errors": ["把执行功能弱误认为懒惰"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology"]
+  },
+  "Neural Network Dynamics": {
+    "triggers": ["神经网络", "动力学", "模式形成"],
+    "typical_questions": ["大脑如何形成稳定的思维模式？"],
+    "common_errors": ["把神经网络误认为静态结构"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Neuroscience"]
+  },
+  "Attention Network Research": {
+    "triggers": ["注意网络", "选择性注意", "持续注意"],
+    "typical_questions": ["为什么我容易分心？"],
+    "common_errors": ["把注意漂移误认为意志力差"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Attention Control Theory"]
+  },
+  "Symbol Processing Neural Mechanisms": {
+    "triggers": ["符号处理", "数学符号", "逻辑结构"],
+    "typical_questions": ["大脑如何处理数学符号？"],
+    "common_errors": ["把符号处理困难误认为智力不足"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Math Cognition Science"]
+  },
+  "Spatial Reasoning Neural Mechanisms": {
+    "triggers": ["空间推理", "几何直觉"],
+    "typical_questions": ["为什么我空间想象力弱？"],
+    "common_errors": ["把空间弱误认为整体智力弱"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Geometry Cognition Research"]
+  },
+  "Language Processing Neural Mechanisms": {
+    "triggers": ["语言加工", "数学语言", "语义结构"],
+    "typical_questions": ["为什么我看不懂数学语言？"],
+    "common_errors": ["把语言理解困难误认为数学差"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Mathematical Linguistics"]
+  },
+  "Visual Processing Neural Mechanisms": {
+    "triggers": ["视觉加工", "图像化学习"],
+    "typical_questions": ["为什么图像化学习更轻松？"],
+    "common_errors": ["忽略视觉加工差异"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Dual Coding Theory"]
+  },
+  "Motor Control Neural Mechanisms": {
+    "triggers": ["运动控制", "实验技能"],
+    "typical_questions": ["为什么我做实验手不稳？"],
+    "common_errors": ["把运动控制弱误认为粗心"],
+    "priority": 0.82,
+    "conflicts": [],
+    "related_disciplines": ["Kinesiology"]
+  },
+  "Emotion Regulation Neural Mechanisms": {
+    "triggers": ["情绪调节", "焦虑", "压力"],
+    "typical_questions": ["为什么我一做理科就焦虑？"],
+    "common_errors": ["把焦虑误认为能力不足"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Health Psychology"]
+  },
+  "Reward System Research": {
+    "triggers": ["奖励系统", "动机", "坚持"],
+    "typical_questions": ["为什么我坚持不下来？"],
+    "common_errors": ["把动机弱误认为懒惰"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Educational Psychology"]
+  },
+  "Neurodevelopment Research": {
+    "triggers": ["神经发育", "青少年大脑", "成熟度"],
+    "typical_questions": ["为什么青少年学习特点不同？"],
+    "common_errors": ["把发育差异误认为能力差"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Developmental Psychology"]
+  },
+  "Systems Science": {
+    "triggers": ["系统", "反馈", "稳定性", "系统行为"],
+    "typical_questions": ["为什么我的知识结构总是混乱？", "为什么系统会突然失灵？"],
+    "common_errors": ["把系统问题误认为局部问题"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Complexity Science", "System Dynamics"]
+  },
+  "Complexity Science": {
+    "triggers": ["复杂性", "非线性", "涌现"],
+    "typical_questions": ["为什么复杂系统难以预测？"],
+    "common_errors": ["把局部现象误认为整体规律"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Systems Science"]
+  },
+  "Control Theory": {
+    "triggers": ["控制", "反馈", "稳定性", "调节"],
+    "typical_questions": ["系统如何保持稳定？"],
+    "common_errors": ["把控制误认为强制"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Systems Science"]
+  },
+  "Dynamical Systems Theory": {
+    "triggers": ["动力系统", "演化", "轨道"],
+    "typical_questions": ["为什么物理系统会进入混沌？"],
+    "common_errors": ["忽略初始条件敏感性"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Complexity Science"]
+  },
+  "Information Theory": {
+    "triggers": ["信息", "熵", "编码", "噪声"],
+    "typical_questions": ["为什么信号会失真？"],
+    "common_errors": ["把信息熵误认为热力学熵"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Systems Science"]
+  },
+  "Network Science": {
+    "triggers": ["网络", "节点", "连接", "结构"],
+    "typical_questions": ["为什么知识结构影响理解速度？"],
+    "common_errors": ["忽略网络拓扑的重要性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Complex Network Theory"]
+  },
+  "Pattern Recognition Theory": {
+    "triggers": ["模式识别", "规律", "结构"],
+    "typical_questions": ["为什么我总是看不出规律？"],
+    "common_errors": ["把模式识别困难误认为智力问题"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Information Processing Theory"]
+  },
+  "System Dynamics": {
+    "triggers": ["因果链", "反馈结构", "系统演化"],
+    "typical_questions": ["为什么系统会出现意料之外的结果？"],
+    "common_errors": ["忽略延迟效应"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Systems Science"]
+  },
+  "Complex Network Theory": {
+    "triggers": ["复杂网络", "拓扑结构"],
+    "typical_questions": ["为什么网络结构影响系统行为？"],
+    "common_errors": ["把网络节点误认为孤立元素"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Network Science"]
+  },
+  "Emergence Theory": {
+    "triggers": ["涌现", "简单规则", "复杂行为"],
+    "typical_questions": ["为什么简单规则会产生复杂现象？"],
+    "common_errors": ["把涌现误认为随机"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Complexity Science"]
+  },
+  "Robustness Theory": {
+    "triggers": ["鲁棒性", "抗干扰", "系统稳定"],
+    "typical_questions": ["为什么系统在干扰下仍然稳定？"],
+    "common_errors": ["忽略系统冗余设计"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Control Theory"]
+  },
+  "Stability Analysis": {
+    "triggers": ["稳定性", "平衡点", "系统条件"],
+    "typical_questions": ["如何判断系统是否稳定？"],
+    "common_errors": ["把局部稳定误认为全局稳定"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Dynamical Systems Theory"]
+  },
+  "STEM Pedagogy": {
+    "triggers": ["理科教学", "教学结构", "知识呈现"],
+    "typical_questions": ["为什么老师讲得我听不懂？", "为什么理科教学这么难？"],
+    "common_errors": ["把教学失败归因于学生能力"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Educational Psychology", "Learning Science"]
+  },
+  "Constructivist Pedagogy": {
+    "triggers": ["建构主义", "体验学习", "知识建构"],
+    "typical_questions": ["为什么要先体验再抽象？"],
+    "common_errors": ["把建构误认为放任式教学"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["STEM Pedagogy"]
+  },
+  "Inquiry-Based Learning": {
+    "triggers": ["探究式学习", "实验", "问题驱动"],
+    "typical_questions": ["为什么探究式学习更有效？"],
+    "common_errors": ["把探究误认为无结构学习"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Constructivist Pedagogy"]
+  },
+  "Differentiated Instruction": {
+    "triggers": ["差异化教学", "学习风格", "个性化学习"],
+    "typical_questions": ["为什么同样的教学方法对我没用？"],
+    "common_errors": ["把学习风格差异误认为能力差异"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Style Theory"]
+  },
+  "Project-Based Learning": {
+    "triggers": ["项目式学习", "工程学习", "实践驱动"],
+    "typical_questions": ["为什么做项目比听课更能学会？"],
+    "common_errors": ["把项目式学习误认为做任务"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["STEM Pedagogy"]
+  },
+  "Flipped Classroom": {
+    "triggers": ["翻转课堂", "自主学习", "课堂讨论"],
+    "typical_questions": ["为什么翻转课堂更有效？"],
+    "common_errors": ["把翻转课堂误认为自学"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Project-Based Learning"]
+  },
+  "Scaffolding Pedagogy": {
+    "triggers": ["支架式教学", "分层支持"],
+    "typical_questions": ["为什么分步骤讲解更容易理解？"],
+    "common_errors": ["忽略支架的逐步撤除"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Constructivist Pedagogy"]
+  },
+  "Visualization Pedagogy": {
+    "triggers": ["可视化教学", "图像化", "视觉呈现"],
+    "typical_questions": ["为什么图像化数学更容易？"],
+    "common_errors": ["把可视化误认为简化内容"],
+    "priority": 0.83,
+    "conflicts": [],
+    "related_disciplines": ["Dual Coding Theory"]
+  },
+  "Concept Map Pedagogy": {
+    "triggers": ["概念图", "知识结构化"],
+    "typical_questions": ["为什么画概念图能帮助理解？"],
+    "common_errors": ["把概念图误认为笔记"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Knowledge Graph Theory"]
+  },
+  "Situated Learning Theory": {
+    "triggers": ["情境学习", "真实场景", "实践语境"],
+    "typical_questions": ["为什么在真实场景中更容易学会？"],
+    "common_errors": ["忽略情境迁移难度"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Constructivist Pedagogy"]
+  },
+  "Experiential Learning": {
+    "triggers": ["体验式学习", "先体验后抽象"],
+    "typical_questions": ["为什么先做再学更有效？"],
+    "common_errors": ["把体验误认为随意探索"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Inquiry-Based Learning"]
+  },
+  "Math Cognition Science": {
+    "triggers": ["数学认知", "数学直觉", "数学理解"],
+    "typical_questions": ["为什么我数学直觉弱？", "为什么抽象数学难理解？"],
+    "common_errors": ["把数学直觉弱误认为整体智力弱"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Symbol System Theory", "Logic Reasoning Research"]
+  },
+  "Symbol System Theory": {
+    "triggers": ["符号系统", "数学符号", "符号负荷"],
+    "typical_questions": ["为什么数学符号这么难？"],
+    "common_errors": ["把符号难误认为数学差"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Math Cognition Science"]
+  },
+  "Abstract Algebra Cognition Research": {
+    "triggers": ["抽象代数", "结构理解", "群论"],
+    "typical_questions": ["为什么抽象代数这么抽象？"],
+    "common_errors": ["忽略具体例子在抽象理解中的作用"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Math Cognition Science"]
+  },
+  "Geometry Cognition Research": {
+    "triggers": ["几何认知", "空间直觉", "图形理解"],
+    "typical_questions": ["为什么我空间想象力弱？"],
+    "common_errors": ["把空间弱误认为整体数学弱"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Spatial Reasoning Neural Mechanisms"]
+  },
+  "Logic Reasoning Research": {
+    "triggers": ["逻辑推理", "推理链", "证明"],
+    "typical_questions": ["为什么我构建推理链很困难？"],
+    "common_errors": ["把推理困难误认为记忆差"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Symbol System Theory"]
+  },
+  "Mathematical Linguistics": {
+    "triggers": ["数学语言", "语义结构", "形式语言"],
+    "typical_questions": ["为什么数学语言这么难读？"],
+    "common_errors": ["把语言理解困难误认为数学差"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Language Processing Neural Mechanisms"]
+  },
+  "Model Construction Theory": {
+    "triggers": ["模型构建", "数学模型", "抽象表达"],
+    "typical_questions": ["为什么我不会把现实问题转成数学模型？"],
+    "common_errors": ["把模型构建困难误认为逻辑差"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Scientific Methodology"]
+  },
+  "Formal Systems Theory": {
+    "triggers": ["形式系统", "公理化", "系统结构"],
+    "typical_questions": ["为什么数学体系这么严格？"],
+    "common_errors": ["把形式系统误认为现实世界"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Logic Reasoning Research"]
+  },
+  "Philosophy of Science": {
+    "triggers": ["科学哲学", "理论边界", "证据", "范式"],
+    "typical_questions": ["科学理论的边界是什么？", "为什么科学理论会被替代？"],
+    "common_errors": ["把科学理论误认为绝对真理"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Scientific Epistemology", "Scientific Methodology"]
+  },
+  "Experimental Design Theory": {
+    "triggers": ["实验设计", "控制变量", "因果推断"],
+    "typical_questions": ["为什么我的实验结果不稳定？"],
+    "common_errors": ["忽略混杂变量"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Error Analysis"]
+  },
+  "Statistical Inference": {
+    "triggers": ["统计推断", "假设检验", "数据分析"],
+    "typical_questions": ["为什么统计结果不可靠？"],
+    "common_errors": ["把相关性误认为因果"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Causal Inference Theory"]
+  },
+  "Error Analysis": {
+    "triggers": ["误差", "实验误差", "系统误差"],
+    "typical_questions": ["为什么实验误差这么大？"],
+    "common_errors": ["忽略系统误差来源"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Measurement Theory"]
+  },
+  "Measurement Theory": {
+    "triggers": ["测量", "量化", "抽象量"],
+    "typical_questions": ["抽象量是如何被测量的？"],
+    "common_errors": ["把测量误认为直接观察"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Error Analysis"]
+  },
+  "Causal Inference Theory": {
+    "triggers": ["因果推断", "因果链", "反事实"],
+    "typical_questions": ["如何判断一个因素是否真的导致结果？"],
+    "common_errors": ["把相关性误认为因果"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Statistical Inference"]
+  },
+  "Model Validation Theory": {
+    "triggers": ["模型验证", "模型可靠性", "拟合"],
+    "typical_questions": ["我的模型为什么在真实数据上失效？"],
+    "common_errors": ["把拟合误认为预测能力"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Scientific Reasoning Theory"]
+  },
+  "Scientific Reasoning Theory": {
+    "triggers": ["科学推理", "假设", "验证"],
+    "typical_questions": ["科学推理的步骤是什么？"],
+    "common_errors": ["把推理误认为直觉判断"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Science"]
+  },
+  "Computational Cognitive Science": {
+    "triggers": ["计算认知", "大脑计算模型", "认知架构"],
+    "typical_questions": ["大脑是不是一种计算系统？", "为什么我处理逻辑结构很慢？"],
+    "common_errors": ["把认知计算误认为机械计算"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Algorithmic Thinking Research", "Symbolic Reasoning Research"]
+  },
+  "Algorithmic Thinking Research": {
+    "triggers": ["算法思维", "逻辑结构化", "步骤化推理"],
+    "typical_questions": ["为什么我写程序时逻辑总是乱？"],
+    "common_errors": ["把算法思维弱误认为智力弱"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Computational Cognitive Science"]
+  },
+  "Human-Computer Interaction": {
+    "triggers": ["HCI", "界面设计", "工具使用", "交互效率"],
+    "typical_questions": ["为什么工具设计会影响我的学习？"],
+    "common_errors": ["忽略认知负荷与界面复杂度的关系"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Visualization Computing"]
+  },
+  "Visualization Computing": {
+    "triggers": ["可视化计算", "图形化理解", "数据可视化"],
+    "typical_questions": ["为什么图形化能让我更容易理解复杂系统？"],
+    "common_errors": ["把可视化误认为简单化"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Human-Computer Interaction"]
+  },
+  "Symbolic Reasoning Research": {
+    "triggers": ["符号推理", "逻辑结构", "编程逻辑"],
+    "typical_questions": ["为什么我在编程时容易逻辑混乱？"],
+    "common_errors": ["把符号推理困难误认为记忆差"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Algorithmic Thinking Research"]
+  },
+  "Automated Reasoning": {
+    "triggers": ["自动化推理", "逻辑系统", "形式证明"],
+    "typical_questions": ["计算机是如何自动推理的？"],
+    "common_errors": ["把自动推理误认为智能思考"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Symbolic Reasoning Research"]
+  },
+  "Computational Modeling Theory": {
+    "triggers": ["计算模型", "仿真", "模型构建"],
+    "typical_questions": ["为什么计算模型能表达现实？"],
+    "common_errors": ["把模型误认为现实本身"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Model Construction Theory"]
+  },
+  "Complex Systems Simulation": {
+    "triggers": ["复杂系统模拟", "仿真", "预测"],
+    "typical_questions": ["为什么复杂系统需要模拟才能理解？"],
+    "common_errors": ["忽略模型的边界条件"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Computational Modeling Theory"]
+  },
+  "Scientific Epistemology": {
+    "triggers": ["科学认识论", "知识可靠性", "知识局限"],
+    "typical_questions": ["科学知识真的可靠吗？"],
+    "common_errors": ["忽略知识的条件性"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Science"]
+  },
+  "Scientific Methodology": {
+    "triggers": ["科学方法论", "推理结构", "实验设计"],
+    "typical_questions": ["科学推理的核心步骤是什么？"],
+    "common_errors": ["把方法论误认为流程表"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Experimental Design Theory"]
+  },
+  "History of Science": {
+    "triggers": ["科学史", "理论演化", "范式更替"],
+    "typical_questions": ["科学理论是如何演化的？"],
+    "common_errors": ["把科学史误认为线性发展"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Science"]
+  },
+  "Sociology of Science": {
+    "triggers": ["科学社会学", "学术共同体", "权力结构"],
+    "typical_questions": ["科学共同体如何影响知识生产？"],
+    "common_errors": ["忽略科学的社会性"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Science and Technology Studies"]
+  },
+  "Science and Technology Studies": {
+    "triggers": ["STS", "科学与社会", "技术与权力"],
+    "typical_questions": ["技术如何改变社会结构？"],
+    "common_errors": ["把技术影响简化为工具影响"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Sociology of Science"]
+  },
+  "Scientific Ethics": {
+    "triggers": ["科学伦理", "科研行为", "伦理边界"],
+    "typical_questions": ["科研行为的伦理边界是什么？"],
+    "common_errors": ["忽略伦理与方法的关系"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Philosophy of Science"]
+  },
+  "Philosophy of Models": {
+    "triggers": ["模型哲学", "模型与现实", "抽象表达"],
+    "typical_questions": ["模型到底代表现实的什么？"],
+    "common_errors": ["把模型误认为现实本身"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Model Construction Theory"]
+  },
+  "Philosophy of Experiment": {
+    "triggers": ["实验哲学", "实验意义", "理论关系"],
+    "typical_questions": ["实验到底验证了什么？"],
+    "common_errors": ["把实验结果误认为绝对事实"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Experimental Design Theory"]
+  },
+  "Philosophy of Technology": {
+    "triggers": ["技术哲学", "技术系统", "风险"],
+    "typical_questions": ["技术系统的逻辑是什么？"],
+    "common_errors": ["忽略技术的社会性"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Science and Technology Studies"]
+  },
+  "Scientific Linguistics": {
+    "triggers": ["科学语言学", "科学语言", "语义结构"],
+    "typical_questions": ["科学语言如何影响理解？"],
+    "common_errors": ["把语言误认为中性载体"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Mathematical Linguistics"]
+  },
+  "Scientific Semiotics": {
+    "triggers": ["科学符号学", "符号系统", "意义结构"],
+    "typical_questions": ["科学符号如何构建意义？"],
+    "common_errors": ["忽略符号的解释层"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Symbol System Theory"]
+  },
+  "Scientific Narratology": {
+    "triggers": ["科学叙事学", "科学故事", "公众认知"],
+    "typical_questions": ["为什么科学故事会影响公众理解？"],
+    "common_errors": ["把叙事误认为事实"],
+    "priority": 0.84,
+    "conflicts": [],
+    "related_disciplines": ["Scientific Linguistics"]
+  },
+  "Critical Theory of Science": {
+    "triggers": ["科学批判理论", "制度偏差", "权力结构"],
+    "typical_questions": ["科学制度有哪些偏差？"],
+    "common_errors": ["把批判误认为否定科学"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Sociology of Science"]
+  },
+  "Scientific Constructivism": {
+    "triggers": ["科学建构论", "知识建构", "共同体"],
+    "typical_questions": ["科学知识是如何被共同体建构的？"],
+    "common_errors": ["把建构误认为虚构"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Scientific Epistemology"]
+  },
+  "Archaeology of Knowledge (Science Version)": {
+    "triggers": ["知识考古学", "科学知识结构", "知识演化"],
+    "typical_questions": ["科学知识体系是如何形成的？"],
+    "common_errors": ["忽略知识的历史层次"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["History of Science"]
+  }
+}
+
+

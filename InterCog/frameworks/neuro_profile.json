@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "user_controlled": true,
+  "profile": {
+    "arousal_pattern": "hyper|hypo|typical|divergent|unknown",
+    "social_response": "approach|avoid|freeze|unknown",
+    "energy_level": "overloaded|depleted|balanced|unknown",
+    "change_history": "tried_and_failed|tried_and_partial|new_attempt|unknown",
+    "notes": ""
+  },
+  "preferences": {
+    "recommendation_style": "micro_steps|behavioral_activation|cognitive|mixed",
+    "max_stimulus_level": [1,10],
+    "communication_modality": "written|verbal|visual|mixed"
+  }
+}

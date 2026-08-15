@@ -1,0 +1,271 @@
+{
+  "Cognitive Psychology": {
+    "triggers": ["认知心理学", "注意", "记忆", "思维", "问题解决"],
+    "typical_questions": ["注意如何分配？", "记忆如何形成？"],
+    "common_errors": ["把认知视为线性过程", "忽略工作记忆限制"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Learning Psychology", "Neuropsychology"]
+  },
+
+  "Behavioral Psychology": {
+    "triggers": ["行为心理学", "强化", "条件化", "习得"],
+    "typical_questions": ["行为如何被强化？"],
+    "common_errors": ["忽略认知因素", "把行为视为完全外部驱动"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Learning Psychology", "Motivation Psychology"]
+  },
+
+  "Emotion Psychology": {
+    "triggers": ["情绪心理学", "情绪驱动", "行为偏差"],
+    "typical_questions": ["情绪如何影响决策？"],
+    "common_errors": ["忽略情绪调节机制", "把情绪视为非理性"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Motivation Psychology", "Clinical Psychology"]
+  },
+
+  "Motivation Psychology": {
+    "triggers": ["动机心理学", "坚持", "放弃", "拖延"],
+    "typical_questions": ["人为什么会坚持或放弃？"],
+    "common_errors": ["忽略内外动机差异", "把动机视为稳定"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Emotion Psychology", "Behavioral Psychology"]
+  },
+
+  "Personality Psychology": {
+    "triggers": ["人格心理学", "人格结构", "行为模式"],
+    "typical_questions": ["人格如何影响行为？"],
+    "common_errors": ["忽略情境因素", "把人格视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychological Measurement", "Social Psychology"]
+  },
+
+  "Social Psychology": {
+    "triggers": ["社会心理学", "群体行为", "从众", "偏见"],
+    "typical_questions": ["群体如何影响个体行为？"],
+    "common_errors": ["忽略文化因素", "把从众视为弱点"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Cultural Psychology", "Social Cognition Theory"]
+  },
+
+  "Developmental Psychology": {
+    "triggers": ["发展心理学", "年龄差异", "认知发展"],
+    "typical_questions": ["儿童与成人的认知差异是什么？"],
+    "common_errors": ["忽略个体差异", "把发展视为线性"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Learning Psychology", "Aesthetic Psychology"]
+  },
+
+  "Learning Psychology": {
+    "triggers": ["学习心理学", "学习机制", "学习风格", "学习障碍"],
+    "typical_questions": ["学习如何发生？"],
+    "common_errors": ["忽略动机因素", "把学习风格视为固定"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology", "Educational Psychology"]
+  },
+
+  "Educational Psychology": {
+    "triggers": ["教育心理学", "学习动机", "教学效果"],
+    "typical_questions": ["如何提高学习效果？"],
+    "common_errors": ["忽略个体差异", "把教学视为单向输入"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Learning Psychology", "Motivation Psychology"]
+  },
+
+  "Clinical Psychology": {
+    "triggers": ["临床心理学", "心理障碍", "情绪失调"],
+    "typical_questions": ["心理障碍如何形成？"],
+    "common_errors": ["忽略生物因素", "把障碍视为个人责任"],
+    "priority": 0.93,
+    "conflicts": [],
+    "related_disciplines": ["Counseling Psychology", "Neuropsychology"]
+  },
+
+  "Counseling Psychology": {
+    "triggers": ["咨询心理学", "认知改变", "行为改变"],
+    "typical_questions": ["如何通过对话改变行为？"],
+    "common_errors": ["忽略治疗关系", "把咨询视为建议"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Clinical Psychology", "Motivation Psychology"]
+  },
+
+  "Industrial Organizational Psychology": {
+    "triggers": ["工业组织心理学", "职场行为", "领导力"],
+    "typical_questions": ["职场行为如何形成？"],
+    "common_errors": ["忽略组织文化", "把领导力视为人格特质"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Motivation Psychology"]
+  },
+
+  "Health Psychology": {
+    "triggers": ["健康心理学", "行为与健康", "疾病行为"],
+    "typical_questions": ["行为如何影响健康？"],
+    "common_errors": ["忽略社会因素", "把健康视为个人选择"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Clinical Psychology", "Social Psychology"]
+  },
+
+  "Sport Psychology": {
+    "triggers": ["运动心理学", "表现", "压力", "专注"],
+    "typical_questions": ["压力如何影响表现？"],
+    "common_errors": ["忽略动机因素", "把表现视为纯身体能力"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Motivation Psychology", "Health Psychology"]
+  },
+
+  "Psychoanalysis": {
+    "triggers": ["精神分析", "潜意识", "压抑", "象征"],
+    "typical_questions": ["潜意识如何影响行为？"],
+    "common_errors": ["忽略科学证据", "把象征解释视为唯一方法"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Analytical Psychology", "Existential Psychology"]
+  },
+
+  "Analytical Psychology": {
+    "triggers": ["分析心理学", "原型", "集体无意识"],
+    "typical_questions": ["原型如何影响行为？"],
+    "common_errors": ["忽略文化差异", "把原型视为固定"],
+    "priority": 0.85,
+    "conflicts": [],
+    "related_disciplines": ["Psychoanalysis", "Narrative Theory"]
+  },
+
+  "Existential Psychology": {
+    "triggers": ["存在主义心理学", "意义", "自由", "焦虑"],
+    "typical_questions": ["意义如何影响行为？"],
+    "common_errors": ["忽略社会因素", "把焦虑视为病理"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Humanistic Psychology", "Psychoanalysis"]
+  },
+
+  "Humanistic Psychology": {
+    "triggers": ["人本主义心理学", "自我实现", "成长"],
+    "typical_questions": ["如何实现自我成长？"],
+    "common_errors": ["忽略结构性限制", "把成长视为个人选择"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Existential Psychology", "Motivation Psychology"]
+  },
+
+  "Gestalt Psychology": {
+    "triggers": ["格式塔心理学", "整体知觉", "洞察"],
+    "typical_questions": ["整体知觉如何形成？"],
+    "common_errors": ["忽略认知偏差", "把洞察视为瞬间"],
+    "priority": 0.86,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology", "Narrative Theory"]
+  },
+
+  "Psychological Measurement": {
+    "triggers": ["心理测量学", "人格测量", "智力测量"],
+    "typical_questions": ["如何测量人格？"],
+    "common_errors": ["忽略测量误差", "把测量结果视为绝对"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Psychological Statistics", "Personality Psychology"]
+  },
+
+  "Psychological Statistics": {
+    "triggers": ["心理统计学", "研究结论", "统计推断"],
+    "typical_questions": ["心理研究如何得出结论？"],
+    "common_errors": ["忽略样本偏差", "误用相关性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Psychological Measurement", "Psychology Methodology"]
+  },
+
+  "Psychology Methodology": {
+    "triggers": ["心理学方法论", "实验方法", "访谈方法"],
+    "typical_questions": ["心理学如何进行科学研究？"],
+    "common_errors": ["忽略方法限制", "把访谈视为客观"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychological Statistics", "Psychology History"]
+  },
+
+  "Psychology History": {
+    "triggers": ["心理学史", "理论演化", "范式更替"],
+    "typical_questions": ["心理学理论如何演化？"],
+    "common_errors": ["忽略社会背景", "把理论视为孤立"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Psychology Philosophy", "Psychology Methodology"]
+  },
+
+  "Psychology Philosophy": {
+    "triggers": ["心理学哲学", "本体论", "认识论"],
+    "typical_questions": ["心理学的边界是什么？"],
+    "common_errors": ["忽略科学限制", "把心理学视为纯主观"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Psychology History", "Psychology Methodology"]
+  },
+
+  "Cultural Psychology": {
+    "triggers": ["文化心理学", "文化差异", "文化认知"],
+    "typical_questions": ["文化如何塑造行为？"],
+    "common_errors": ["忽略个体差异", "把文化视为固定"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Social Cognition Theory"]
+  },
+
+  "Social Cognition Theory": {
+    "triggers": ["社会认知理论", "社会影响", "认知结构"],
+    "typical_questions": ["社会如何影响认知？"],
+    "common_errors": ["忽略个体经验", "把社会影响视为单向"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Social Psychology", "Cultural Psychology"]
+  },
+
+  "Neuropsychology": {
+    "triggers": ["神经心理学", "大脑损伤", "认知缺陷"],
+    "typical_questions": ["大脑损伤如何影响行为？"],
+    "common_errors": ["忽略可塑性", "把损伤视为永久"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology", "Clinical Psychology"]
+  },
+
+  "Cognitive Linguistics": {
+    "triggers": ["认知语言学", "语言与思维", "语言结构"],
+    "typical_questions": ["语言如何影响思维？"],
+    "common_errors": ["忽略文化语言差异", "把语言视为中性"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Cognitive Psychology", "Cultural Psychology"]
+  },
+
+  "Technology Psychology": {
+    "triggers": ["技术心理学", "技术影响", "注意改变"],
+    "typical_questions": ["技术如何改变行为？"],
+    "common_errors": ["忽略长期影响", "把技术视为中性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Media Psychology", "Cognitive Psychology"]
+  },
+
+  "Media Psychology": {
+    "triggers": ["媒体心理学", "媒介影响", "社会行为"],
+    "typical_questions": ["媒介如何影响情绪与行为？"],
+    "common_errors": ["忽略媒介差异", "把媒体影响视为单向"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Technology Psychology", "Social Psychology"]
+  }
+}

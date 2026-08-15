@@ -1,0 +1,271 @@
+{
+  "Molecular Biology": {
+    "triggers": ["分子生物学", "DNA", "RNA", "蛋白质"],
+    "typical_questions": ["生命活动的分子基础是什么？", "基因如何被表达？"],
+    "common_errors": ["把基因表达视为线性过程", "忽略蛋白质折叠的重要性"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Biochemistry", "Structural Biology"]
+  },
+
+  "Cell Biology": {
+    "triggers": ["细胞生物学", "细胞分裂", "细胞通讯"],
+    "typical_questions": ["细胞如何执行生命功能？", "细胞如何通讯？"],
+    "common_errors": ["忽略细胞器功能", "把细胞视为均质结构"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Molecular Biology", "Signal Transduction"]
+  },
+
+  "Biochemistry": {
+    "triggers": ["生物化学", "代谢", "能量转换"],
+    "typical_questions": ["代谢反应如何进行？", "能量如何在细胞中转换？"],
+    "common_errors": ["忽略酶动力学", "把代谢途径视为孤立"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Molecular Biology", "Metabolic Biology"]
+  },
+
+  "Structural Biology": {
+    "triggers": ["结构生物学", "蛋白质结构", "三维结构"],
+    "typical_questions": ["蛋白质结构如何决定功能？"],
+    "common_errors": ["忽略构象变化", "把结构视为静态"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Molecular Biology", "Biochemistry"]
+  },
+
+  "Signal Transduction": {
+    "triggers": ["信号转导学", "细胞信号", "受体"],
+    "typical_questions": ["细胞如何接收与处理信号？"],
+    "common_errors": ["忽略信号放大机制", "把信号通路视为单一链路"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Cell Biology", "Endocrinology"]
+  },
+
+  "Cell Cycle and Apoptosis": {
+    "triggers": ["细胞周期", "凋亡", "细胞死亡"],
+    "typical_questions": ["细胞如何决定生长与死亡？"],
+    "common_errors": ["忽略检查点机制", "把凋亡视为被动过程"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Cell Biology", "Molecular Biology"]
+  },
+
+  "Genetics": {
+    "triggers": ["遗传学", "基因", "性状"],
+    "typical_questions": ["性状如何遗传？"],
+    "common_errors": ["忽略基因环境互作", "把基因视为决定论"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Gene Regulation", "Population Genetics"]
+  },
+
+  "Gene Regulation": {
+    "triggers": ["基因调控", "基因开启", "基因关闭"],
+    "typical_questions": ["基因如何被调控？"],
+    "common_errors": ["忽略表观调控", "把调控视为单一开关"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Genetics", "Epigenetics"]
+  },
+
+  "Population Genetics": {
+    "triggers": ["群体遗传学", "基因频率", "群体变异"],
+    "typical_questions": ["基因频率如何变化？"],
+    "common_errors": ["忽略随机漂变", "把选择视为唯一因素"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Evolutionary Biology", "Genetics"]
+  },
+
+  "Evolutionary Biology": {
+    "triggers": ["进化生物学", "选择", "突变", "漂变"],
+    "typical_questions": ["物种如何演化？"],
+    "common_errors": ["忽略中性进化", "把进化视为目标导向"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Population Genetics", "Evolutionary Ecology"]
+  },
+
+  "Comparative Genomics": {
+    "triggers": ["比较基因组学", "基因组差异"],
+    "typical_questions": ["不同物种基因组有何共同点？"],
+    "common_errors": ["忽略基因组结构差异", "把基因组大小视为复杂度指标"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Genetics", "Evolutionary Biology"]
+  },
+
+  "Epigenetics": {
+    "triggers": ["表观遗传学", "DNA甲基化", "组蛋白修饰"],
+    "typical_questions": ["环境如何影响基因表达？"],
+    "common_errors": ["把表观遗传视为永久改变", "忽略可逆性"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Gene Regulation", "Genetics"]
+  },
+
+  "Neurobiology": {
+    "triggers": ["神经生物学", "神经元", "突触"],
+    "typical_questions": ["神经元如何传递信息？"],
+    "common_errors": ["忽略突触可塑性", "把神经元视为独立单元"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Systems Neuroscience", "Neuroplasticity"]
+  },
+
+  "Systems Neuroscience": {
+    "triggers": ["系统神经科学", "大脑整合", "认知"],
+    "typical_questions": ["大脑如何整合感知与运动？"],
+    "common_errors": ["忽略网络结构", "把认知视为单区域功能"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Neurobiology", "Behavioral Neuroscience"]
+  },
+
+  "Behavioral Neuroscience": {
+    "triggers": ["行为神经科学", "行为", "神经驱动"],
+    "typical_questions": ["行为如何由神经系统驱动？"],
+    "common_errors": ["忽略环境因素", "把行为视为单一神经机制"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Systems Neuroscience", "Behavioral Ecology"]
+  },
+
+  "Sensory Biology": {
+    "triggers": ["感官生物学", "视觉", "听觉", "嗅觉"],
+    "typical_questions": ["感官系统如何工作？"],
+    "common_errors": ["忽略信号转换机制", "把感官视为被动接收"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Neurobiology", "Systems Neuroscience"]
+  },
+
+  "Neurodevelopment": {
+    "triggers": ["神经发育学", "神经形成", "成熟"],
+    "typical_questions": ["神经系统如何在早期形成？"],
+    "common_errors": ["忽略关键期", "把发育视为线性过程"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Neurobiology", "Neuroplasticity"]
+  },
+
+  "Neuroplasticity": {
+    "triggers": ["神经可塑性", "学习", "记忆"],
+    "typical_questions": ["学习如何改变神经连接？"],
+    "common_errors": ["忽略长期可塑性", "把记忆视为固定存储"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Systems Neuroscience", "Neurobiology"]
+  },
+
+  "Physiology": {
+    "triggers": ["生理学", "器官系统", "稳态"],
+    "typical_questions": ["器官系统如何协同维持生命？"],
+    "common_errors": ["忽略系统间耦合", "把稳态视为静态"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Endocrinology", "Metabolic Biology"]
+  },
+
+  "Endocrinology": {
+    "triggers": ["内分泌学", "激素", "代谢调节"],
+    "typical_questions": ["激素如何调节行为与代谢？"],
+    "common_errors": ["忽略反馈机制", "把激素作用视为即时"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Physiology", "Signal Transduction"]
+  },
+
+  "Immunology": {
+    "triggers": ["免疫学", "免疫反应", "病原体"],
+    "typical_questions": ["身体如何识别病原体？"],
+    "common_errors": ["忽略免疫耐受", "把免疫反应视为单一过程"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Physiology", "Cell Biology"]
+  },
+
+  "Cardiovascular Biology": {
+    "triggers": ["心血管生物学", "血液循环", "心脏功能"],
+    "typical_questions": ["血液如何循环？", "心脏如何维持节律？"],
+    "common_errors": ["忽略压力变化", "把循环视为恒定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Physiology", "Respiratory Biology"]
+  },
+
+  "Respiratory Biology": {
+    "triggers": ["呼吸生物学", "气体交换", "氧气供应"],
+    "typical_questions": ["气体交换如何进行？"],
+    "common_errors": ["忽略扩散限制", "把呼吸视为单一过程"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Physiology", "Cardiovascular Biology"]
+  },
+
+  "Metabolic Biology": {
+    "triggers": ["代谢生物学", "能量产生", "能量储存"],
+    "typical_questions": ["能量如何产生与消耗？"],
+    "common_errors": ["忽略代谢网络", "把代谢视为单路径"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Biochemistry", "Physiology"]
+  },
+
+  "Ecology": {
+    "triggers": ["生态学", "环境互动", "生态系统"],
+    "typical_questions": ["生物如何与环境互动？"],
+    "common_errors": ["忽略生态层级", "把生态关系视为静态"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Community Ecology", "Population Ecology"]
+  },
+
+  "Community Ecology": {
+    "triggers": ["群落生态学", "竞争", "协作"],
+    "typical_questions": ["物种如何在群落中互动？"],
+    "common_errors": ["忽略生态位", "把群落视为稳定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Ecology", "Evolutionary Ecology"]
+  },
+
+  "Population Ecology": {
+    "triggers": ["种群生态学", "种群数量", "时间变化"],
+    "typical_questions": ["种群数量如何变化？"],
+    "common_errors": ["忽略密度依赖", "把种群视为孤立"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Ecology", "Community Ecology"]
+  },
+
+  "Behavioral Ecology": {
+    "triggers": ["行为生态学", "生存策略", "繁殖策略"],
+    "typical_questions": ["行为如何提高生存成功率？"],
+    "common_errors": ["忽略环境压力", "把行为视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Evolutionary Biology", "Behavioral Neuroscience"]
+  },
+
+  "Evolutionary Ecology": {
+    "triggers": ["进化生态学", "生态压力", "进化驱动"],
+    "typical_questions": ["生态压力如何驱动进化？"],
+    "common_errors": ["忽略生态与遗传的互作"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Evolutionary Biology", "Community Ecology"]
+  },
+
+  "Environmental Biology": {
+    "triggers": ["环境生物学", "环境变化", "生态影响"],
+    "typical_questions": ["环境变化如何影响生命系统？"],
+    "common_errors": ["忽略长期变化", "把环境压力视为单一因素"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Ecology", "Evolutionary Ecology"]
+  }
+}

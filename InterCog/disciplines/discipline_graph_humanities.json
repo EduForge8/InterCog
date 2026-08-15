@@ -1,0 +1,365 @@
+{
+  "nodes": [
+    "Political Philosophy",
+    "Ethics",
+    "Epistemology",
+    "Metaphysics",
+    "Axiology",
+    "Philosophy of Language",
+    "Philosophy of Mind",
+    "Philosophy of Science",
+    "Philosophy of Technology",
+    "Philosophy of History",
+
+    "Political Economy",
+    "Institutional Sociology",
+    "Organizational Behavior",
+    "Social Psychology",
+    "Cultural Anthropology",
+    "Sociology of Law",
+    "Criminology",
+    "Sociology of Education",
+    "Communication Studies",
+    "Public Administration",
+
+    "Historiography",
+    "Historical Sociology",
+    "Historical Psychology",
+    "Narrative History",
+    "Comparative History",
+
+    "Semantics",
+    "Pragmatics",
+    "Sociolinguistics",
+    "Discourse Analysis",
+
+    "Cultural Criticism",
+    "Media Culture Studies",
+    "Popular Culture Studies",
+    "Cross-Cultural Studies",
+
+    "Sociology of Knowledge",
+    "Hermeneutics",
+    "Semiotics",
+    "Critical Theory",
+    "Post-Structuralism",
+    "Structuralism",
+    "Social Constructionism",
+    "Ideology Studies",
+    "Cultural Semiotics",
+    "Narrative Theory",
+    "Social Critical Philosophy",
+    "Archaeology of Knowledge",
+    
+    "Philosophy of Economics",
+    "Economic Epistemology",
+    "Economic Methodology",
+    "Economic Ethics",
+    "Economic History",
+    "Economic Modeling Theory",
+
+    "Microeconomics",
+    "Game Theory",
+    "Behavioral Economics",
+    "Experimental Economics",
+    "Information Economics",
+    "Mechanism Design",
+
+    "Macroeconomics",
+    "Monetary Economics",
+    "Fiscal Economics",
+    "Development Economics",
+    "International Trade",
+    "International Finance",
+
+    "Industrial Organization",
+    "Labor Economics",
+    "Public Economics",
+    "Environmental Economics",
+    "Institutional Economics",
+    "Law and Economics",
+
+    "Health Economics",
+    "Education Economics",
+    "Urban Economics",
+    "Financial Economics",
+    "Economic Sociology",
+    "Economic Psychology",
+
+     "Legal Philosophy",
+    "Legal Epistemology",
+    "Legal Methodology",
+    "Legal Ethics",
+    "Legal History",
+    "Legal Hermeneutics",
+
+    "Constitutional Law",
+    "Administrative Law",
+    "Criminal Law",
+    "Civil Law",
+    "Commercial Law",
+    "Property Law",
+    "Contract Law",
+    "Tort Law",
+    "Family Law",
+    "Labor Law",
+    "Environmental Law",
+    "Tax Law",
+    "Financial Law",
+
+    "International Law",
+    "Comparative Law",
+    "Public Law",
+    "Private Law",
+
+    "Criminology",
+    "Legal Psychology",
+    "Legal Anthropology",
+    "Law and Economics",
+    "Legal Sociology",
+    "Legal Technology"
+  ],
+  "edges": [
+    ["Political Philosophy", "Ethics"],
+    ["Political Philosophy", "Political Economy"],
+    ["Political Philosophy", "Critical Theory"],
+    ["Political Philosophy", "Social Critical Philosophy"],
+
+    ["Ethics", "Axiology"],
+    ["Ethics", "Social Psychology"],
+
+    ["Epistemology", "Sociology of Knowledge"],
+    ["Epistemology", "Communication Studies"],
+
+    ["Metaphysics", "Structuralism"],
+    ["Metaphysics", "Axiology"],
+
+    ["Axiology", "Social Psychology"],
+    ["Axiology", "Cross-Cultural Studies"],
+
+    ["Philosophy of Language", "Semantics"],
+    ["Philosophy of Language", "Pragmatics"],
+    ["Philosophy of Language", "Discourse Analysis"],
+
+    ["Philosophy of Mind", "Social Psychology"],
+    ["Philosophy of Mind", "Historical Psychology"],
+
+    ["Philosophy of Science", "Sociology of Knowledge"],
+    ["Philosophy of Science", "Ideology Studies"],
+
+    ["Philosophy of Technology", "Political Economy"],
+    ["Philosophy of Technology", "Media Culture Studies"],
+
+    ["Philosophy of History", "Historiography"],
+    ["Philosophy of History", "Narrative Theory"],
+
+    ["Political Economy", "Institutional Sociology"],
+    ["Political Economy", "Public Administration"],
+
+    ["Institutional Sociology", "Political Economy"],
+    ["Institutional Sociology", "Public Administration"],
+    ["Institutional Sociology", "Social Critical Philosophy"],
+
+    ["Organizational Behavior", "Social Psychology"],
+    ["Organizational Behavior", "Discourse Analysis"],
+
+    ["Social Psychology", "Cultural Anthropology"],
+    ["Social Psychology", "Popular Culture Studies"],
+
+    ["Cultural Anthropology", "Cross-Cultural Studies"],
+    ["Cultural Anthropology", "Cultural Semiotics"],
+
+    ["Sociology of Law", "Political Economy"],
+    ["Sociology of Law", "Public Administration"],
+
+    ["Criminology", "Social Psychology"],
+    ["Criminology", "Sociology of Law"],
+
+    ["Sociology of Education", "Social Psychology"],
+    ["Sociology of Education", "Cross-Cultural Studies"],
+
+    ["Communication Studies", "Media Culture Studies"],
+    ["Communication Studies", "Discourse Analysis"],
+
+    ["Public Administration", "Political Economy"],
+    ["Public Administration", "Institutional Sociology"],
+
+    ["Historiography", "Philosophy of History"],
+    ["Historiography", "Narrative Theory"],
+
+    ["Historical Sociology", "Political Economy"],
+    ["Historical Sociology", "Comparative History"],
+
+    ["Historical Psychology", "Social Psychology"],
+    ["Historical Psychology", "Philosophy of Mind"],
+
+    ["Narrative History", "Narrative Theory"],
+    ["Narrative History", "Historiography"],
+
+    ["Comparative History", "Historical Sociology"],
+    ["Comparative History", "Cross-Cultural Studies"],
+
+    ["Semantics", "Philosophy of Language"],
+    ["Semantics", "Pragmatics"],
+
+    ["Pragmatics", "Philosophy of Language"],
+    ["Pragmatics", "Discourse Analysis"],
+
+    ["Sociolinguistics", "Social Psychology"],
+    ["Sociolinguistics", "Cross-Cultural Studies"],
+
+    ["Discourse Analysis", "Critical Theory"],
+    ["Discourse Analysis", "Communication Studies"],
+
+    ["Cultural Criticism", "Critical Theory"],
+    ["Cultural Criticism", "Ideology Studies"],
+
+    ["Media Culture Studies", "Communication Studies"],
+    ["Media Culture Studies", "Popular Culture Studies"],
+
+    ["Popular Culture Studies", "Social Psychology"],
+    ["Popular Culture Studies", "Media Culture Studies"],
+
+    ["Cross-Cultural Studies", "Cultural Anthropology"],
+    ["Cross-Cultural Studies", "Comparative History"],
+
+    ["Sociology of Knowledge", "Epistemology"],
+    ["Sociology of Knowledge", "Ideology Studies"],
+    ["Sociology of Knowledge", "Archaeology of Knowledge"],
+
+    ["Hermeneutics", "Narrative Theory"],
+    ["Hermeneutics", "Post-Structuralism"],
+    ["Hermeneutics", "Narrative History"],
+
+    ["Semiotics", "Cultural Semiotics"],
+    ["Semiotics", "Structuralism"],
+    ["Semiotics", "Discourse Analysis"],
+
+    ["Critical Theory", "Cultural Criticism"],
+    ["Critical Theory", "Ideology Studies"],
+    ["Critical Theory", "Social Critical Philosophy"],
+
+    ["Post-Structuralism", "Hermeneutics"],
+    ["Post-Structuralism", "Narrative Theory"],
+    ["Post-Structuralism", "Social Constructionism"],
+
+    ["Structuralism", "Semiotics"],
+    ["Structuralism", "Social Constructionism"],
+    ["Structuralism", "Metaphysics"],
+
+    ["Social Constructionism", "Axiology"],
+    ["Social Constructionism", "Post-Structuralism"],
+    ["Social Constructionism", "Cross-Cultural Studies"],
+
+    ["Ideology Studies", "Cultural Criticism"],
+    ["Ideology Studies", "Sociology of Knowledge"],
+    ["Ideology Studies", "Critical Theory"],
+
+    ["Cultural Semiotics", "Cultural Anthropology"],
+    ["Cultural Semiotics", "Semiotics"],
+    ["Cultural Semiotics", "Cross-Cultural Studies"],
+
+    ["Narrative Theory", "Narrative History"],
+    ["Narrative Theory", "Hermeneutics"],
+    ["Narrative Theory", "Post-Structuralism"],
+
+    ["Social Critical Philosophy", "Critical Theory"],
+    ["Social Critical Philosophy", "Political Philosophy"],
+    ["Social Critical Philosophy", "Institutional Sociology"],
+
+    ["Archaeology of Knowledge", "Sociology of Knowledge"],
+    ["Archaeology of Knowledge", "Philosophy of History"],
+    ["Archaeology of Knowledge", "Ideology Studies"],
+
+
+    ["Legal Philosophy", "Legal Epistemology"],
+    ["Legal Philosophy", "Legal Ethics"],
+
+    ["Legal Epistemology", "Legal Methodology"],
+    ["Legal Epistemology", "Legal Hermeneutics"],
+
+    ["Legal Methodology", "Legal Hermeneutics"],
+    ["Legal Methodology", "Legal Technology"],
+
+    ["Legal Ethics", "Public Law"],
+    ["Legal Ethics", "Legal Philosophy"],
+
+    ["Legal History", "Comparative Law"],
+    ["Legal History", "Legal Anthropology"],
+
+    ["Legal Hermeneutics", "Legal Methodology"],
+    ["Legal Hermeneutics", "Legal Epistemology"],
+
+    ["Constitutional Law", "Administrative Law"],
+    ["Constitutional Law", "Public Law"],
+
+    ["Administrative Law", "Constitutional Law"],
+    ["Administrative Law", "Public Law"],
+
+    ["Criminal Law", "Criminology"],
+    ["Criminal Law", "Legal Psychology"],
+
+    ["Civil Law", "Commercial Law"],
+    ["Civil Law", "Property Law"],
+    ["Civil Law", "Contract Law"],
+    ["Civil Law", "Family Law"],
+
+    ["Commercial Law", "Financial Law"],
+    ["Commercial Law", "Contract Law"],
+
+    ["Property Law", "Civil Law"],
+    ["Property Law", "Institutional Economics"],
+
+    ["Contract Law", "Civil Law"],
+    ["Contract Law", "Commercial Law"],
+
+    ["Tort Law", "Civil Law"],
+    ["Tort Law", "Public Law"],
+
+    ["Family Law", "Civil Law"],
+    ["Family Law", "Legal Anthropology"],
+
+    ["Labor Law", "Public Law"],
+    ["Labor Law", "Labor Economics"],
+
+    ["Environmental Law", "Public Law"],
+    ["Environmental Law", "Environmental Economics"],
+
+    ["Tax Law", "Public Law"],
+    ["Tax Law", "Fiscal Economics"],
+
+    ["Financial Law", "Commercial Law"],
+    ["Financial Law", "Financial Economics"],
+
+    ["International Law", "Comparative Law"],
+    ["International Law", "Political Science"],
+
+    ["Comparative Law", "Legal History"],
+    ["Comparative Law", "International Law"],
+
+    ["Public Law", "Constitutional Law"],
+    ["Public Law", "Administrative Law"],
+
+    ["Private Law", "Civil Law"],
+    ["Private Law", "Commercial Law"],
+
+    ["Criminology", "Criminal Law"],
+    ["Criminology", "Legal Psychology"],
+
+    ["Legal Psychology", "Criminology"],
+    ["Legal Psychology", "Psychology"],
+
+    ["Legal Anthropology", "Legal History"],
+    ["Legal Anthropology", "Religious Anthropology"],
+
+    ["Law and Economics", "Institutional Economics"],
+    ["Law and Economics", "Legal Philosophy"],
+
+    ["Legal Sociology", "Legal Anthropology"],
+    ["Legal Sociology", "Economic Sociology"],
+
+    ["Legal Technology", "Legal Methodology"],
+    ["Legal Technology", "Technology Psychology"]
+  ]
+}
+

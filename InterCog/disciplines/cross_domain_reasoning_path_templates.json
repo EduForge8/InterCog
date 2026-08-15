@@ -1,0 +1,105 @@
+{
+  "reasoning_path_templates": [
+    {
+      "type": "structural_isomorphism",
+      "steps": [
+        "Step 1: Identify structural primitives in STEM (e.g., nodes, edges, symbols, spatial units).",
+        "Step 2: Identify structural primitives in Humanities (e.g., actors, discourse units, cultural symbols).",
+        "Step 3: Map STEM structure → Humanities structure via isomorphism rules.",
+        "Step 4: Evaluate whether the mapping preserves constraints (e.g., connectivity, hierarchy, adjacency).",
+        "Step 5: Generate cross-domain explanation based on structural alignment.",
+        "Step 6: Resolve mismatches by adjusting granularity or symbolic abstraction."
+      ],
+      "outputs": [
+        "Structural mapping",
+        "Constraint-preserving transformation",
+        "Cross-domain structural explanation"
+      ]
+    },
+
+    {
+      "type": "dynamics_isomorphism",
+      "steps": [
+        "Step 1: Extract dynamic mechanisms in STEM (e.g., feedback, attractors, phase transitions).",
+        "Step 2: Extract dynamic mechanisms in Humanities (e.g., cultural shifts, political transitions).",
+        "Step 3: Identify shared dynamic patterns (e.g., oscillation, stabilization, bifurcation).",
+        "Step 4: Build a dynamic correspondence model linking STEM → Humanities.",
+        "Step 5: Test whether dynamic parameters align (e.g., rate, threshold, sensitivity).",
+        "Step 6: Produce a dynamic explanation of social or cultural change."
+      ],
+      "outputs": [
+        "Dynamic correspondence model",
+        "Cross-domain evolution explanation",
+        "Feedback-based interpretation"
+      ]
+    },
+
+    {
+      "type": "cognitive_isomorphism",
+      "steps": [
+        "Step 1: Identify cognitive structures in STEM (e.g., memory, attention, embodiment).",
+        "Step 2: Identify interpretive structures in Humanities (e.g., phenomenology, hermeneutics).",
+        "Step 3: Map cognitive processes → interpretive processes.",
+        "Step 4: Evaluate how cognitive constraints shape cultural or philosophical interpretation.",
+        "Step 5: Integrate embodied, emotional, or contextual factors.",
+        "Step 6: Generate a cognition-driven explanation of meaning or behavior."
+      ],
+      "outputs": [
+        "Cognitive–interpretive mapping",
+        "Embodied explanation",
+        "Cross-domain cognitive model"
+      ]
+    },
+
+    {
+      "type": "reasoning_isomorphism",
+      "steps": [
+        "Step 1: Identify STEM reasoning framework (e.g., causal inference, Bayesian updating, logic).",
+        "Step 2: Identify Humanities reasoning framework (e.g., legal inference, epistemic justification).",
+        "Step 3: Map STEM reasoning → Humanities reasoning via shared inferential rules.",
+        "Step 4: Evaluate evidence compatibility (e.g., probabilistic, narrative, normative).",
+        "Step 5: Construct a unified inferential chain.",
+        "Step 6: Produce a cross-domain reasoning explanation."
+      ],
+      "outputs": [
+        "Unified inferential chain",
+        "Cross-domain reasoning model",
+        "Evidence alignment"
+      ]
+    },
+
+    {
+      "type": "interpretive_isomorphism",
+      "steps": [
+        "Step 1: Identify STEM interpretive structures (e.g., scientific narratives, model explanations).",
+        "Step 2: Identify Humanities interpretive structures (e.g., hermeneutics, narrative theory).",
+        "Step 3: Map STEM explanation → Humanities interpretation.",
+        "Step 4: Evaluate coherence of meaning construction across domains.",
+        "Step 5: Integrate narrative, symbolic, or contextual elements.",
+        "Step 6: Produce a cross-domain interpretive explanation."
+      ],
+      "outputs": [
+        "Interpretive mapping",
+        "Narrative–explanatory synthesis",
+        "Cross-domain meaning model"
+      ]
+    },
+
+    {
+      "type": "normative_isomorphism",
+      "steps": [
+        "Step 1: Identify STEM normative structure (e.g., alignment constraints, ethical models, social choice).",
+        "Step 2: Identify Humanities normative structure (e.g., moral philosophy, political norms).",
+        "Step 3: Map STEM norms → Humanities norms via shared value or constraint logic.",
+        "Step 4: Evaluate conflicts between technical constraints and human values.",
+        "Step 5: Construct a value-coherent normative model.",
+        "Step 6: Produce a cross-domain normative explanation."
+      ],
+      "outputs": [
+        "Normative mapping",
+        "Value-coherent model",
+        "Cross-domain ethical explanation"
+      ]
+    }
+  ]
+}

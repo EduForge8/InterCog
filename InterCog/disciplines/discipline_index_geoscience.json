@@ -1,0 +1,271 @@
+{
+  "Solid Earth Geophysics": {
+    "triggers": ["固体地球物理学", "地幔流动", "地核动力学", "地球内部结构"],
+    "typical_questions": ["地球内部结构如何运作？", "地幔如何流动？"],
+    "common_errors": ["把地球内部视为静态", "忽略地核对磁场的贡献"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Geodynamics", "Plate Tectonics"]
+  },
+
+  "Seismology": {
+    "triggers": ["地震学", "地震波", "能量释放", "断层"],
+    "typical_questions": ["地震如何产生？", "地震波如何传播？"],
+    "common_errors": ["忽略断层结构", "把震级等同于破坏力"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Solid Earth Geophysics", "Natural Hazard Science"]
+  },
+
+  "Volcanology": {
+    "triggers": ["火山学", "岩浆系统", "喷发机制"],
+    "typical_questions": ["火山为何喷发？", "岩浆如何上升？"],
+    "common_errors": ["忽略压力变化", "把火山活动视为随机"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Geodynamics", "Petrology"]
+  },
+
+  "Plate Tectonics": {
+    "triggers": ["板块构造学", "大陆漂移", "海底扩张", "山脉形成"],
+    "typical_questions": ["板块为何移动？", "山脉如何形成？"],
+    "common_errors": ["忽略地幔驱动", "把板块边界视为固定"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Solid Earth Geophysics", "Geodynamics"]
+  },
+
+  "Geodynamics": {
+    "triggers": ["地球动力学", "热流", "应力", "变形"],
+    "typical_questions": ["地球内部如何变形？", "热流如何驱动板块？"],
+    "common_errors": ["忽略粘性流动", "把应力视为均匀分布"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Plate Tectonics", "Solid Earth Geophysics"]
+  },
+
+  "Geomagnetism": {
+    "triggers": ["地磁学", "磁场反转", "磁场变化"],
+    "typical_questions": ["地球磁场如何形成？", "磁场为何会反转？"],
+    "common_errors": ["忽略地核对磁场的贡献", "把磁场视为稳定不变"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Solid Earth Geophysics", "Geodynamics"]
+  },
+
+  "Geochemistry": {
+    "triggers": ["地球化学", "元素迁移", "地球物质"],
+    "typical_questions": ["元素如何在地球系统中迁移？"],
+    "common_errors": ["忽略温度压力影响", "把元素分布视为均匀"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Isotope Geochemistry", "Geochemical Cycles"]
+  },
+
+  "Isotope Geochemistry": {
+    "triggers": ["同位素地球化学", "同位素示踪", "物质来源"],
+    "typical_questions": ["同位素如何揭示地球历史？"],
+    "common_errors": ["忽略同位素分馏", "把同位素比值视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Geochemistry", "Petrology"]
+  },
+
+  "Mineralogy": {
+    "triggers": ["矿物学", "矿物结构", "晶体性质"],
+    "typical_questions": ["矿物如何形成？", "结构如何影响性质？"],
+    "common_errors": ["忽略晶体缺陷", "把矿物视为单一成分"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Petrology", "Geochemistry"]
+  },
+
+  "Petrology": {
+    "triggers": ["岩石学", "岩浆岩", "沉积岩", "变质岩"],
+    "typical_questions": ["岩石如何形成？"],
+    "common_errors": ["忽略成岩环境", "把岩石分类视为固定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Mineralogy", "Geochemistry"]
+  },
+
+  "Geochemical Cycles": {
+    "triggers": ["地球化学循环", "碳循环", "氮循环", "硫循环"],
+    "typical_questions": ["元素如何在地球系统中循环？"],
+    "common_errors": ["忽略生物参与", "把循环视为封闭系统"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Geochemistry", "Environmental Geochemistry"]
+  },
+
+  "Environmental Geochemistry": {
+    "triggers": ["环境地球化学", "污染物迁移", "环境转化"],
+    "typical_questions": ["污染物如何在环境中迁移？"],
+    "common_errors": ["忽略吸附作用", "把污染视为单一来源"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Geochemical Cycles", "Geochemistry"]
+  },
+
+  "Atmospheric Physics": {
+    "triggers": ["大气物理学", "辐射传输", "能量结构"],
+    "typical_questions": ["大气能量如何传输？"],
+    "common_errors": ["忽略水汽作用", "把辐射视为均匀分布"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Meteorology", "Climate Science"]
+  },
+
+  "Meteorology": {
+    "triggers": ["气象学", "天气系统", "风暴", "降水"],
+    "typical_questions": ["天气如何形成？"],
+    "common_errors": ["忽略局地效应", "把天气视为随机"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Atmospheric Physics", "Boundary Layer Meteorology"]
+  },
+
+  "Climate Science": {
+    "triggers": ["气候科学", "气候变化", "长期趋势"],
+    "typical_questions": ["气候为何变化？"],
+    "common_errors": ["忽略长期反馈", "把气候视为线性系统"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Climate Dynamics", "Atmospheric Physics"]
+  },
+
+  "Boundary Layer Meteorology": {
+    "triggers": ["边界层气象学", "地表交换", "空气流动"],
+    "typical_questions": ["地表附近空气如何流动？"],
+    "common_errors": ["忽略湍流", "把边界层视为稳定"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Meteorology", "Atmospheric Physics"]
+  },
+
+  "Atmospheric Chemistry": {
+    "triggers": ["大气化学", "空气污染", "臭氧层"],
+    "typical_questions": ["空气污染如何形成？"],
+    "common_errors": ["忽略化学反应链", "把污染视为局地问题"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Climate Science", "Meteorology"]
+  },
+
+  "Climate Dynamics": {
+    "triggers": ["气候动力学", "气候反馈", "非线性行为"],
+    "typical_questions": ["气候系统如何产生反馈？"],
+    "common_errors": ["忽略海气耦合", "把气候视为线性系统"],
+    "priority": 0.91,
+    "conflicts": [],
+    "related_disciplines": ["Climate Science", "Ocean-Atmosphere Interaction"]
+  },
+
+  "Oceanography": {
+    "triggers": ["海洋学", "海洋结构", "海洋系统"],
+    "typical_questions": ["海洋如何影响气候？"],
+    "common_errors": ["忽略深海循环", "把海洋视为均质"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Physical Oceanography", "Chemical Oceanography"]
+  },
+
+  "Physical Oceanography": {
+    "triggers": ["物理海洋学", "洋流", "潮汐"],
+    "typical_questions": ["洋流如何形成？"],
+    "common_errors": ["忽略风驱动", "把潮汐视为单一机制"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Oceanography", "Ocean-Atmosphere Interaction"]
+  },
+
+  "Chemical Oceanography": {
+    "triggers": ["化学海洋学", "海水成分", "海洋酸化"],
+    "typical_questions": ["海水化学如何变化？"],
+    "common_errors": ["忽略生物作用", "把酸化视为均匀过程"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Oceanography", "Biological Oceanography"]
+  },
+
+  "Biological Oceanography": {
+    "triggers": ["生物海洋学", "海洋生态", "生产力"],
+    "typical_questions": ["海洋生态系统如何运作？"],
+    "common_errors": ["忽略营养盐限制", "把生态视为稳定"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Chemical Oceanography", "Oceanography"]
+  },
+
+  "Ocean-Atmosphere Interaction": {
+    "triggers": ["海气相互作用", "气候调节", "耦合系统"],
+    "typical_questions": ["海洋与大气如何共同调节气候？"],
+    "common_errors": ["忽略耦合反馈", "把海气系统视为独立"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Climate Dynamics", "Physical Oceanography"]
+  },
+
+  "Marine Geology": {
+    "triggers": ["海洋地质学", "海底地形", "海沟"],
+    "typical_questions": ["海底地形如何形成？"],
+    "common_errors": ["忽略板块构造", "把海底扩张视为均匀"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Plate Tectonics", "Oceanography"]
+  },
+
+  "Geomorphology": {
+    "triggers": ["地貌学", "山脉形成", "河流形成"],
+    "typical_questions": ["地貌如何形成？"],
+    "common_errors": ["忽略侵蚀作用", "把地貌视为静态"],
+    "priority": 0.89,
+    "conflicts": [],
+    "related_disciplines": ["Sedimentology", "Hydrology"]
+  },
+
+  "Hydrology": {
+    "triggers": ["水文学", "水循环", "地下水"],
+    "typical_questions": ["水如何在地球系统中循环？"],
+    "common_errors": ["忽略渗透作用", "把水循环视为线性"],
+    "priority": 0.90,
+    "conflicts": [],
+    "related_disciplines": ["Geomorphology", "Sedimentology"]
+  },
+
+  "Sedimentology": {
+    "triggers": ["沉积学", "沉积物运输", "固结"],
+    "typical_questions": ["沉积物如何运输与沉积？"],
+    "common_errors": ["忽略流速变化", "把沉积视为均匀"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Geomorphology", "Hydrology"]
+  },
+
+  "Glaciology": {
+    "triggers": ["冰川学", "冰川运动", "融化"],
+    "typical_questions": ["冰川如何形成与运动？"],
+    "common_errors": ["忽略基底摩擦", "把冰川视为静态"],
+    "priority": 0.87,
+    "conflicts": [],
+    "related_disciplines": ["Geomorphology", "Climate Science"]
+  },
+
+  "Soil Science": {
+    "triggers": ["土壤科学", "土壤形成", "土壤结构"],
+    "typical_questions": ["土壤如何形成？"],
+    "common_errors": ["忽略生物作用", "把土壤视为均质"],
+    "priority": 0.88,
+    "conflicts": [],
+    "related_disciplines": ["Hydrology", "Geomorphology"]
+  },
+
+  "Natural Hazard Science": {
+    "triggers": ["自然灾害科学", "地震", "洪水", "台风"],
+    "typical_questions": ["自然灾害如何形成？"],
+    "common_errors": ["忽略多因素耦合", "把灾害视为单一原因"],
+    "priority": 0.92,
+    "conflicts": [],
+    "related_disciplines": ["Seismology", "Meteorology", "Hydrology"]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "evidence_types": {
+    "peer_reviewed_academic": {
+      "description": "经过同行评审的学术论文、顶级期刊、权威学术专著",
+      "weight": 1.0,
+      "examples": ["Nature", "Science", "PNAS", "顶级学术出版社"],
+      "notes": "最高等级证据，优先引用"
+    },
+    "official_public_data": {
+      "description": "政府公开数据、国际组织统计、权威机构发布的报告",
+      "weight": 0.9,
+      "examples": ["UN", "World Bank", "OECD", "国家统计局"],
+      "notes": "数据可靠性高，但可能存在统计口径差异"
+    },
+    "primary_historical_source": {
+      "description": "一手史料、原始档案、当事人记录、原始访谈",
+      "weight": 0.8,
+      "examples": ["原始档案", "当事人口述", "官方原始文件"],
+      "notes": "需注意记录者偏差"
+    },
+    "industry_consensus": {
+      "description": "行业白皮书、专业协会共识、业内普遍认可的运行逻辑",
+      "weight": 0.6,
+      "examples": ["行业协会报告", "专业机构白皮书"],
+      "notes": "可靠性中等，适合补充视角"
+    },
+    "expert_opinion": {
+      "description": "专家访谈、领域资深人士的经验判断",
+      "weight": 0.5,
+      "examples": ["专家访谈", "行业资深人士观点"],
+      "notes": "主观性强，需与更高等级证据交叉验证"
+    },
+    "secondary_historical_source": {
+      "description": "二手史料、后人整理的历史叙述、非原始记录",
+      "weight": 0.45,
+      "examples": ["历史综述书籍", "后人整理的史料"],
+      "notes": "可能存在解释偏差"
+    },
+    "general_web_info": {
+      "description": "普通网络文章、论坛观点、社交媒体内容",
+      "weight": 0.3,
+      "examples": ["知乎回答", "微博观点", "博客文章"],
+      "notes": "最低等级证据，仅用于补充背景，不用于关键推理"
+    },
+    "unverified_claim": {
+      "description": "未经证实的传闻、匿名爆料、无来源信息",
+      "weight": 0.1,
+      "examples": ["匿名爆料", "无来源截图"],
+      "notes": "不用于推理，仅用于风险提示"
+    }
+  },
+
+  "sorting_rules": {
+    "sort_by": "weight",
+    "order": "descending",
+    "group_output": true,
+    "highlight_top_tier": true
+  },
+
+  "output_format": {
+    "include_weight": true,
+    "include_source_type": true,
+    "include_reliability_note": true,
+    "max_items_per_group": 5
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "general": {
+    "scope": [
+      "AI outputs are based solely on publicly available information.",
+      "AI cannot access non-public databases, private archives, or paid content.",
+      "AI cannot verify the authenticity or accuracy of user-provided materials.",
+      "AI cannot detect statistical bias or sampling errors in source data.",
+      "AI cannot guarantee completeness of academic or historical sources."
+    ],
+    "uncertainty": [
+      "All conclusions contain inherent uncertainty due to incomplete information.",
+      "Historical, social, and psychological interpretations may vary across scholars.",
+      "Predictions are scenario-based and not deterministic.",
+      "Correlations do not imply causation unless explicitly supported by high-tier evidence."
+    ],
+    "risk": [
+      "AI cannot foresee black-swan events or extreme unpredictable risks.",
+      "Policy changes, geopolitical shifts, and market disruptions may invalidate conclusions.",
+      "User-specific contextual factors may significantly alter applicability."
+    ],
+    "disclaimer": [
+      "Outputs are for reference only and do not constitute professional advice.",
+      "Users should consult licensed professionals for medical, legal, or financial decisions."
+    ]
+  },
+
+  "scenario_specific": {
+    "career_planning": {
+      "scope": [
+        "Regional policy and industry cycles may change unexpectedly.",
+        "AI cannot assess personal psychological traits or real-world performance.",
+        "Labor market data may lag behind real-time conditions."
+      ],
+      "uncertainty": [
+        "Future job market trends contain inherent unpredictability.",
+        "Skill demand forecasts may vary across regions and industries."
+      ],
+      "risk": [
+        "Economic downturns or policy shifts may alter career feasibility.",
+        "Company-level risks cannot be assessed without internal data."
+      ]
+    },
+
+    "entrepreneurship": {
+      "scope": [
+        "AI cannot evaluate confidential market data or competitor strategies.",
+        "AI cannot access private financial information or investor networks."
+      ],
+      "uncertainty": [
+        "Market adoption rates are highly uncertain.",
+        "Technology maturity assessments may vary across experts."
+      ],
+      "risk": [
+        "Regulatory changes may affect business feasibility.",
+        "Supply chain disruptions may invalidate projections."
+      ]
+    },
+
+    "research_direction": {
+      "scope": [
+        "AI cannot access paywalled academic papers or proprietary datasets.",
+        "AI cannot guarantee coverage of all frontier literature."
+      ],
+      "uncertainty": [
+        "Research gaps may be partially filled by unpublished or ongoing work.",
+        "Interdisciplinary relevance may vary across academic communities."
+      ],
+      "risk": [
+        "Funding priorities may shift due to policy or institutional changes.",
+        "Publication trends may alter perceived research value."
+      ]
+    },
+
+    "complex_event_analysis": {
+      "scope": [
+        "AI cannot access classified documents or private communications.",
+        "AI cannot verify authenticity of historical or social claims."
+      ],
+      "uncertainty": [
+        "Historical narratives may contain bias or incomplete records.",
+        "Different stakeholders may interpret the same evidence differently."
+      ],
+      "risk": [
+        "New evidence may significantly alter event interpretation.",
+        "Political or social instability may affect analysis validity."
+      ]
+    },
+
+    "trauma_support": {
+      "scope": [
+        "AI cannot provide medical or clinical psychological diagnosis.",
+        "AI cannot assess real-time emotional state or crisis severity."
+      ],
+      "uncertainty": [
+        "Trauma responses vary widely across individuals.",
+        "Cultural context may influence interpretation of trauma."
+      ],
+      "risk": [
+        "Severe trauma requires licensed mental health professionals.",
+        "AI guidance may be insufficient for acute crisis situations."
+      ]
+    }
+  },
+
+  "output_rules": {
+    "append_limitations": true,
+    "group_by": "scenario",
+    "max_items_per_section": 5,
+    "include_general_limitations": true,
+    "include_scenario_specific_limitations": true,
+    "format": "bullet_points"
+  }
+}

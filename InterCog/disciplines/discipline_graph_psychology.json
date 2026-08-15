@@ -1,0 +1,136 @@
+{
+  "nodes": [
+    "Cognitive Psychology",
+    "Behavioral Psychology",
+    "Emotion Psychology",
+    "Motivation Psychology",
+    "Personality Psychology",
+    "Social Psychology",
+    "Developmental Psychology",
+    "Learning Psychology",
+
+    "Educational Psychology",
+    "Clinical Psychology",
+    "Counseling Psychology",
+    "Industrial Organizational Psychology",
+    "Health Psychology",
+    "Sport Psychology",
+
+    "Psychoanalysis",
+    "Analytical Psychology",
+    "Existential Psychology",
+    "Humanistic Psychology",
+    "Gestalt Psychology",
+
+    "Psychological Measurement",
+    "Psychological Statistics",
+    "Psychology Methodology",
+    "Psychology History",
+    "Psychology Philosophy",
+
+    "Cultural Psychology",
+    "Social Cognition Theory",
+    "Neuropsychology",
+    "Cognitive Linguistics",
+    "Technology Psychology",
+    "Media Psychology"
+  ],
+  "edges": [
+    ["Cognitive Psychology", "Learning Psychology"],
+    ["Cognitive Psychology", "Neuropsychology"],
+    ["Cognitive Psychology", "Cognitive Linguistics"],
+
+    ["Behavioral Psychology", "Learning Psychology"],
+    ["Behavioral Psychology", "Motivation Psychology"],
+
+    ["Emotion Psychology", "Motivation Psychology"],
+    ["Emotion Psychology", "Clinical Psychology"],
+
+    ["Motivation Psychology", "Emotion Psychology"],
+    ["Motivation Psychology", "Behavioral Psychology"],
+    ["Motivation Psychology", "Humanistic Psychology"],
+
+    ["Personality Psychology", "Psychological Measurement"],
+    ["Personality Psychology", "Social Psychology"],
+
+    ["Social Psychology", "Cultural Psychology"],
+    ["Social Psychology", "Social Cognition Theory"],
+    ["Social Psychology", "Media Psychology"],
+
+    ["Developmental Psychology", "Learning Psychology"],
+    ["Developmental Psychology", "Cognitive Psychology"],
+
+    ["Learning Psychology", "Cognitive Psychology"],
+    ["Learning Psychology", "Educational Psychology"],
+    ["Learning Psychology", "Developmental Psychology"],
+
+    ["Educational Psychology", "Learning Psychology"],
+    ["Educational Psychology", "Motivation Psychology"],
+
+    ["Clinical Psychology", "Counseling Psychology"],
+    ["Clinical Psychology", "Neuropsychology"],
+    ["Clinical Psychology", "Emotion Psychology"],
+
+    ["Counseling Psychology", "Clinical Psychology"],
+    ["Counseling Psychology", "Motivation Psychology"],
+
+    ["Industrial Organizational Psychology", "Social Psychology"],
+    ["Industrial Organizational Psychology", "Motivation Psychology"],
+
+    ["Health Psychology", "Clinical Psychology"],
+    ["Health Psychology", "Social Psychology"],
+
+    ["Sport Psychology", "Motivation Psychology"],
+    ["Sport Psychology", "Health Psychology"],
+
+    ["Psychoanalysis", "Analytical Psychology"],
+    ["Psychoanalysis", "Existential Psychology"],
+
+    ["Analytical Psychology", "Psychoanalysis"],
+    ["Analytical Psychology", "Narrative Theory"],
+
+    ["Existential Psychology", "Humanistic Psychology"],
+    ["Existential Psychology", "Psychoanalysis"],
+
+    ["Humanistic Psychology", "Existential Psychology"],
+    ["Humanistic Psychology", "Motivation Psychology"],
+
+    ["Gestalt Psychology", "Cognitive Psychology"],
+    ["Gestalt Psychology", "Narrative Theory"],
+
+    ["Psychological Measurement", "Psychological Statistics"],
+    ["Psychological Measurement", "Personality Psychology"],
+
+    ["Psychological Statistics", "Psychological Measurement"],
+    ["Psychological Statistics", "Psychology Methodology"],
+
+    ["Psychology Methodology", "Psychological Statistics"],
+    ["Psychology Methodology", "Psychology History"],
+    ["Psychology Methodology", "Psychology Philosophy"],
+
+    ["Psychology History", "Psychology Philosophy"],
+    ["Psychology History", "Psychology Methodology"],
+
+    ["Psychology Philosophy", "Psychology History"],
+    ["Psychology Philosophy", "Psychology Methodology"],
+
+    ["Cultural Psychology", "Social Psychology"],
+    ["Cultural Psychology", "Social Cognition Theory"],
+    ["Cultural Psychology", "Cognitive Linguistics"],
+
+    ["Social Cognition Theory", "Social Psychology"],
+    ["Social Cognition Theory", "Cultural Psychology"],
+
+    ["Neuropsychology", "Cognitive Psychology"],
+    ["Neuropsychology", "Clinical Psychology"],
+
+    ["Cognitive Linguistics", "Cognitive Psychology"],
+    ["Cognitive Linguistics", "Cultural Psychology"],
+
+    ["Technology Psychology", "Media Psychology"],
+    ["Technology Psychology", "Cognitive Psychology"],
+
+    ["Media Psychology", "Technology Psychology"],
+    ["Media Psychology", "Social Psychology"]
+  ]
+}

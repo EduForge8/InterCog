@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    "Aesthetics",
+    "Philosophy of Art",
+    "Symbolic Aesthetics",
+    "Art Epistemology",
+    "Art Ethics",
+    "Art Criticism Theory",
+
+    "Psychology of Art",
+    "Creativity Studies",
+    "Art Expression Psychology",
+    "Aesthetic Psychology",
+    "Art Motivation Studies",
+    "Art Development Psychology",
+
+    "Art Semiotics",
+    "Visual Linguistics",
+    "Stylistics",
+    "Composition Theory",
+    "Color Theory",
+    "Narrative Theory",
+
+    "Art History",
+    "Visual Culture Studies",
+    "Art Sociology",
+    "Art Anthropology",
+    "Art Communication Studies",
+    "Art Politics",
+
+    "Art Creation Theory",
+    "Art Design",
+    "Digital Art Studies",
+    "Media Art Theory",
+    "Art Engineering",
+    "Art Innovation Studies"
+  ],
+  "edges": [
+    ["Aesthetics", "Philosophy of Art"],
+    ["Aesthetics", "Aesthetic Psychology"],
+    ["Aesthetics", "Art Criticism Theory"],
+
+    ["Philosophy of Art", "Aesthetics"],
+    ["Philosophy of Art", "Art Epistemology"],
+    ["Philosophy of Art", "Art Ethics"],
+
+    ["Symbolic Aesthetics", "Art Semiotics"],
+    ["Symbolic Aesthetics", "Visual Linguistics"],
+
+    ["Art Epistemology", "Philosophy of Art"],
+    ["Art Epistemology", "Aesthetics"],
+
+    ["Art Ethics", "Philosophy of Art"],
+    ["Art Ethics", "Art Criticism Theory"],
+
+    ["Art Criticism Theory", "Aesthetics"],
+    ["Art Criticism Theory", "Art History"],
+
+    ["Psychology of Art", "Aesthetic Psychology"],
+    ["Psychology of Art", "Creativity Studies"],
+    ["Psychology of Art", "Art Expression Psychology"],
+
+    ["Creativity Studies", "Psychology of Art"],
+    ["Creativity Studies", "Art Creation Theory"],
+    ["Creativity Studies", "Art Development Psychology"],
+
+    ["Art Expression Psychology", "Psychology of Art"],
+    ["Art Expression Psychology", "Aesthetic Psychology"],
+
+    ["Aesthetic Psychology", "Aesthetics"],
+    ["Aesthetic Psychology", "Psychology of Art"],
+    ["Aesthetic Psychology", "Art Development Psychology"],
+
+    ["Art Motivation Studies", "Psychology of Art"],
+    ["Art Motivation Studies", "Art Expression Psychology"],
+
+    ["Art Development Psychology", "Aesthetic Psychology"],
+    ["Art Development Psychology", "Creativity Studies"],
+
+    ["Art Semiotics", "Visual Linguistics"],
+    ["Art Semiotics", "Narrative Theory"],
+    ["Art Semiotics", "Color Theory"],
+
+    ["Visual Linguistics", "Art Semiotics"],
+    ["Visual Linguistics", "Composition Theory"],
+    ["Visual Linguistics", "Stylistics"],
+
+    ["Stylistics", "Art History"],
+    ["Stylistics", "Visual Linguistics"],
+    ["Stylistics", "Narrative Theory"],
+
+    ["Composition Theory", "Visual Linguistics"],
+    ["Composition Theory", "Color Theory"],
+
+    ["Color Theory", "Composition Theory"],
+    ["Color Theory", "Art Semiotics"],
+
+    ["Narrative Theory", "Art Semiotics"],
+    ["Narrative Theory", "Stylistics"],
+
+    ["Art History", "Stylistics"],
+    ["Art History", "Visual Culture Studies"],
+
+    ["Visual Culture Studies", "Art Sociology"],
+    ["Visual Culture Studies", "Art History"],
+    ["Visual Culture Studies", "Art Politics"],
+
+    ["Art Sociology", "Visual Culture Studies"],
+    ["Art Sociology", "Art Anthropology"],
+    ["Art Sociology", "Art Communication Studies"],
+
+    ["Art Anthropology", "Art Sociology"],
+    ["Art Anthropology", "Visual Culture Studies"],
+
+    ["Art Communication Studies", "Art Sociology"],
+    ["Art Communication Studies", "Media Art Theory"],
+
+    ["Art Politics", "Visual Culture Studies"],
+    ["Art Politics", "Art Sociology"],
+
+    ["Art Creation Theory", "Creativity Studies"],
+    ["Art Creation Theory", "Art Design"],
+    ["Art Creation Theory", "Art Innovation Studies"],
+
+    ["Art Design", "Art Creation Theory"],
+    ["Art Design", "Digital Art Studies"],
+    ["Art Design", "Art Engineering"],
+
+    ["Digital Art Studies", "Media Art Theory"],
+    ["Digital Art Studies", "Art Engineering"],
+    ["Digital Art Studies", "Art Design"],
+
+    ["Media Art Theory", "Digital Art Studies"],
+    ["Media Art Theory", "Art Communication Studies"],
+
+    ["Art Engineering", "Digital Art Studies"],
+    ["Art Engineering", "Art Design"],
+
+    ["Art Innovation Studies", "Art Creation Theory"],
+    ["Art Innovation Studies", "Stylistics"]
+  ]
+}

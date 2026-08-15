@@ -1,0 +1,99 @@
+{
+  "bridge_archetypes": [
+    {
+      "type": "structural_isomorphism",
+      "schema": {
+        "stem_structure": "graph / network / symbol system / spatial model",
+        "humanities_structure": "social network / discourse network / cultural symbol system / spatial anthropology",
+        "reason": "两者结构同构，可直接映射。"
+      },
+      "examples": [
+        "Network Science — Communication Studies",
+        "Network Science — Discourse Analysis",
+        "Scientific Semiotics — Cultural Semiotics",
+        "Symbolic Reasoning Research — Structuralism",
+        "Computational Geometry — Spatial Anthropology"
+      ]
+    },
+
+    {
+      "type": "dynamics_isomorphism",
+      "schema": {
+        "stem_dynamics": "complexity / dynamical systems / evolution / control",
+        "humanities_dynamics": "historical change / cultural evolution / political dynamics",
+        "reason": "两者共享演化或反馈机制。"
+      },
+      "examples": [
+        "Complexity Science — Cultural Anthropology",
+        "Dynamical Systems Theory — Political Sociology",
+        "Evolutionary Biology — Cultural Evolution Theory",
+        "Cybernetics — Political Communication",
+        "Agent-Based Modeling — Historical Sociology"
+      ]
+    },
+
+    {
+      "type": "cognitive_isomorphism",
+      "schema": {
+        "stem_cognition": "cognitive psychology / computational neuroscience / embodied cognition",
+        "humanities_cognition": "phenomenology / philosophy of mind / hermeneutics",
+        "reason": "认知结构与解释结构同源。"
+      },
+      "examples": [
+        "Cognitive Psychology — Philosophy of Mind",
+        "Embodied Cognition — Phenomenology",
+        "Computational Neuroscience — Cognitive Anthropology",
+        "Cognitive Load Theory — Hermeneutics",
+        "Cognitive Modeling of Emotions — Affective Sociology"
+      ]
+    },
+
+    {
+      "type": "reasoning_isomorphism",
+      "schema": {
+        "stem_reasoning": "causal inference / Bayesian reasoning / logic / mechanism design",
+        "humanities_reasoning": "legal theory / epistemology / political theory",
+        "reason": "推理结构一致，可共享推断机制。"
+      },
+      "examples": [
+        "Causal Inference Theory — Philosophy of History",
+        "Bayesian Reasoning — Legal Theory",
+        "Mathematical Logic — Philosophy of Language",
+        "Game-Theoretic Mechanism Design — Institutional Economics",
+        "Computational Social Choice — Political Theory"
+      ]
+    },
+
+    {
+      "type": "interpretive_isomorphism",
+      "schema": {
+        "stem_interpretation": "scientific narratology / epistemology / interpretability",
+        "humanities_interpretation": "hermeneutics / narrative theory / sociology of knowledge",
+        "reason": "解释结构同源。"
+      },
+      "examples": [
+        "Scientific Narratology — Narrative Theory",
+        "Scientific Epistemology — Hermeneutics",
+        "AI Interpretability Research — Hermeneutics",
+        "Computational Memory Models — Historical Memory Studies",
+        "Information Theory — Sociology of Knowledge"
+      ]
+    },
+
+    {
+      "type": "normative_isomorphism",
+      "schema": {
+        "stem_norms": "AI alignment / computational ethics / social choice",
+        "humanities_norms": "ethics / political philosophy / moral psychology",
+        "reason": "规范结构一致，可用于解释价值冲突。"
+      },
+      "examples": [
+        "AI Alignment Theory — Ethics",
+        "Computational Ethics — Political Philosophy",
+        "Behavioral Economics — Moral Psychology",
+        "Computational Social Choice — Moral Philosophy",
+        "Evolutionary Game Theory — Moral Philosophy"
+      ]
+    }
+  ]
+}

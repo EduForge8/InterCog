@@ -1,0 +1,267 @@
+{
+  "Cognitive–Linguistic Scenario": {
+    "description": "语言与认知结构的交互如何影响思维、决策与文化差异。",
+    "domains": ["Cognitive Psychology", "Cognitive Linguistics"],
+    "questions": [
+      "语言结构如何影响注意与分类？",
+      "文化语言差异如何导致认知偏差？"
+    ],
+    "evidence_types": [
+      "语言结构分析",
+      "认知实验数据",
+      "跨文化比较研究"
+    ],
+    "reasoning_path": [
+      "识别语言结构",
+      "分析认知机制",
+      "建立跨文化差异模型"
+    ]
+  },
+
+  "Religion–Psychology Scenario": {
+    "description": "宗教体验、情绪与身份如何影响行为与社会结构。",
+    "domains": ["Religion", "Psychology"],
+    "questions": [
+      "宗教体验如何影响情绪调节？",
+      "宗教身份如何影响群体行为？"
+    ],
+    "evidence_types": [
+      "宗教体验访谈",
+      "情绪心理学研究",
+      "群体行为数据"
+    ],
+    "reasoning_path": [
+      "识别宗教情绪",
+      "分析心理机制",
+      "推断行为模式"
+    ]
+  },
+
+  "Art–Psychology Aesthetic Scenario": {
+    "description": "审美体验如何由心理结构与艺术符号共同构成。",
+    "domains": ["Art Science", "Psychology"],
+    "questions": [
+      "审美偏好如何形成？",
+      "艺术符号如何触发情绪？"
+    ],
+    "evidence_types": [
+      "审美实验数据",
+      "艺术符号分析",
+      "文化审美研究"
+    ],
+    "reasoning_path": [
+      "识别艺术符号",
+      "分析情绪反应",
+      "建立审美偏好模型"
+    ]
+  },
+
+  "Art–Anthropology Symbolic Scenario": {
+    "description": "艺术符号如何表达文化结构与集体意义。",
+    "domains": ["Art Science", "Anthropology"],
+    "questions": [
+      "艺术符号如何表达文化价值？",
+      "仪式中的艺术如何构建群体情绪？"
+    ],
+    "evidence_types": [
+      "文化符号分析",
+      "仪式观察记录",
+      "艺术风格演化数据"
+    ],
+    "reasoning_path": [
+      "识别文化符号",
+      "分析象征意义",
+      "推断文化结构"
+    ]
+  },
+
+  "Religion–Anthropology Cultural Scenario": {
+    "description": "宗教如何在文化中被创造、传承与变形。",
+    "domains": ["Religion", "Anthropology"],
+    "questions": [
+      "宗教传统如何在文化中传承？",
+      "神话如何表达文化深层结构？"
+    ],
+    "evidence_types": [
+      "神话文本分析",
+      "文化仪式记录",
+      "宗教符号研究"
+    ],
+    "reasoning_path": [
+      "识别文化结构",
+      "分析宗教符号",
+      "推断文化传承机制"
+    ]
+  },
+
+  "Religion–Politics Power Scenario": {
+    "description": "宗教如何影响政治制度、权力结构与社会冲突。",
+    "domains": ["Religion", "Political Science"],
+    "questions": [
+      "宗教如何影响政治决策？",
+      "宗教冲突如何形成？"
+    ],
+    "evidence_types": [
+      "政治制度分析",
+      "宗教群体行为数据",
+      "历史冲突案例"
+    ],
+    "reasoning_path": [
+      "识别宗教权力结构",
+      "分析政治互动",
+      "推断冲突机制"
+    ]
+  },
+
+  "Psychology–Sociology Identity Scenario": {
+    "description": "身份如何在心理结构与社会环境中共同形成。",
+    "domains": ["Psychology", "Sociology"],
+    "questions": [
+      "身份如何在群体中形成？",
+      "社会影响如何改变认同？"
+    ],
+    "evidence_types": [
+      "群体行为数据",
+      "社会认知研究",
+      "身份发展访谈"
+    ],
+    "reasoning_path": [
+      "识别社会影响因素",
+      "分析心理结构",
+      "推断身份形成机制"
+    ]
+  },
+
+  "Neuroscience–AI Cognitive Modeling Scenario": {
+    "description": "AI 如何模拟神经认知结构并用于推理与学习。",
+    "domains": ["Neuroscience", "AI"],
+    "questions": [
+      "神经结构如何启发 AI 模型？",
+      "AI 能否模拟人类认知偏差？"
+    ],
+    "evidence_types": [
+      "神经科学数据",
+      "AI 模型结构",
+      "认知实验结果"
+    ],
+    "reasoning_path": [
+      "识别神经结构",
+      "映射到 AI 模型",
+      "分析认知模拟效果"
+    ]
+  },
+
+  "Biology–Engineering BioDesign Scenario": {
+    "description": "工程如何借鉴生物结构进行设计与创新。",
+    "domains": ["Life Science", "Engineering"],
+    "questions": [
+      "生物结构如何启发工程设计？",
+      "仿生材料如何提高性能？"
+    ],
+    "evidence_types": [
+      "生物结构分析",
+      "材料工程数据",
+      "仿生设计案例"
+    ],
+    "reasoning_path": [
+      "识别生物结构",
+      "分析工程需求",
+      "建立仿生设计模型"
+    ]
+  },
+
+  "Climate–Economy Feedback Scenario": {
+    "description": "气候变化如何影响经济系统并形成反馈循环。",
+    "domains": ["Earth Science", "Economics"],
+    "questions": [
+      "气候变化如何影响资源分配？",
+      "经济行为如何加剧气候变化？"
+    ],
+    "evidence_types": [
+      "气候模型数据",
+      "经济系统分析",
+      "资源消耗统计"
+    ],
+    "reasoning_path": [
+      "识别气候变量",
+      "分析经济行为",
+      "建立反馈循环模型"
+    ]
+  },
+
+  "Earth–Engineering Disaster Scenario": {
+    "description": "工程如何降低自然灾害风险并提高韧性。",
+    "domains": ["Earth Science", "Engineering"],
+    "questions": [
+      "地震工程如何减少损害？",
+      "城市结构如何影响灾害风险？"
+    ],
+    "evidence_types": [
+      "地震数据",
+      "结构工程模型",
+      "灾害案例分析"
+    ],
+    "reasoning_path": [
+      "识别地质风险",
+      "分析工程结构",
+      "推断灾害缓解策略"
+    ]
+  },
+
+  "Cosmic–Philosophy Ontology Scenario": {
+    "description": "宇宙学如何影响哲学本体论与意义结构。",
+    "domains": ["Cosmic Science", "Philosophy"],
+    "questions": [
+      "宇宙结构如何影响本体论？",
+      "宇宙起源如何影响意义结构？"
+    ],
+    "evidence_types": [
+      "宇宙学模型",
+      "哲学文本分析",
+      "形而上学研究"
+    ],
+    "reasoning_path": [
+      "识别宇宙结构",
+      "分析哲学概念",
+      "建立本体论模型"
+    ]
+  },
+
+  "Technology–Psychology Attention Scenario": {
+    "description": "技术如何改变注意结构、动机与行为模式。",
+    "domains": ["Technology", "Psychology"],
+    "questions": [
+      "技术如何影响注意力？",
+      "数字环境如何改变动机？"
+    ],
+    "evidence_types": [
+      "注意力实验数据",
+      "技术使用统计",
+      "行为心理学研究"
+    ],
+    "reasoning_path": [
+      "识别技术影响因素",
+      "分析注意结构",
+      "推断行为变化"
+    ]
+  },
+
+  "Media–Sociology Influence Scenario": {
+    "description": "媒介如何塑造社会认知、群体行为与文化结构。",
+    "domains": ["Media Studies", "Sociology"],
+    "questions": [
+      "媒介如何影响社会认知？",
+      "媒介如何改变群体行为？"
+    ],
+    "evidence_types": [
+      "媒介内容分析",
+      "社会行为数据",
+      "文化传播研究"
+    ],
+    "reasoning_path": [
+      "识别媒介结构",
+      "分析社会影响",
+      "推断文化变化"
+    ]
+  }
+}

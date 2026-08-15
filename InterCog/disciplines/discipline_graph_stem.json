@@ -1,0 +1,197 @@
+{
+  "nodes": [
+    "Cognitive Psychology",
+    "Cognitive Neuroscience",
+    "Learning Science",
+    "Developmental Psychology",
+    "Educational Psychology",
+    "Information Processing Theory",
+    "Metacognition Research",
+    "Cognitive Style Theory",
+    "Error Theory",
+    "Concept Formation Theory",
+    "Knowledge Graph Theory",
+    "Cognitive Load Theory",
+    "Dual Coding Theory",
+    "Working Memory Theory",
+    "Attention Control Theory",
+
+    "Neuroplasticity Research",
+    "Executive Function Research",
+    "Neural Network Dynamics",
+    "Attention Network Research",
+    "Symbol Processing Neural Mechanisms",
+    "Spatial Reasoning Neural Mechanisms",
+    "Language Processing Neural Mechanisms",
+    "Visual Processing Neural Mechanisms",
+    "Motor Control Neural Mechanisms",
+    "Emotion Regulation Neural Mechanisms",
+    "Reward System Research",
+    "Neurodevelopment Research",
+
+    "Systems Science",
+    "Complexity Science",
+    "Control Theory",
+    "Dynamical Systems Theory",
+    "Information Theory",
+    "Network Science",
+    "Pattern Recognition Theory",
+    "System Dynamics",
+    "Complex Network Theory",
+    "Emergence Theory",
+    "Robustness Theory",
+    "Stability Analysis",
+
+    "STEM Pedagogy",
+    "Constructivist Pedagogy",
+    "Inquiry-Based Learning",
+    "Differentiated Instruction",
+    "Project-Based Learning",
+    "Flipped Classroom",
+    "Scaffolding Pedagogy",
+    "Visualization Pedagogy",
+    "Concept Map Pedagogy",
+    "Situated Learning Theory",
+    "Experiential Learning",
+
+    "Math Cognition Science",
+    "Symbol System Theory",
+    "Abstract Algebra Cognition Research",
+    "Geometry Cognition Research",
+    "Logic Reasoning Research",
+    "Mathematical Linguistics",
+    "Model Construction Theory",
+    "Formal Systems Theory",
+
+    "Philosophy of Science",
+    "Experimental Design Theory",
+    "Statistical Inference",
+    "Error Analysis",
+    "Measurement Theory",
+    "Causal Inference Theory",
+    "Model Validation Theory",
+    "Scientific Reasoning Theory",
+
+    "Computational Cognitive Science",
+    "Algorithmic Thinking Research",
+    "Human-Computer Interaction",
+    "Visualization Computing",
+    "Symbolic Reasoning Research",
+    "Automated Reasoning",
+    "Computational Modeling Theory",
+    "Complex Systems Simulation",
+
+    "Scientific Epistemology",
+    "History of Science",
+    "Sociology of Science",
+    "Science and Technology Studies",
+    "Scientific Ethics",
+    "Philosophy of Models",
+    "Philosophy of Experiment",
+    "Philosophy of Technology",
+    "Scientific Linguistics",
+    "Scientific Semiotics",
+    "Scientific Narratology",
+    "Critical Theory of Science",
+    "Scientific Constructivism",
+    "Archaeology of Knowledge (Science Version)"
+  ],
+  "edges": [
+    ["Cognitive Psychology", "Cognitive Neuroscience"],
+    ["Cognitive Psychology", "Learning Science"],
+    ["Cognitive Psychology", "Educational Psychology"],
+    ["Cognitive Psychology", "Information Processing Theory"],
+    ["Cognitive Psychology", "Working Memory Theory"],
+    ["Cognitive Psychology", "Attention Control Theory"],
+
+    ["Cognitive Neuroscience", "Neuroplasticity Research"],
+    ["Cognitive Neuroscience", "Neural Network Dynamics"],
+    ["Cognitive Neuroscience", "Symbol Processing Neural Mechanisms"],
+    ["Cognitive Neuroscience", "Spatial Reasoning Neural Mechanisms"],
+    ["Cognitive Neuroscience", "Language Processing Neural Mechanisms"],
+    ["Cognitive Neuroscience", "Visual Processing Neural Mechanisms"],
+
+    ["Learning Science", "Educational Psychology"],
+    ["Learning Science", "Metacognition Research"],
+    ["Learning Science", "Concept Formation Theory"],
+    ["Learning Science", "Knowledge Graph Theory"],
+
+    ["Developmental Psychology", "Neurodevelopment Research"],
+
+    ["Educational Psychology", "Emotion Regulation Neural Mechanisms"],
+    ["Educational Psychology", "Reward System Research"],
+
+    ["Information Processing Theory", "Symbol System Theory"],
+    ["Information Processing Theory", "Pattern Recognition Theory"],
+
+    ["Cognitive Load Theory", "Working Memory Theory"],
+    ["Dual Coding Theory", "Visualization Pedagogy"],
+
+    ["Systems Science", "Complexity Science"],
+    ["Systems Science", "Control Theory"],
+    ["Systems Science", "System Dynamics"],
+    ["Systems Science", "Robustness Theory"],
+
+    ["Complexity Science", "Emergence Theory"],
+    ["Complexity Science", "Complex Network Theory"],
+
+    ["Control Theory", "Stability Analysis"],
+    ["Control Theory", "Robustness Theory"],
+
+    ["Dynamical Systems Theory", "Stability Analysis"],
+
+    ["Network Science", "Complex Network Theory"],
+
+    ["STEM Pedagogy", "Constructivist Pedagogy"],
+    ["STEM Pedagogy", "Project-Based Learning"],
+    ["STEM Pedagogy", "Inquiry-Based Learning"],
+
+    ["Constructivist Pedagogy", "Situated Learning Theory"],
+    ["Constructivist Pedagogy", "Experiential Learning"],
+
+    ["Inquiry-Based Learning", "Experiential Learning"],
+
+    ["Differentiated Instruction", "Cognitive Style Theory"],
+
+    ["Visualization Pedagogy", "Dual Coding Theory"],
+
+    ["Concept Map Pedagogy", "Knowledge Graph Theory"],
+
+    ["Math Cognition Science", "Symbol System Theory"],
+    ["Math Cognition Science", "Logic Reasoning Research"],
+    ["Math Cognition Science", "Geometry Cognition Research"],
+
+    ["Symbol System Theory", "Formal Systems Theory"],
+
+    ["Model Construction Theory", "Computational Modeling Theory"],
+
+    ["Philosophy of Science", "Scientific Epistemology"],
+    ["Philosophy of Science", "Scientific Methodology"],
+    ["Philosophy of Science", "History of Science"],
+
+    ["Scientific Methodology", "Experimental Design Theory"],
+    ["Scientific Methodology", "Statistical Inference"],
+    ["Scientific Methodology", "Causal Inference Theory"],
+
+    ["Experimental Design Theory", "Error Analysis"],
+    ["Error Analysis", "Measurement Theory"],
+
+    ["Computational Cognitive Science", "Algorithmic Thinking Research"],
+    ["Computational Cognitive Science", "Symbolic Reasoning Research"],
+
+    ["Algorithmic Thinking Research", "Symbolic Reasoning Research"],
+
+    ["Human-Computer Interaction", "Visualization Computing"],
+
+    ["Computational Modeling Theory", "Complex Systems Simulation"],
+
+    ["Sociology of Science", "Science and Technology Studies"],
+    ["Science and Technology Studies", "Philosophy of Technology"],
+
+    ["Scientific Linguistics", "Scientific Semiotics"],
+    ["Scientific Semiotics", "Scientific Narratology"],
+
+    ["Scientific Epistemology", "Scientific Constructivism"],
+    ["History of Science", "Archaeology of Knowledge (Science Version)"]
+  ]
+}

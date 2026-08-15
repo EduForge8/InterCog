@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    "Solid Earth Geophysics",
+    "Seismology",
+    "Volcanology",
+    "Plate Tectonics",
+    "Geodynamics",
+    "Geomagnetism",
+
+    "Geochemistry",
+    "Isotope Geochemistry",
+    "Mineralogy",
+    "Petrology",
+    "Geochemical Cycles",
+    "Environmental Geochemistry",
+
+    "Atmospheric Physics",
+    "Meteorology",
+    "Climate Science",
+    "Boundary Layer Meteorology",
+    "Atmospheric Chemistry",
+    "Climate Dynamics",
+
+    "Oceanography",
+    "Physical Oceanography",
+    "Chemical Oceanography",
+    "Biological Oceanography",
+    "Ocean-Atmosphere Interaction",
+    "Marine Geology",
+
+    "Geomorphology",
+    "Hydrology",
+    "Sedimentology",
+    "Glaciology",
+    "Soil Science",
+    "Natural Hazard Science"
+  ],
+  "edges": [
+    ["Solid Earth Geophysics", "Geodynamics"],
+    ["Solid Earth Geophysics", "Plate Tectonics"],
+    ["Solid Earth Geophysics", "Geomagnetism"],
+
+    ["Seismology", "Solid Earth Geophysics"],
+    ["Seismology", "Natural Hazard Science"],
+
+    ["Volcanology", "Geodynamics"],
+    ["Volcanology", "Petrology"],
+
+    ["Plate Tectonics", "Solid Earth Geophysics"],
+    ["Plate Tectonics", "Geodynamics"],
+    ["Plate Tectonics", "Marine Geology"],
+
+    ["Geodynamics", "Plate Tectonics"],
+    ["Geodynamics", "Solid Earth Geophysics"],
+    ["Geodynamics", "Volcanology"],
+
+    ["Geomagnetism", "Solid Earth Geophysics"],
+    ["Geomagnetism", "Geodynamics"],
+
+    ["Geochemistry", "Isotope Geochemistry"],
+    ["Geochemistry", "Geochemical Cycles"],
+    ["Geochemistry", "Mineralogy"],
+    ["Geochemistry", "Petrology"],
+
+    ["Isotope Geochemistry", "Geochemistry"],
+    ["Isotope Geochemistry", "Petrology"],
+
+    ["Mineralogy", "Petrology"],
+    ["Mineralogy", "Geochemistry"],
+
+    ["Petrology", "Mineralogy"],
+    ["Petrology", "Geochemistry"],
+    ["Petrology", "Volcanology"],
+
+    ["Geochemical Cycles", "Geochemistry"],
+    ["Geochemical Cycles", "Environmental Geochemistry"],
+
+    ["Environmental Geochemistry", "Geochemical Cycles"],
+    ["Environmental Geochemistry", "Geochemistry"],
+
+    ["Atmospheric Physics", "Meteorology"],
+    ["Atmospheric Physics", "Climate Science"],
+    ["Atmospheric Physics", "Boundary Layer Meteorology"],
+
+    ["Meteorology", "Atmospheric Physics"],
+    ["Meteorology", "Boundary Layer Meteorology"],
+    ["Meteorology", "Atmospheric Chemistry"],
+    ["Meteorology", "Natural Hazard Science"],
+
+    ["Climate Science", "Climate Dynamics"],
+    ["Climate Science", "Atmospheric Physics"],
+    ["Climate Science", "Atmospheric Chemistry"],
+
+    ["Boundary Layer Meteorology", "Meteorology"],
+    ["Boundary Layer Meteorology", "Atmospheric Physics"],
+
+    ["Atmospheric Chemistry", "Climate Science"],
+    ["Atmospheric Chemistry", "Meteorology"],
+
+    ["Climate Dynamics", "Climate Science"],
+    ["Climate Dynamics", "Ocean-Atmosphere Interaction"],
+
+    ["Oceanography", "Physical Oceanography"],
+    ["Oceanography", "Chemical Oceanography"],
+    ["Oceanography", "Biological Oceanography"],
+    ["Oceanography", "Marine Geology"],
+
+    ["Physical Oceanography", "Oceanography"],
+    ["Physical Oceanography", "Ocean-Atmosphere Interaction"],
+
+    ["Chemical Oceanography", "Oceanography"],
+    ["Chemical Oceanography", "Biological Oceanography"],
+
+    ["Biological Oceanography", "Chemical Oceanography"],
+    ["Biological Oceanography", "Oceanography"],
+
+    ["Ocean-Atmosphere Interaction", "Climate Dynamics"],
+    ["Ocean-Atmosphere Interaction", "Physical Oceanography"],
+
+    ["Marine Geology", "Plate Tectonics"],
+    ["Marine Geology", "Oceanography"],
+
+    ["Geomorphology", "Sedimentology"],
+    ["Geomorphology", "Hydrology"],
+    ["Geomorphology", "Glaciology"],
+
+    ["Hydrology", "Geomorphology"],
+    ["Hydrology", "Sedimentology"],
+    ["Hydrology", "Soil Science"],
+    ["Hydrology", "Natural Hazard Science"],
+
+    ["Sedimentology", "Geomorphology"],
+    ["Sedimentology", "Hydrology"],
+
+    ["Glaciology", "Geomorphology"],
+    ["Glaciology", "Climate Science"],
+
+    ["Soil Science", "Hydrology"],
+    ["Soil Science", "Geomorphology"],
+
+    ["Natural Hazard Science", "Seismology"],
+    ["Natural Hazard Science", "Meteorology"],
+    ["Natural Hazard Science", "Hydrology"]
+  ]
+}

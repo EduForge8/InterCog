@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "name": "analyze",
+      "description": "Perform interdisciplinary reasoning on a user query.",
+      "method": "POST",
+      "path": "/intercog/analyze",
+      "input_schema": {
+        "query": "string",
+        "user_profile": "object",
+        "context": "object",
+        "options": "object"
+      },
+      "output_schema": {
+        "scenario": "string",
+        "disciplines_used": "array",
+        "cross_domain_bridge": "object",
+        "output": "string",
+        "limitations": "string",
+        "compliance": "string"
+      }
+    }
+  ]
+}

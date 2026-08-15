@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    "Engineering Mechanics",
+    "Materials Science",
+    "Thermodynamics",
+    "Fluid Mechanics",
+    "Dynamics and Control",
+    "Systems Engineering",
+
+    "Mechanical Design",
+    "Manufacturing Engineering",
+    "Automation and Robotics",
+    "Mechatronics",
+    "Industrial Engineering",
+    "Reliability Engineering",
+
+    "Circuit Theory",
+    "Electronics Engineering",
+    "Communication Engineering",
+    "Signal Processing",
+    "Power Systems",
+    "Embedded Systems",
+
+    "Software Engineering",
+    "Distributed Systems",
+    "Computer Architecture",
+    "Operating Systems",
+    "Network Engineering",
+    "Software Architecture",
+
+    "Chemical Engineering",
+    "Process Engineering",
+    "Materials Engineering",
+    "Nanotechnology",
+    "Corrosion Engineering",
+    "Energy Engineering"
+  ],
+  "edges": [
+    ["Engineering Mechanics", "Materials Science"],
+    ["Engineering Mechanics", "Dynamics and Control"],
+
+    ["Materials Science", "Engineering Mechanics"],
+    ["Materials Science", "Materials Engineering"],
+    ["Materials Science", "Nanotechnology"],
+
+    ["Thermodynamics", "Energy Engineering"],
+    ["Thermodynamics", "Process Engineering"],
+
+    ["Fluid Mechanics", "Mechanical Design"],
+    ["Fluid Mechanics", "Energy Engineering"],
+
+    ["Dynamics and Control", "Engineering Mechanics"],
+    ["Dynamics and Control", "Mechatronics"],
+    ["Dynamics and Control", "Automation and Robotics"],
+
+    ["Systems Engineering", "Industrial Engineering"],
+    ["Systems Engineering", "Software Architecture"],
+
+    ["Mechanical Design", "Engineering Mechanics"],
+    ["Mechanical Design", "Manufacturing Engineering"],
+    ["Mechanical Design", "Reliability Engineering"],
+
+    ["Manufacturing Engineering", "Mechanical Design"],
+    ["Manufacturing Engineering", "Industrial Engineering"],
+
+    ["Automation and Robotics", "Mechatronics"],
+    ["Automation and Robotics", "Dynamics and Control"],
+
+    ["Mechatronics", "Automation and Robotics"],
+    ["Mechatronics", "Dynamics and Control"],
+
+    ["Industrial Engineering", "Systems Engineering"],
+    ["Industrial Engineering", "Manufacturing Engineering"],
+    ["Industrial Engineering", "Reliability Engineering"],
+
+    ["Reliability Engineering", "Mechanical Design"],
+    ["Reliability Engineering", "Industrial Engineering"],
+
+    ["Circuit Theory", "Electronics Engineering"],
+    ["Circuit Theory", "Power Systems"],
+
+    ["Electronics Engineering", "Circuit Theory"],
+    ["Electronics Engineering", "Signal Processing"],
+    ["Electronics Engineering", "Embedded Systems"],
+
+    ["Communication Engineering", "Signal Processing"],
+    ["Communication Engineering", "Network Engineering"],
+
+    ["Signal Processing", "Electronics Engineering"],
+    ["Signal Processing", "Communication Engineering"],
+
+    ["Power Systems", "Circuit Theory"],
+    ["Power Systems", "Energy Engineering"],
+
+    ["Embedded Systems", "Electronics Engineering"],
+    ["Embedded Systems", "Software Engineering"],
+    ["Embedded Systems", "Computer Architecture"],
+
+    ["Software Engineering", "Software Architecture"],
+    ["Software Engineering", "Distributed Systems"],
+    ["Software Engineering", "Operating Systems"],
+
+    ["Distributed Systems", "Network Engineering"],
+    ["Distributed Systems", "Software Architecture"],
+    ["Distributed Systems", "Software Engineering"],
+
+    ["Computer Architecture", "Operating Systems"],
+    ["Computer Architecture", "Embedded Systems"],
+
+    ["Operating Systems", "Computer Architecture"],
+    ["Operating Systems", "Software Engineering"],
+
+    ["Network Engineering", "Communication Engineering"],
+    ["Network Engineering", "Distributed Systems"],
+
+    ["Software Architecture", "Software Engineering"],
+    ["Software Architecture", "Systems Engineering"],
+    ["Software Architecture", "Distributed Systems"],
+
+    ["Chemical Engineering", "Process Engineering"],
+    ["Chemical Engineering", "Materials Engineering"],
+    ["Chemical Engineering", "Corrosion Engineering"],
+
+    ["Process Engineering", "Chemical Engineering"],
+    ["Process Engineering", "Energy Engineering"],
+
+    ["Materials Engineering", "Materials Science"],
+    ["Materials Engineering", "Nanotechnology"],
+    ["Materials Engineering", "Corrosion Engineering"],
+
+    ["Nanotechnology", "Materials Engineering"],
+    ["Nanotechnology", "Materials Science"],
+
+    ["Corrosion Engineering", "Materials Engineering"],
+    ["Corrosion Engineering", "Chemical Engineering"],
+
+    ["Energy Engineering", "Thermodynamics"],
+    ["Energy Engineering", "Power Systems"],
+    ["Energy Engineering", "Process Engineering"]
+  ]
+}

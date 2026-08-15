@@ -1,0 +1,133 @@
+{
+  "dispatch_rules": {
+    "trigger_detection": {
+      "description": "识别用户问题中是否包含跨域触发词或跨域结构。",
+      "criteria": [
+        "问题涉及两个或以上不同领域的核心概念",
+        "问题包含跨域节点的触发词",
+        "问题无法由单一学科解释"
+      ],
+      "actions": [
+        "标记跨域需求",
+        "进入跨域场景选择流程"
+      ]
+    },
+
+    "scenario_selection": {
+      "description": "根据问题内容选择最匹配的跨域场景模板。",
+      "criteria": [
+        "匹配跨域节点的 domains 字段",
+        "匹配场景模板的 questions 字段",
+        "匹配场景模板的 triggers 字段"
+      ],
+      "actions": [
+        "选择最佳跨域场景",
+        "加载相关领域的学科节点"
+      ]
+    },
+
+    "domain_activation": {
+      "description": "根据跨域场景激活相关领域的知识节点。",
+      "criteria": [
+        "场景模板中的 domains",
+        "场景模板中的 related_disciplines",
+        "问题中的显性学科触发词"
+      ],
+      "actions": [
+        "激活领域 A 的相关学科",
+        "激活领域 B 的相关学科",
+        "建立跨域知识桥接"
+      ]
+    },
+
+  "cross_domain_theory_lookup": {
+    "purpose": "自动识别 STEM 与 Humanities 之间的跨域理论桥接，并调用对应的跨域 reasoning path。",
+    "steps": [
+      "Step 1: 从问题中抽取 STEM 结构（结构、动力学、认知、推理、解释、规范）。",
+      "Step 2: 从问题中抽取 Humanities 结构（社会、文化、叙事、规范、意义、制度）。",
+      "Step 3: 匹配两者的结构类型，确定属于哪一种跨域桥接原型。",
+      "Step 4: 在 bridge_archetypes 中查找对应的原型。",
+      "Step 5: 从原型的 examples 中检索最接近的跨域理论（例如 Network Science ↔ Discourse Analysis）。",
+      "Step 6: 将该跨域理论作为当前问题的跨域解释框架。",
+      "Step 7: 调用对应的 reasoning_path_templates[type] 生成跨域推理链。",
+      "Step 8: 输出跨域解释、跨域结构映射、跨域推理链。"
+    ],
+    "matching_rules": {
+      "structural_isomorphism": [
+        "如果问题涉及网络、图、符号、空间结构 → 匹配 structural_isomorphism"
+      ],
+      "dynamics_isomorphism": [
+        "如果问题涉及演化、反馈、稳定性、相变 → 匹配 dynamics_isomorphism"
+      ],
+      "cognitive_isomorphism": [
+        "如果问题涉及认知、意向性、具身性、情绪 → 匹配 cognitive_isomorphism"
+      ],
+      "reasoning_isomorphism": [
+        "如果问题涉及因果、证据、推断、逻辑 → 匹配 reasoning_isomorphism"
+      ],
+      "interpretive_isomorphism": [
+        "如果问题涉及叙事、解释、意义、知识 → 匹配 interpretive_isomorphism"
+      ],
+      "normative_isomorphism": [
+        "如果问题涉及价值、伦理、制度、规范 → 匹配 normative_isomorphism"
+      ]
+    },
+    "template": {
+      "input": [
+        "STEM_structure",
+        "Humanities_structure",
+        "bridge_type",
+        "matched_theory",
+        "reasoning_path"
+      ],
+      "output": [
+        "cross_domain_mapping",
+        "cross_domain_explanation",
+        "cross_domain_reasoning_chain"
+      ]
+    },
+
+    "evidence_routing": {
+      "description": "根据跨域场景决定证据来源与证据类型。",
+      "criteria": [
+        "场景模板中的 evidence_types",
+        "问题中的证据需求",
+        "跨域节点的知识结构"
+      ],
+      "actions": [
+        "从领域 A 收集证据",
+        "从领域 B 收集证据",
+        "整合跨域证据模型"
+      ]
+    },
+
+    "reasoning_flow": {
+      "description": "根据跨域场景模板执行跨域推理路径。",
+      "criteria": [
+        "场景模板中的 reasoning_path",
+        "问题的逻辑结构",
+        "跨域节点的推理需求"
+      ],
+      "actions": [
+        "执行步骤 1：识别关键结构",
+        "执行步骤 2：跨域分析",
+        "执行步骤 3：整合推理结果"
+      ]
+    },
+
+    "output_synthesis": {
+      "description": "将跨域推理结果整合为结构化输出。",
+      "criteria": [
+        "场景模板的 description",
+        "推理路径的最终结果",
+        "跨域证据整合情况"
+      ],
+      "actions": [
+        "生成跨域解释",
+        "生成跨域结构图",
+        "生成跨域结论与建议"
+      ]
+    }
+  }
+}
+}

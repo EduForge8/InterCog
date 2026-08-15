@@ -1,0 +1,223 @@
+{
+  "scenarios": {
+    "career_planning": {
+      "name": "职业生涯规划",
+      "trigger_keywords": [
+        "职业规划",
+        "职业发展",
+        "工作选择",
+        "行业选择",
+        "未来方向",
+        "长期规划"
+      ],
+      "dimensions": [
+        "labor_economics",
+        "industry_lifecycle",
+        "competency_model",
+        "regional_policy",
+        "automation_risk",
+        "income_projection"
+      ],
+      "analysis_steps": [
+        "identify_user_background",
+        "map_industry_lifecycle",
+        "evaluate_skill_fit",
+        "assess_regional_policy",
+        "project_future_scenarios",
+        "risk_assessment"
+      ],
+      "required_disciplines": [
+        "Labor Economics",
+        "Industrial Engineering",
+        "Cognitive Psychology",
+        "Public Policy",
+        "Systems Science"
+      ],
+      "output_sections": [
+        "current_positioning",
+        "industry_analysis",
+        "skill_alignment",
+        "regional_opportunities",
+        "future_scenarios",
+        "risk_and_limitations"
+      ]
+    },
+
+    "entrepreneurship": {
+      "name": "创新创业研判",
+      "trigger_keywords": [
+        "创业",
+        "商业模式",
+        "市场分析",
+        "产品方向",
+        "竞争格局",
+        "技术成熟度"
+      ],
+      "dimensions": [
+        "market_supply_demand",
+        "technology_maturity",
+        "policy_compliance",
+        "competitive_landscape",
+        "capital_environment",
+        "scalability"
+      ],
+      "analysis_steps": [
+        "define_problem_space",
+        "market_mapping",
+        "technology_readiness_assessment",
+        "policy_risk_check",
+        "competitive_analysis",
+        "financial_feasibility",
+        "scenario_planning"
+      ],
+      "required_disciplines": [
+        "Economics",
+        "Technology Foresight",
+        "Public Policy",
+        "Business Strategy",
+        "Systems Dynamics"
+      ],
+      "output_sections": [
+        "market_overview",
+        "technology_assessment",
+        "policy_risk",
+        "competitive_landscape",
+        "business_feasibility",
+        "scenarios_and_risks"
+      ]
+    },
+
+    "research_direction": {
+      "name": "科研方向探索",
+      "trigger_keywords": [
+        "科研方向",
+        "研究课题",
+        "学术选题",
+        "跨学科研究",
+        "前沿文献",
+        "研究空白"
+      ],
+      "dimensions": [
+        "cross_discipline_mapping",
+        "frontier_literature",
+        "gap_detection",
+        "methodology_alignment",
+        "feasibility_assessment"
+      ],
+      "analysis_steps": [
+        "identify_core_field",
+        "retrieve_frontier_literature",
+        "cross_map_related_disciplines",
+        "detect_research_gaps",
+        "generate_hypotheses",
+        "evaluate_feasibility"
+      ],
+      "required_disciplines": [
+        "Philosophy of Science",
+        "Scientific Methodology",
+        "Systems Science",
+        "Cognitive Science"
+      ],
+      "output_sections": [
+        "field_overview",
+        "frontier_summary",
+        "cross_discipline_links",
+        "research_gaps",
+        "potential_topics",
+        "methodological_fit",
+        "risks_and_limitations"
+      ]
+    },
+
+    "complex_event_analysis": {
+      "name": "复杂事件解读",
+      "trigger_keywords": [
+        "历史事件",
+        "社会事件",
+        "冲突",
+        "争议",
+        "多视角分析",
+        "证据链"
+      ],
+      "dimensions": [
+        "stakeholder_mapping",
+        "evidence_chain",
+        "historical_context",
+        "social_structure",
+        "policy_environment",
+        "media_bias"
+      ],
+      "analysis_steps": [
+        "identify_event_scope",
+        "collect_evidence",
+        "sort_evidence_by_weight",
+        "map_stakeholder_interests",
+        "reconstruct_event_logic",
+        "identify_bias_and_missing_data"
+      ],
+      "required_disciplines": [
+        "History",
+        "Sociology",
+        "Political Science",
+        "Media Studies",
+        "Scientific Epistemology"
+      ],
+      "output_sections": [
+        "event_overview",
+        "evidence_chain",
+        "stakeholder_analysis",
+        "historical_context",
+        "multi_layer_logic",
+        "bias_and_limitations"
+      ]
+    },
+
+    "trauma_support": {
+      "name": "创伤与压迫议题的非医疗性疗愈辅助",
+      "trigger_keywords": [
+        "创伤",
+        "压迫",
+        "心理伤害",
+        "疗愈",
+        "情绪支持",
+        "社会议题"
+      ],
+      "dimensions": [
+        "trauma_theory",
+        "social_context",
+        "identity_factors",
+        "power_dynamics",
+        "non_clinical_support",
+        "risk_awareness"
+      ],
+      "analysis_steps": [
+        "identify_trauma_context",
+        "map_social_and_identity_factors",
+        "apply_trauma_theory",
+        "provide_non_clinical_support",
+        "avoid_triggering_content",
+        "highlight_risks_and_boundaries"
+      ],
+      "required_disciplines": [
+        "Trauma Studies",
+        "Social Psychology",
+        "Sociology",
+        "Cultural Studies"
+      ],
+      "output_sections": [
+        "context_understanding",
+        "social_and_identity_factors",
+        "trauma_theory_application",
+        "supportive_perspectives",
+        "boundaries_and_risks"
+      ]
+    }
+  },
+
+  "routing_rules": {
+    "match_by_keywords": true,
+    "match_by_semantic_embedding": true,
+    "minimum_match_score": 0.45,
+    "fallback_scenario": "complex_event_analysis"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "default_language": "zh",
+  "supported_languages": ["zh", "en"],
+  "auto_detect": true,
+  "translation_strategy": "runtime",
+  "fallback": "en"
+}

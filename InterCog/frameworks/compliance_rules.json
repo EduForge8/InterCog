@@ -1,0 +1,29 @@
+{
+  "copyright": {
+    "forbidden": [
+      "full text of paid content",
+      "full text of copyrighted books",
+      "full text of academic papers",
+      "full lyrics or scripts"
+    ],
+    "allowed": [
+      "short quotes (1-2 lines)",
+      "summaries",
+      "conceptual analysis",
+      "structural interpretation"
+    ]
+  },
+  "legal": {
+    "forbidden": [
+      "medical diagnosis",
+      "legal verdicts",
+      "investment decisions",
+      "instructions to bypass regulation"
+    ],
+    "allowed": [
+      "general educational information",
+      "non-professional guidance",
+      "risk awareness"
+    ]
+  }
+}
